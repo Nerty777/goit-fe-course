@@ -1,0 +1,20 @@
+body {
+  font-family: "Playfair Display", serif;
+  height: 100vh;
+}
+div {
+  padding-top: 20%;
+}
+
+li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+li:hover {
+  color: rgb(19, 19, 211);
+}
+
+ul {
+  text-align: center;
+}
