@@ -8,7 +8,7 @@ body {
 
 .wrapper {
   margin: 0 auto;
-  width: 900px;
+  width: 900px; 
 }
 
 /* start header */
@@ -81,6 +81,7 @@ main ul {
   font-size: 30px;
   margin: 0;
   padding-bottom: 15px;
+  white-space: nowrap;
 }
 
 .article-item p {
