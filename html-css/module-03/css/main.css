@@ -49,6 +49,7 @@ nav a:hover {
 /* start main */
 main ul li {
   display: inline-block;
+  vertical-align: top;
 }
 
 main ul {
@@ -81,7 +82,7 @@ main ul {
   font-size: 30px;
   margin: 0;
   padding-bottom: 15px;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 
 .article-item p {
