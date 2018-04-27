@@ -68,7 +68,7 @@ main ul li:nth-child(2n) {
 }
 
 main ul li:nth-last-child(-n + 2) {
-  margin-bottom: 66px;
+  margin-bottom: 47px;
   padding-bottom: 0;
 }
 
