@@ -68,8 +68,8 @@ main ul li:nth-child(2n) {
 }
 
 main ul li:nth-last-child(-n + 2) {
-  margin-bottom: 47px;
   padding-bottom: 0;
+  margin: 0;
 }
 
 main ul {
@@ -110,6 +110,10 @@ main ul {
   margin: 0;
   color: #626262;
   line-height: 24px;
+}
+
+main {
+  padding-bottom: 47px;
 }
 /* end main */
 
