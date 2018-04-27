@@ -130,4 +130,5 @@ button {
   border: 1px solid #626262;
   margin: 0 auto;
   margin-bottom: 70px;
+  cursor: pointer;
 }
