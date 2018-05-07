@@ -1,0 +1,247 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.wrapper {
+  width: 1110px;
+  margin: 0 auto;
+  /* outline: 1px solid red; */
+}
+
+header {
+  margin-top: 34px;
+  margin-bottom: 101px;
+}
+
+/* Style for "mart" */
+.site-logo {
+  color: #555252;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 32px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: -0.6px;
+  display: inline-block;
+}
+
+/* Text style for "m" */
+.site-logo::first-letter {
+  color: #1abc9c;
+  font-family: "Roboto";
+  font-weight: 900;
+  letter-spacing: -0.6px;
+}
+
+.nav-items {
+  margin: 5px 0 0 0;
+  padding: 0;
+  float: right;
+}
+
+.nav-item {
+  text-decoration: none;
+  list-style: none;
+  float: left;
+  margin-right: 32px;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+.nav-item a {
+  color: #0f0101;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: -0.28px;
+}
+
+.nav-item a:hover,
+.nav-item a:focus {
+  color: #1abc9c;
+}
+
+h2 {
+  color: #515151;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 32px;
+  text-transform: uppercase;
+  letter-spacing: -0.96px;
+  /* margin-bottom: 91px; */
+}
+
+h2::after {
+  content: "";
+  display: block;
+  margin: 32px auto 0 auto;
+  background-color: #1abc9c;
+  width: 164px;
+  height: 7px;
+}
+
+.products {
+  margin: 91px 0 0px 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.product {
+  float: left;
+  width: 255px;
+  height: 322px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  list-style: none;
+  background-color: #e9f0fd;
+}
+
+.wrapper-img {
+  width: 255px;
+  height: 282px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-price {
+  float: right;
+  width: 54px;
+  height: 34px;
+  background-color: #323232;
+  opacity: 0.44;
+  color: #ffffff;
+  font-family: "Roboto Black";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-transform: uppercase;
+  letter-spacing: -0.36px;
+  margin: 0;
+  padding-top: 6px;
+  text-align: center;
+}
+
+.product-name {
+  width: 187px;
+  height: 34px;
+  float: left;
+  margin: 0 auto;
+  padding-left: 14px;
+  padding-top: 6px;
+  color: #ffffff;
+  font-family: "Roboto Black";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  text-transform: uppercase;
+  letter-spacing: -0.36px;
+  background-color: #323232;
+}
+
+.product:nth-child(4n) {
+  margin-right: 0;
+}
+
+.featured {
+  margin-bottom: 78px;
+}
+
+.product:hover .product-name,
+.product:hover .product-price {
+  background-color: #1abc9c;
+}
+
+.product:hover,
+.product:focus {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.news {
+  margin: 81px 0 0 0;
+  padding: 0;
+}
+
+.news-item {
+  float: left;
+  width: 350px;
+  text-decoration: none;
+  text-transform: uppercase;
+  list-style: none;
+  margin-right: 30px;
+}
+
+.news-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.news-name {
+  color: #555252;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: -0.36px;
+  margin: 8px 0 0 0;
+  padding: 0;
+}
+
+.news-name:after {
+  content: "";
+  display: block;
+  margin: 5px 0 22px 0;
+  width: 136px;
+  height: 3px;
+  background-color: #4ec6ab;
+}
+
+.news-text {
+  color: #555252;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.28px;
+}
+
+button {
+  width: 160px;
+  height: 51px;
+  border-radius: 3px;
+  background-color: #4ec6ab;
+  margin-bottom: 82px;
+  cursor: pointer;
+  /* Style for "Read More" */
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: -0.32px;
+}
+
+button:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
