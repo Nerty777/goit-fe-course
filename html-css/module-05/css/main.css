@@ -254,7 +254,6 @@ img {
   background-color: transparent;
   font-size: 30px;
   font-weight: 400;
-  line-height: 50px;
   text-transform: uppercase;
   letter-spacing: -0.6px;
   justify-content: center;
@@ -269,6 +268,7 @@ img {
   text-transform: uppercase;
   letter-spacing: -0.28px;
   margin-left: 15px;
+  justify-content: center;
 }
 
 .pe-7s-like {
@@ -295,9 +295,10 @@ img {
   left: 35px;
   width: 166px;
   height: 50px;
-  line-height: 50px;
   border: 1px solid #ffffff;
   background-color: #323232;
+  justify-content: center;
+  align-items: center;
 }
 
 .pe-7s-like:hover,
