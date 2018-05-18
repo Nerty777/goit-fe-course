@@ -10,6 +10,8 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 main {
@@ -65,6 +67,14 @@ img {
   margin: 0 auto 91px;
   position: relative;
 }
+.button-wrapper {
+  width: 1110px;
+  height: 600px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
 
 .slider-ctrl {
   display: inline-block;
@@ -76,16 +86,15 @@ img {
   top: 46%;
   transform: translateY(-50%);
   cursor: pointer;
-  z-index: 1;
 }
 
 .arrow-left {
-  left: 11%;
+  left: 0;
   opacity: 0.65;
 }
 
 .arrow-right {
-  right: 11%;
+  right: 0;
   opacity: 0.65;
 }
 
