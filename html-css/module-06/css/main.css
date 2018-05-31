@@ -35,6 +35,14 @@ img {
   flex-wrap: wrap;
 }
 
+.nav-item {
+  margin-right: 40px;
+}
+
+.nav-item:nth-child(5n) {
+  margin-right: 0;
+}
+
 .nav-link {
   text-decoration: none;
   color: #95e1d3;
@@ -158,6 +166,10 @@ img {
   width: 299px;
 }
 
+.wrapper-card {
+  position: relative;
+  display: flex;
+}
 .team-descr {
   margin-top: 46px;
   width: 945px;
@@ -180,11 +192,10 @@ img {
   flex-direction: column;
   align-items: center;
   position: relative;
-  cursor: pointer;
 }
 
-.team-item:hover .team-photo,
-.team-item:hover .card-active {
+.wrapper-card:hover .team-photo,
+.wrapper-card:hover .card-active {
   transform: translate(-10px, -10px);
   opacity: 1;
   transition: transform 200ms linear;
@@ -215,6 +226,7 @@ img {
 .team-photo {
   position: absolute;
   transition: transform 200ms linear;
+  position: absolute;
 }
 
 .team::after {
@@ -324,11 +336,18 @@ input[type="submit"] {
   height: 40px;
   background-color: #95e1d3;
   border: 1px solid #95e1d3;
+  cursor: pointer;
   /* Style for "Subscribe" */
   color: #ffffff;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
+  transition: background-color 200ms linear;
+}
+
+input[type="submit"]:hover {
+  background-color: #f38181;
+  transition: background-color 200ms linear;
 }
 
 .form {
