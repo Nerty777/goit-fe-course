@@ -343,11 +343,16 @@ input[type="submit"] {
   font-weight: 700;
   text-transform: uppercase;
   transition: background-color 200ms linear;
+  transition: border 200ms linear;
+  
 }
 
 input[type="submit"]:hover {
   background-color: #f38181;
+  border: 1px solid #f38181;
   transition: background-color 200ms linear;
+  transition: border 200ms linear;
+  
 }
 
 .form {
