@@ -1,0 +1,306 @@
+/* montserrat-regular - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat Regular"), local("Montserrat-Regular"),
+    url("../fonts/montserrat-v12-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/montserrat-v12-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-700 - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Montserrat Bold"), local("Montserrat-Bold"),
+    url("../fonts/montserrat-v12-latin-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/montserrat-v12-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-slab-regular - latin */
+@font-face {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto Slab Regular"), local("RobotoSlab-Regular"),
+    url("../fonts/roboto-slab-v7-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/roboto-slab-v7-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noticia-text-italic - latin */
+@font-face {
+  font-family: "Noticia Text";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Noticia Text Italic"), local("NoticiaText-Italic"),
+    url("../fonts/noticia-text-v7-latin-italic.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/noticia-text-v7-latin-italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 27px;
+  padding-bottom: 77px;
+}
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  width: 505px;
+  justify-content: space-between;
+  padding-left: 5px;
+  margin-right: -20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #222222;
+  line-height: 41px;
+  text-transform: uppercase;
+  padding-right: 20px;
+  transition: color 200ms linear;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #fed136;
+  transition: color 200ms linear;
+}
+
+.logo-img {
+  padding-left: 7px;
+}
+
+.services {
+  color: #222222;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 65px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  text-align: center;
+  padding-bottom: 2px;
+}
+
+.services-text {
+  color: #777777;
+  font-family: "Noticia Text";
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.services-list {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 0;
+  padding-bottom: 116px;
+}
+
+.services-item {
+  max-width: 275px;
+  margin-right: 57px;
+}
+
+.services-item:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.services-name {
+  color: #222222;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.35px;
+  text-align: center;
+  padding-bottom: 2px;
+  margin: 18px auto 8px;
+}
+
+.services-discr {
+  color: #777777;
+  font-family: "Roboto Slab";
+  line-height: 22px;
+  letter-spacing: -0.35px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.e-commerce::before {
+  display: block;
+  content: "";
+  background-image: url("../img/icon-basket.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 68px;
+  height: 68px;
+  border: 3px solid #fed136;
+  border-radius: 50%;
+  margin: 0 auto 27px;
+}
+
+.responsive::before {
+  display: block;
+  content: "";
+  background-image: url("../img/icon-laptop.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 68px;
+  height: 68px;
+  border: 3px solid #fed136;
+  border-radius: 50%;
+  margin: 0 auto 27px;
+}
+
+.security::before {
+  display: block;
+  content: "";
+  background-image: url("../img/icon-locked.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 68px;
+  height: 68px;
+  border: 3px solid #fed136;
+  border-radius: 50%;
+  margin: 0 auto 27px;
+}
+
+.wrapper-contact {
+  background-color: #222222;
+  padding: 102px 0 114px 0;
+  background-image: url("../img/map-image.png");
+  background-repeat: no-repeat;
+  background-position: 786px 120px;
+}
+
+.contact {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  text-align: center;
+  margin: 0 auto 14px;
+}
+
+.contact-text {
+  color: #777777;
+  font-family: "Noticia Text";
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 77px;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.wrapper-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.textarea {
+  width: 456px;
+  height: 210px;
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+  resize: none;
+}
+
+.input-form {
+  display: block;
+  width: 455px;
+  height: 50px;
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+  margin-right: 29px;
+  margin-bottom: 29px;
+}
+
+.button {
+  display: flex;
+  flex-wrap: wrap;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #fed136;
+  padding: 22px 45px 24px 45px;
+  max-width: 240px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 200ms linear;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #fec702;
+  transition: background-color 200ms linear;
+}
+
+.input-form::placeholder,
+.textarea::placeholder {
+  color: #bbbbbb;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.35px;
+  padding: 18px;
+}
+
+input[type="text"]:focus:valid,
+input[type="email"]:focus:valid,
+.textarea:focus:valid {
+  outline: 3px solid green;
+}
+
+input[type="text"]:focus:invalid,
+input[type="email"]:focus:invalid,
+.textarea:focus:invalid {
+  outline: 3px solid red;
+}
+
+input[name="subject"]:focus:valid {
+  outline: 2px solid #95bff9;
+}
