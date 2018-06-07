@@ -31,7 +31,7 @@
       url("../fonts/roboto-slab-v7-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-/* noticia-text-italic - latin */
+/* noticia-text-italic - latin instead of DroidSerif*/
 @font-face {
   font-family: "Noticia Text";
   font-style: italic;
@@ -155,6 +155,30 @@ img {
   margin: 18px auto 8px;
 }
 
+.services-name::before {
+  display: block;
+  content: "";
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 68px;
+  height: 68px;
+  border: 3px solid #fed136;
+  border-radius: 50%;
+  margin: 0 auto 27px;
+}
+
+.e-commerce::before {
+  background-image: url("../img/icon-basket.png");
+}
+
+.responsive::before {
+  background-image: url("../img/icon-laptop.png");
+}
+
+.security::before {
+  background-image: url("../img/icon-locked.png");
+}
+
 .services-discr {
   color: #777777;
   font-family: "Roboto Slab";
@@ -162,45 +186,6 @@ img {
   letter-spacing: -0.35px;
   text-align: center;
   margin: 0 auto;
-}
-
-.e-commerce::before {
-  display: block;
-  content: "";
-  background-image: url("../img/icon-basket.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 68px;
-  height: 68px;
-  border: 3px solid #fed136;
-  border-radius: 50%;
-  margin: 0 auto 27px;
-}
-
-.responsive::before {
-  display: block;
-  content: "";
-  background-image: url("../img/icon-laptop.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 68px;
-  height: 68px;
-  border: 3px solid #fed136;
-  border-radius: 50%;
-  margin: 0 auto 27px;
-}
-
-.security::before {
-  display: block;
-  content: "";
-  background-image: url("../img/icon-locked.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 68px;
-  height: 68px;
-  border: 3px solid #fed136;
-  border-radius: 50%;
-  margin: 0 auto 27px;
 }
 
 .wrapper-contact {
@@ -247,6 +232,7 @@ img {
   border: 1px solid #cccccc;
   background-color: #ffffff;
   resize: none;
+  border-radius: 2px;
 }
 
 .input-form {
@@ -257,6 +243,7 @@ img {
   background-color: #ffffff;
   margin-right: 29px;
   margin-bottom: 29px;
+  border-radius: 2px;
 }
 
 .button {
@@ -271,12 +258,13 @@ img {
   max-width: 240px;
   cursor: pointer;
   border: none;
+  border-radius: 3px;
   transition: background-color 200ms linear;
 }
 
 .button:hover,
 .button:focus {
-  background-color: #fec702;
+  background-color: #b1aca2;
   transition: background-color 200ms linear;
 }
 
@@ -287,6 +275,7 @@ img {
   text-transform: uppercase;
   letter-spacing: -0.35px;
   padding: 18px;
+  cursor: text;
 }
 
 input[type="text"]:focus:valid,
@@ -303,4 +292,19 @@ input[type="email"]:focus:invalid,
 
 input[name="subject"]:focus:valid {
   outline: 2px solid #95bff9;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
