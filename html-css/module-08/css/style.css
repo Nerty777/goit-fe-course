@@ -12,8 +12,6 @@ body {
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 400;
-  max-width: 1440px;
-  margin: 0 auto;
 }
 
 img {
@@ -31,9 +29,8 @@ img {
   background-image: url("../img/background.png");
   background-position: top;
   background-repeat: no-repeat;
-  background-size: cover;
   min-height: 540px;
-  margin-bottom: 69px;
+  margin: 0 auto 69px auto;
 }
 
 .login-list {
@@ -44,7 +41,6 @@ img {
   justify-content: space-between;
   padding: 19px 0 0 0;
   margin-bottom: 115px;
-  /* margin-left: 64px; */
 }
 
 .login-item {
@@ -76,19 +72,16 @@ img {
 }
 
 .login-link:hover::after,
+.login-link:active::after,
 .login-link:focus::after {
   opacity: 1;
   transition: 300ms ease-in-out;
 }
 
 .site-name {
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  text-align: center;
-  margin-bottom: 30px;
+  width: 178px;
+  height: 100%;
+  margin: 0 auto 30px auto;
 }
 
 .site-slogan {
@@ -134,7 +127,8 @@ img {
 
 .button-footer,
 .button-header:hover,
-.button-header:focus {
+.button-header:focus,
+.button-header:active {
   color: #ff4e50;
   background-color: #ffffff;
   transition: 300ms ease-in-out;
@@ -308,9 +302,9 @@ img {
 /* TABLET END*/
 
 /* DESKTOP START */
-@media (min-width: 1440px) {
+@media (min-width: 940px) {
   .wrapper {
-    max-width: 1440px;
+    min-width: 940px;
   }
 
   .wrapper-header {
@@ -321,9 +315,6 @@ img {
     flex-direction: row;
     max-width: 940px;
     margin: 0 auto 10px auto;
-  }
-
-  .partner-item {
   }
 
   .partner-item:not(:nth-child(4n)) {
