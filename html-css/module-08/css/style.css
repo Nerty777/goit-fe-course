@@ -72,7 +72,6 @@ img {
 }
 
 .login-link:hover::after,
-.login-link:active::after,
 .login-link:focus::after {
   opacity: 1;
   transition: 300ms ease-in-out;
@@ -127,8 +126,7 @@ img {
 
 .button-footer,
 .button-header:hover,
-.button-header:focus,
-.button-header:active {
+.button-header:focus {
   color: #ff4e50;
   background-color: #ffffff;
   transition: 300ms ease-in-out;
@@ -259,7 +257,6 @@ img {
 
   .site-slogan {
     font-size: 52px;
-    font-weight: 700;
     max-width: 530px;
     margin: 0 auto 31px auto;
   }
