@@ -29,6 +29,7 @@ img {
   background-image: url("../img/background.png");
   background-position: top;
   background-repeat: no-repeat;
+  background-size: cover;
   min-height: 540px;
   margin: 0 auto 69px auto;
 }
@@ -105,9 +106,9 @@ img {
 }
 
 .button {
+  font-weight: 700;
   display: block;
   border-radius: 20px;
-  font-weight: 700;
   text-align: center;
   border: 2px solid #ff4e50;
   margin: 0 auto;
@@ -160,12 +161,13 @@ img {
   margin-bottom: 0;
 }
 
-.partner-item {
+.partner-link {
   display: flex;
   flex-direction: column;
   list-style: none;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 
 .partner-logo {
