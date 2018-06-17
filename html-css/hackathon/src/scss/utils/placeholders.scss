@@ -1,0 +1,26 @@
+%article-title{
+  font-family: $main-font;
+  font-size: $title-h2-font-size;
+  font-weight: 900;
+  line-height: 68px;
+  color: $title-dark-color;
+}
+
+%section-title{
+  font-family: $main-font;
+  font-size: $title-h3-font-size;
+  font-weight: 900;
+  line-height: 50px;
+  color: $title-dark-color;
+}
+
+%inverted-colors{
+  color: $title-light-color;
+  background-color: $title-dark-color;
+}
+
+%image{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
