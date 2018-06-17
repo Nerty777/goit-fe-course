@@ -191,8 +191,7 @@ img {
   padding: 102px 0 114px 0;
   background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
-  background-position: 786px 120px;
-  background-position: right 85% ;
+  background-position: right 85%;
   min-width: 940px;
   max-width: 1440px;
   margin: 0 auto;

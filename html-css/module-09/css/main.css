@@ -158,7 +158,7 @@ img {
 }
 
 .wrapper-img::after {
-  display: block;
+  display: block;z
   content: "";
   background-repeat: no-repeat;
   background-size: contain;
