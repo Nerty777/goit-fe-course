@@ -1,0 +1,57 @@
+body{
+
+  @include tablet{
+    padding: 0 10px;
+  }
+
+  @include mobile{
+    padding: 0 5px;
+  }
+  
+}
+
+.wrapper{
+  //outline: 1px solid red;
+  position: relative;
+  //width: 70.6666%;
+  max-width: 848px;
+  margin: 0 auto;
+  padding-top: 32px;
+  
+  @include tablet{
+    width: 100%;
+  }
+
+  @include mobile{
+    min-width: 320px;
+  }
+}
+
+/*
+.article-title{
+  font-family: $main-font;
+  font-size: $title-h2-font-size;
+  font-weight: 900;
+  line-height: 68px;
+  color: $title-dark-color;
+}
+
+.section-title{
+  font-family: $main-font;
+  font-size: $title-h3-font-size;
+  font-weight: 900;
+  line-height: 50px;
+  color: $title-dark-color;
+}
+
+.inverted-colors{
+  color: $title-light-color;
+  background-color: $title-dark-color;
+}
+
+.image{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+*/
