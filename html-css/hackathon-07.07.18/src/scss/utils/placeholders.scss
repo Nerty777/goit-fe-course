@@ -1,0 +1,36 @@
+%article-title{
+  font-family: $main-font;
+  font-size: $title-h2-font-size;
+  font-weight: 900;
+  line-height: 68px;
+  color: $title-dark-color;
+
+  @include mobile{
+    font-size: $title-h2-font-size*0.8;
+    line-height: 56px;
+  }
+}
+
+%section-title{
+  font-family: $main-font;
+  font-size: $title-h3-font-size;
+  font-weight: 900;
+  line-height: 50px;
+  color: $title-dark-color;
+
+  @include mobile{
+    font-size: $title-h3-font-size*0.8;
+    line-height: 40px;
+  }
+}
+
+%inverted-colors{
+  color: $title-light-color;
+  background-color: $title-dark-color;
+}
+
+%image{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

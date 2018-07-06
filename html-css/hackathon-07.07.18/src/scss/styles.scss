@@ -1,0 +1,34 @@
+/* Utils */
+@import 'utils/visually-hidden';
+@import 'utils/variables';
+@import 'utils/mixins';
+@import 'utils/placeholders';
+
+/* Base */
+@import 'base/normalize';
+@import 'base/fonts';
+@import 'base/base';
+@import 'base/animate';
+
+/* Layout */
+@import 'layout/header';
+@import 'layout/start-section';
+@import 'layout/facts-section';
+@import 'layout/notnumber-section';
+@import 'layout/ordinarypeople-section';
+@import 'layout/warning-section';
+@import 'layout/manypeople-section';
+@import 'layout/career-section';
+@import 'layout/steps-section';
+@import 'layout/videocourse-section';
+@import 'layout/goitstudy-section';
+@import 'layout/courserecord-section';
+@import 'layout/handintheprofession-section';
+@import 'layout/justnow-section';
+@import 'layout/aftercourse-section';
+@import 'layout/aboutvideocourse-section';
+@import 'layout/bonus-section';
+@import 'layout/important-section';
+@import 'layout/ps-section';
+@import 'layout/upperfooter';
+@import 'layout/bottomfooter';

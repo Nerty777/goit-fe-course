@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+
+  font-family: $main-font;
+  font-size: $text-font-size;
+  font-weight: 400;
+  color: $section-text-color;
+
+  @include tablet{
+    padding: 0 10px;
+  }
+
+  @include mobile{
+    padding: 0 5px;
+  }
+  
+}
+
+.wrapper{
+  position: relative;
+  max-width: 848px;
+  margin: 0 auto;
+  padding-top: 32px;
+  padding-bottom: 40px;
+
+  @include tablet{
+    width: 100%;
+  }
+
+  @include mobile{
+    min-width: 290px;
+  }
+}
