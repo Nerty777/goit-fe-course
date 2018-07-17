@@ -1,0 +1,61 @@
+.footer {
+  @include flex;
+  margin-bottom: 12px;
+
+  &__copyright {
+    color: $dark-color;
+  }
+
+  &__copyright::before {
+    content: "\00A9 \00a0";
+    color: $dark-color;
+    font-family: $main-font;
+    font-size: $main-font-size;
+    font-weight: $regular;
+  }
+
+  &__copyright--red-text {
+    color: $warm-color;
+    @extend %link;
+  }
+}
+
+.form {
+  display: flex;
+  align-items: center;
+
+  &__input--text {
+    width: 228px;
+    height: 40px;
+    border: 1px solid #e7e7e7;
+    background-color: $light-color;
+    text-indent: 10px;
+    color: #cccccc;
+    font-family: $text-font;
+    font-size: $text-font-size;
+    font-weight: $light;
+    line-height: 24px;
+    font-style: italic;
+  }
+
+  &__input--submit {
+    width: 150px;
+    height: 40px;
+    background-color: $cold-color;
+    border: 1px solid $cold-color;
+    cursor: pointer;
+    color: $light-color;
+    font-size: $main-font-size;
+    font-weight: $bold;
+    text-transform: uppercase;
+    transition: background-color 200ms linear;
+    transition: border 200ms linear;
+  }
+
+  &__input--submit:hover {
+    background-color: $warm-color;
+    border: 1px solid $warm-color;
+    transition: background-color 200ms linear;
+    transition: border 200ms linear;
+  }
+}

@@ -1,0 +1,57 @@
+.services {
+  margin-bottom: 65px;
+
+  &__list {
+    @extend %list;
+  }
+
+  &__card {
+    width: 370px;
+    position: relative;
+    padding-bottom: 75px;
+    display: flex;
+    margin-left: 30px;
+
+    &:nth-child(-n + 3) {
+      margin-top: 20px;
+    }
+
+    &:nth-last-child(-n + 3) {
+      padding-bottom: 0;
+    }
+  }
+}
+
+.services-card {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__svg {
+    width: 35px;
+    height: 35px;
+    fill: $cold-color;
+    margin-right: 27px;
+  }
+
+  &__name {
+    margin: 0;
+    color: $dark-color;
+    text-transform: uppercase;
+  }
+  
+  &__name::before {
+    position: absolute;
+    left: 30px;
+  }
+  
+  &__descr {
+    color: #999999;
+    font-family: $text-font;
+    font-size: $text-font-size;
+    font-weight: $regular;
+    line-height: 24px;
+    width: 299px;
+  }
+}

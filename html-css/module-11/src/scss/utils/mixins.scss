@@ -1,0 +1,14 @@
+@mixin flex($jc: space-between) {
+  display: flex;
+  justify-content: $jc;
+  flex-wrap: wrap;
+}
+
+@mixin button ($ptb, $plr, $color, $bg) {
+  display: block;
+  cursor: pointer;
+  outline: none;
+  padding: $ptb $plr;
+  color: $color;
+  background-color: $bg;
+}

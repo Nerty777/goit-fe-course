@@ -1,0 +1,18 @@
+/* Utils */
+@import 'utils/variables';
+@import 'utils/mixins';
+@import 'utils/placeholders';
+
+/* Base */
+@import 'base/normalize';
+@import 'base/base';
+
+/* Components */
+@import 'components/section__title';
+@import 'components/section__text';
+
+/* Layout */
+@import 'layout/header';
+@import 'layout/services';
+@import 'layout/team';
+@import 'layout/footer';
