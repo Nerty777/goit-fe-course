@@ -4,13 +4,15 @@ let userInput;
 const numbers = [];
 let total = 0;
 
+console.log(7 || false);
+
 do {
   userInput = prompt("Введите число");
 
   if (userInput === null) {
     break;
   }
-
+  
   if (Number.isNaN(+userInput) || (+userInput === 0 && userInput !== "0")) {
     alert("Было введено не число, попробуйте еще раз");
     continue;
