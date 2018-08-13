@@ -15,33 +15,27 @@ do {
     continue;
   }
 
-  const isLoginValid = function(login) {
-    if (login.length >= 4 && login.length <= 16) {
-      return true;
-    }
-    return false;
+  const isLoginValid = login => {
+    return login.length >= 4 && login.length <= 16;
   };
 
-  const isLoginUnique = function(login, allLogins = logins) {
-    if (allLogins.includes(login)) {
-      return false;
-    }
-    return true;
+  const isLoginUnique = (login, allLogins = logins) => {
+    return allLogins.includes(login);
   };
 
   const addLogin = function(login, allLogins = logins) {
     if (isLoginValid(login) === false) {
-      return console.log(
+      return alert(
         `Ошибка! Логин должен быть от 4 до 16 символов. Вы ввели ${
           login.length
         } указав логин ${login}`
       );
     }
-    if (isLoginUnique(login, allLogins) === false) {
-      return console.log(`Логин ${login} уже используется!`);
+    if (isLoginUnique(login, allLogins) === true) {
+      return alert(`Логин ${login} уже используется!`);
     }
     logins.push(login);
-    return console.log(`Логин ${login} успешно добавлен!`);
+    return alert(`Логин ${login} успешно добавлен!`);
   };
 
   addLogin(login, allLogins);
