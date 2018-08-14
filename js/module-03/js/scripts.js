@@ -11,7 +11,7 @@ const isLoginValid = login => {
 };
 
 // функция склонение существительных с числительными для вывода правильного окончания "символ" или "символа" или "символов"
-let pluralForm = function(login, symbol, symbol2, symbol3) {
+const pluralForm = function(login, symbol, symbol2, symbol3) {
   let length = login.length;
   length = length % 100;
   const $n1 = length % 10;
