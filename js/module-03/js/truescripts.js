@@ -1,7 +1,6 @@
 "use strict";
 const logins = ["Mango", "robotGoogles", "Poly", "Aj4x1sBozz", "qwerty123"];
 let allLogins = logins;
-let success = 0;
 const symbol = "символ";
 const symbol2 = "символа";
 const symbol3 = "символов";
@@ -38,7 +37,6 @@ const addLogin = function(login, allLogins = logins) {
     return alert(`Логин ${login} уже используется!`);
   }
   logins.push(login);
-  success = 1;
   return alert(`Логин ${login} успешно добавлен!`);
 };
 
@@ -56,7 +54,7 @@ do {
   }
 
   addLogin(login, allLogins);
-} while (success === 0);
+} while (true);
 
 // Вызовы функции для проверки
 addLogin("Ajax"); // 'Логин успешно добавлен!'

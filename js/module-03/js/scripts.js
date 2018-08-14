@@ -17,7 +17,8 @@ const addLogin = function(login, logins) {
     return alert(`Логин ${login} уже используется!`);
   }
   logins.push(login);
-  return alert(`Логин ${login} успешно добавлен!`);
+  alert(`Логин ${login} успешно добавлен!`);
+  return true;
 };
 
 do {
@@ -28,5 +29,7 @@ do {
     break;
   }
 
-  addLogin(login, logins);
+  if (addLogin(login, logins)) {
+    break;
+  }
 } while (true);
