@@ -42,7 +42,7 @@ const Cashier = function(name, productDatabase) {
   this.onError = function() {
     console.log("Очень жаль, вам не хватает денег на покупки");
   };
-  this.reset = function() { this.customerMoney = 0};
+  this.reset = function() { this.customerMoney = 0; totalPrice = 0;};
 };
 
 const mango = new Cashier("Mango", products);
