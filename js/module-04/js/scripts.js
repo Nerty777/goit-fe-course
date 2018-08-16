@@ -26,16 +26,16 @@ const Cashier = function(name, productDatabase) {
   };
   this.countTotalPrice = function(order) {
     for (const key in order) {
-      totalPrice += (order[key])*(productDatabase[key]);
+      totalPrice += order[key] * productDatabase[key];
     }
-    return (this.totalPrice = totalPrice);
+    return totalPrice;
   };
   this.countTotalPrice(order);
   this.countChange = function() {
-    if (this.customerMoney < this.totalPrice) {
+    if (this.customerMoney < totalPrice) {
       return null;
     }
-    return this.customerMoney - this.totalPrice;
+    return this.customerMoney - totalPrice;
   };
   this.onSuccess = function(change) {
     console.log(`Спасибо за покупку, ваша сдача ${change}!`);
