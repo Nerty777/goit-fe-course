@@ -1,5 +1,4 @@
 "use strict";
-let totalPrice = 0;
 
 const order = {
   bread: 2,
@@ -16,25 +15,25 @@ const products = {
   cheese: 40
 };
 
-const Cashier = function(name, productDatabase) {
+function Cashier(name, productDatabase) {
+  this.totalPrice = 0;
   this.name = name;
   this.productDatabase = productDatabase;
   this.customerMoney = 0;
   this.getCustomerMoney = function(value) {
-    return (this.customerMoney = value);
+    this.customerMoney = value;
   };
   this.countTotalPrice = function(order) {
     for (const key in order) {
-      totalPrice += order[key] * productDatabase[key];
+      this.totalPrice += order[key] * productDatabase[key];
     }
-    return totalPrice;
+    return this.totalPrice;
   };
-  this.countTotalPrice(order);
   this.countChange = function() {
-    if (this.customerMoney < totalPrice) {
+    if (this.customerMoney < this.totalPrice) {
       return null;
     }
-    return this.customerMoney - totalPrice;
+    return this.customerMoney - this.totalPrice;
   };
   this.onSuccess = function(change) {
     console.log(`Спасибо за покупку, ваша сдача ${change}!`);
@@ -42,10 +41,22 @@ const Cashier = function(name, productDatabase) {
   this.onError = function() {
     console.log("Очень жаль, вам не хватает денег на покупки");
   };
-  this.reset = function() { this.customerMoney = 0; totalPrice = 0;};
-};
+  this.reset = function() {
+    this.customerMoney = 0;
+  };
+}
 
-const mango = new Cashier("Mango", products);
+/* Пример использования */
+const mango = new Cashier('Mango', products);
+
+// Проверяем исходные значения полей
+console.log(mango.name); // Mango
+console.log(mango.productDatabase); // ссылка на базу данных продуктов (объект products)
+console.log(mango.customerMoney); // 0
+
+// Вызываем метод countTotalPrice для подсчета общей суммы
+// передавая order - список покупок пользователя
+const totalPrice = mango.countTotalPrice(order);
 
 // Проверям что посчитали
 console.log(totalPrice); // 110
