@@ -218,16 +218,10 @@ console.log(
  * повторяющихся скиллов и они должны быть отсортированы в алфавитном порядке
  */
 const getAllSkills = arr => {
-  return arr.reduce(
-    (acc, value) =>
-      (value.skills ? acc.concat(value.skills) : acc)
-        .reduce(
-          (acc, value) => (acc.includes(value) ? acc : acc.concat(value)),
-          []
-        )
-        .sort(),
-    []
-  );
+  return arr
+    .reduce((acc, value) => value.skills ? acc.concat(value.skills) : acc, [])
+    .reduce((acc, value) => acc.includes(value) ? acc : acc.concat(value), [])
+    .sort();
 };
 console.log(
   "массив всех скиллов всех пользователей (поле skills) без повторений",
