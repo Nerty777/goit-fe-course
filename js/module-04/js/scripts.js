@@ -16,10 +16,10 @@ const products = {
 };
 
 function Cashier(name, productDatabase) {
-  this.totalPrice = 0;
   this.name = name;
   this.productDatabase = productDatabase;
   this.customerMoney = 0;
+  this.totalPrice = 0;
   this.getCustomerMoney = function(value) {
     this.customerMoney = value;
   };
@@ -47,7 +47,7 @@ function Cashier(name, productDatabase) {
 }
 
 /* Пример использования */
-const mango = new Cashier('Mango', products);
+const mango = new Cashier("Mango", products);
 
 // Проверяем исходные значения полей
 console.log(mango.name); // Mango
