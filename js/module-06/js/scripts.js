@@ -28,45 +28,51 @@ class Hamburger {
   }
 
   addTopping(topping) {
-    return this._toppings.includes(topping)
-      ? this._toppings
-      : (this._toppings = this._toppings.concat(topping));
+    if (!this._toppings.includes(topping)) {
+      this._toppings.push(topping);
+    }
   }
+
   removeTopping(topping) {
-    return this._toppings.includes(topping)
-      ? (this._toppings = this._toppings.filter(num => num !== topping))
-      : this._toppings;
+    if (this._toppings.includes(topping)) {
+      this._toppings = this._toppings.filter(
+        this_topping => this_topping !== topping
+      );
+    }
+    return this._toppings;
   }
+
   getToppings() {
     return this._toppings;
   }
+
   getSize() {
     return this._size;
   }
+
   getStuffing() {
     return this._stuffing;
   }
+
   calculatePrice() {
-    this._price =
-      Hamburger.SIZES[this.size].price +
-      Hamburger.STUFFINGS[this.stuffing].price +
-      this.toppings.reduce(
-        (acc, topping_from_array_this_toppings) =>
-          Hamburger.TOPPINGS[topping_from_array_this_toppings].price + acc,
-        0
-      );
+    const size_price = Hamburger.SIZES[this.size].price;
+    const stuffing_price = Hamburger.STUFFINGS[this.stuffing].price;
+    const topping_price = this.toppings.reduce(
+      (acc, this_topping) => Hamburger.TOPPINGS[this_topping].price + acc,
+      0
+    );
+    this._price = size_price + stuffing_price + topping_price;
     return this._price;
   }
+
   calculateCalories() {
-    this._calories =
-      Hamburger.SIZES[this.size].calories +
-      Hamburger.STUFFINGS[this.stuffing].calories +
-      this.toppings.reduce(
-        (acc, topping_from_array_this_toppings) =>
-          Hamburger.TOPPINGS[topping_from_array_this_toppings].calories +
-          acc,
-        0
-      );
+    const size_calories = Hamburger.SIZES[this.size].calories;
+    const stuffing_calories = Hamburger.STUFFINGS[this.stuffing].calories;
+    const topping_calories = this.toppings.reduce(
+      (acc, this_topping) => Hamburger.TOPPINGS[this_topping].calories + acc,
+      0
+    );
+    this._calories = size_calories + stuffing_calories + topping_calories;
     return this._calories;
   }
 }
@@ -123,8 +129,13 @@ Hamburger.TOPPINGS = {
 };
 
 // Маленький гамбургер с начинкой из сыра
-// const hamburger = new Hamburger(Hamburger.SIZE_SMALL, Hamburger.STUFFING_CHEESE);
-const hamburger = new Hamburger(Hamburger.SIZE_LARGE, Hamburger.STUFFING_MEAT);
+const hamburger = new Hamburger(
+  Hamburger.SIZE_SMALL,
+  Hamburger.STUFFING_CHEESE
+);
+
+//Большой гамбургер с начинкой из мяса
+// const hamburger = new Hamburger(Hamburger.SIZE_LARGE, Hamburger.STUFFING_MEAT);
 
 // Добавка из приправы
 hamburger.addTopping(Hamburger.TOPPING_SPICE);
