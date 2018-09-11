@@ -23,7 +23,7 @@ const posts = [
     text:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, nemo dignissimos ea temporibus voluptatem maiores maxime consequatur impedit nobis sunt similique voluptas accusamus consequuntur, qui modi nesciunt veritatis distinctio rem!",
     link: "link-3.com"
-  }
+  },
 ];
 
 function createPostCard(post) {
@@ -35,8 +35,8 @@ function createPostCard(post) {
 
   const post_image = document.createElement("img");
   post_image.classList.add("post__image");
-  post_image.src = `${post.img}`;
-  post_image.alt = "post image";
+  post_image.setAttribute('src' , `${post.img}`);
+  post_image.setAttribute( 'alt', "post image");
 
   const post_title = document.createElement("h2");
   post_title.classList.add("post__title");
@@ -48,7 +48,7 @@ function createPostCard(post) {
 
   const button = document.createElement("a");
   button.classList.add("button");
-  button.href = `${post.link}`;
+  button.setAttribute('href', `${post.link}`);
   button.textContent = "Read more";
 
   post_html.append(post_image, post_title, post_text, button);

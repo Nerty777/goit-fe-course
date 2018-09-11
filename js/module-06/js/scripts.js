@@ -19,26 +19,15 @@ class Hamburger {
     return this._toppings;
   }
 
-  get price() {
-    return this._price;
-  }
-
-  get calories() {
-    return this._calories;
-  }
-
   addTopping(topping) {
-    if (!this._toppings.includes(topping)) {
-      this._toppings.push(topping);
-    }
+    if (!this._toppings.includes(topping)) this._toppings.push(topping);
   }
 
   removeTopping(topping) {
     if (this._toppings.includes(topping)) {
       this._toppings = this._toppings.filter(
         this_topping => this_topping !== topping
-      );
-    }
+      );}
     return this._toppings;
   }
 

@@ -1,0 +1,169 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #525252;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  max-width: 660px;
+  margin: 0 auto;
+}
+
+.image-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.fullview {
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3);
+  border: 10px solid #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.preview {
+  display: flex;
+  list-style: none;
+  padding: 5px 0 5px 0;
+  margin: 10px 1px 0px 1px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  /* transition: all 0.5s; */
+}
+
+.preview li {
+  opacity: 0.3;
+  margin-left: 10px;
+  border: 5px solid #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  min-width: 130px;
+}
+
+.preview li:first-child {
+  margin-left: 0px;
+}
+
+.preview:last-child {
+  padding-right: 0px;
+}
+
+.button_wrapper {
+  display: flex;
+}
+
+.button_prev,
+.button_next {
+  display: inline-block;
+  margin: 0 auto;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  outline: 1px solid transparent;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: -105px;
+  z-index: 1;
+}
+
+.button_prev {
+  background: url(../img/arrow-down.svg) no-repeat center;
+  left: -21px;
+}
+
+.button_next {
+  background: url(../img/arrow-down.svg) no-repeat center;
+  transform: rotate(180deg);
+  right: -21px;
+}
+
+.button_prev:hover,
+.button_next:hover,
+.button_prev:focus,
+.button_next:focus {
+  outline: 1px solid transparent;
+}
+
+.modalWindow {
+  background-color: #525252;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.modalWindow img {
+  width: 80%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.buttonModalPrev,
+.buttonModalNext,
+.buttonModalClose {
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  text-align: center;
+  z-index: 3;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+}
+
+.buttonModalPrev {
+  background: url(../img/arrow-down.svg) no-repeat center;
+  top: 50%;
+  left: 3%;
+}
+
+.buttonModalNext {
+  top: 50%;
+  right: 3%;
+  background: url(../img/arrow-down.svg) no-repeat center;
+  transform: rotate(180deg);
+}
+
+.buttonModalClose {
+  background: url(../img/close.svg) no-repeat center;
+  top: 10px;
+  right: 10px;
+}
+
+.buttonModalPrev:hover,
+.buttonModalNext:hover,
+.buttonModalClose:hover,
+.buttonModalPrev:focus,
+.buttonModalNext:focus,
+.buttonModalClose:focus {
+  outline: none;
+}
+
+.hidden {
+  display: none;
+}
