@@ -1,0 +1,78 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #525252;
+  font-family: sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 25px;
+  border: 1px solid #ffffff;
+  font-size: 30px;
+  margin: 0px 12px;
+  width: 160px;
+  outline: none;
+}
+
+.btn-lap,
+.btn-reset {
+  opacity: 0.3;
+}
+
+.btn-start {
+  background-color: #2196f3;
+  color: #ffffff;
+  border: 1px solid #2196f3;
+}
+
+.opacity {
+  opacity: 1;
+}
+
+.blue {
+  background-color: #2196f3;
+  color: #ffffff;
+  border: 1px solid #2196f3;
+}
+
+.stopwatch {
+  padding: 10px;
+  border: 3px solid #ffffff;
+  max-width: 600px;
+  margin: 5px auto;
+}
+
+.time {
+  font-size: 70px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.laps {
+  list-style: none;
+  color: #ffffff;
+  max-width: 600px;
+  margin: 5px auto;
+  padding-left: 0px;
+}
+
+.lap_number {
+  border: 2px solid #ddd;
+  padding: 5px;
+  margin: 5px;
+}
