@@ -1,0 +1,53 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Homework-10</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <form class="form form-detail">
+      <h4>Get All Users List</h4>
+      <button type="submit" class="button js-button-all-users">Get All Users List</button>
+      <button type="submit" class="button js-button-all-users-clear">Hide All Users List</button>
+      <ul class="result-list js-result-all-users-list"></ul>
+    </form>
+
+    <form class="form form-getbyid">
+      <h4>Get User by ID</h4>
+      <input type="text" name="UserId" class="input js-input-byid" placeholder="User Id" required>
+      <button type="submit" class="button js-button-byid">Get User</button>
+      <div class="result-getuser js-result-getuser"></div>
+    </form>
+
+    <form class="form form-adduser">
+      <h4>Add User</h4>
+      <input type="text" name="UserName" class="input js-inputaddname" placeholder="User Name" required>
+      <input type="text" name="UserAge" class="input js-inputaddage" placeholder="User Age" required>
+      <button type="submit" class="button js-button-adduser">Add User</button>
+      <div class="result-add-user js-result-add-user"></div>
+    </form>
+    <form class="form form-removeuser">
+      <h4>Remove User</h4>
+      <input type="text" name="UserIdtoDELETE" class="input js-input-remove" placeholder="User Id to DELETE" required>
+      <button type="submit" class="button js-button-remove">Remove User</button>
+      <div class="result-remove-user js-result-remove-user"></div>
+    </form>
+
+    <form class="form form-updateuser">
+      <h4>Update User</h4>
+      <input type="text" name="UserIdUpdate" class="input js-input-update-id" placeholder="User Id" required>
+      <input type="text" name="UserNameUpdate" class="input js-input-update-name" placeholder="User Name Update" required>
+      <input type="text" name="UserAgeUpdate" class="input js-input-update-age" placeholder="User Age Update" required>
+      <button type="submit" class="button js-button-update">Update User</button>
+      <div class="result-update-user js-result-update-user"></div>
+    </form>
+  </div>
+
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
