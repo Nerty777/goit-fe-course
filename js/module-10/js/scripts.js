@@ -75,20 +75,25 @@ const getAllUsers = event => {
     });
 };
 
-// работа с буфером обмена через кнопки скопировать/вставить
+// работа с буфером обмена, при загрузке обнуляю буфер обмена
+window.onload = function() {
+  const emptyString = "";
+  navigator.clipboard.writeText(emptyString);
+};
+
+// работа с буфером обмена через кнопку скопировать
 resultAllUsersList.addEventListener("click", onClickCopy);
 function onClickCopy(event) {
   event.preventDefault();
   const target = event.target;
   if (target.nodeName !== "IMG") return;
   const userCard = target.parentNode;
-
   let inputValue = userCard.querySelector(".id_user_number").textContent;
   const imgCopy = userCard.querySelector(".copy");
   inputValue = inputValue.slice(1, 25);
   if (inputValue) {
     const textCopy = document.createElement("span");
-    textCopy.textContent = "Copy";
+    textCopy.textContent = "Copied";
     textCopy.classList.add("copy-text", "green");
     imgCopy.after(textCopy);
     setTimeout(function() {
@@ -104,6 +109,33 @@ function onClickCopy(event) {
     }, 2000);
   }
 }
+
+// работа с буфером обмена через кнопку вставить, не мгновенно, через минимум 1 сек
+const pasteImg = document.querySelector(".copy_picture");
+pasteImg.addEventListener("click", onClickPaste);
+function onClickPaste(event) {
+  setTimeout(function() {
+    event.preventDefault();
+    const target = event.target;
+    if (target.nodeName !== "IMG") return;
+    navigator.clipboard
+      .readText()
+      .then(text => {
+        const inputForm = target.parentNode.firstElementChild;
+        inputForm.value = text;
+        console.log("inputForm.value: ", inputForm.value);
+      })
+      .catch(err => {
+        console.log("Something went wrong", err);
+      });
+  }, 1000);
+}
+
+const pasteImgDeleteUser = document.querySelector(".remove_picture");
+pasteImgDeleteUser.addEventListener("click", onClickPaste);
+
+const pasteImgUpdateUser = document.querySelector(".update_picture");
+pasteImgUpdateUser.addEventListener("click", onClickPaste);
 
 // получение данных пользователя по конкретному User ID
 const getUserById = id => {

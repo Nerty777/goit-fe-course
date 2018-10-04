@@ -17,7 +17,7 @@ body {
 }
 
 .form:first-child {
-  min-width: 300px;
+  min-width: 315px;
 }
 
 h4 {
@@ -91,7 +91,11 @@ p {
 .copy-text {
   margin-left: 5px;
 }
-/* 
-.copy_picture{
+
+.copy_picture, .remove_picture{
   margin: 5px;
-} */
+}
+
+.wrapper_input {
+  display: flex;
+}
