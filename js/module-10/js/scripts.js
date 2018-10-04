@@ -33,6 +33,7 @@ const getAllUsers = event => {
           const copyImg = document.createElement("img");
           copyImg.setAttribute("src", "copy.svg");
           copyImg.setAttribute("alt", "copy");
+          copyImg.setAttribute("title", "copy ID");
           copyImg.setAttribute("width", "20");
           copyImg.setAttribute("height", "20");
           copyImg.classList.add("copy");
