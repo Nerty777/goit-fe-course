@@ -130,15 +130,6 @@ const getUserById = id => {
 // удаление данных по User ID
 const removeUser = id => {
   const jsResultIdRemove = document.querySelector(".js-result-remove-user");
-
-  if (id === "") {
-    jsResultIdRemove.textContent = "Не введенно значение User Id";
-    jsResultIdRemove.classList.add("red");
-    setTimeout(function() {
-      jsResultIdRemove.textContent = "";
-    }, 2000);
-    return;
-  }
   fetch(`https://test-users-api.herokuapp.com/users/${id}`, {
     method: "DELETE",
     headers: {
@@ -177,16 +168,6 @@ const removeUser = id => {
 const addUser = (name, age) => {
   const jsResultAddUser = document.querySelector(".js-result-add-user");
   const ageNumber = +age;
-  if (name === "" || age === "") {
-    jsResultAddUser.textContent = "Не заполнены данные";
-    jsResultAddUser.classList.add("red");
-    setTimeout(function() {
-      jsResultAddUser.textContent = "";
-      jsResultAddUser.classList.remove("red");
-      formAddUserById.reset();
-    }, 2000);
-    return;
-  }
   //проверка, что в имени нет цифр
   if (
     name.includes(0) ||
@@ -205,7 +186,6 @@ const addUser = (name, age) => {
     setTimeout(function() {
       jsResultAddUser.textContent = "";
       jsResultAddUser.classList.remove("red");
-      formAddUserById.reset();
     }, 2000);
     return;
   }
@@ -218,7 +198,6 @@ const addUser = (name, age) => {
     setTimeout(function() {
       age.textContent = "";
       age.classList.remove("red");
-      formAddUserById.reset();
     }, 2000);
     return;
   }
@@ -275,16 +254,6 @@ const updateUser = (id, user) => {
   const name = user.name;
   const age = user.age;
   const ageNumber = +age;
-  if (name === "" || age === "" || id === "") {
-    jsResultUpdateUser.textContent = "Не заполнены данные";
-    jsResultUpdateUser.classList.add("red");
-    setTimeout(function() {
-      jsResultUpdateUser.textContent = "";
-      jsResultUpdateUser.classList.remove("red");
-      formUpdateUser.reset();
-    }, 2000);
-    return;
-  }
   //проверка, что в имени нет цифр
   if (
     name.includes(0) ||
@@ -304,7 +273,7 @@ const updateUser = (id, user) => {
     setTimeout(function() {
       jsResultUpdateUser.textContent = "";
       jsResultUpdateUser.classList.remove("red");
-      formUpdateUser.reset();
+      // formUpdateUser.reset();
     }, 2000);
     return;
   }
@@ -317,7 +286,6 @@ const updateUser = (id, user) => {
     setTimeout(function() {
       age.textContent = "";
       age.classList.remove("red");
-      formUpdateUser.reset();
     }, 2000);
     return;
   }
@@ -344,7 +312,6 @@ const updateUser = (id, user) => {
         jsResultUpdateUser.classList.add("red");
         setTimeout(function() {
           jsResultUpdateUser.textContent = "";
-          formUpdateUser.reset();
         }, 3000);
         return;
       }
