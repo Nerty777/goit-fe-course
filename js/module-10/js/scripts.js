@@ -4,12 +4,10 @@ const formGetUserById = document.querySelector(".form-getbyid");
 const formDeleteUserById = document.querySelector(".form-removeuser");
 const formAddUserById = document.querySelector(".form-adduser");
 const formUpdateUser = document.querySelector(".form-updateuser");
+const resultAllUsersList = document.querySelector(".js-result-all-users-list");
 
 // получение всех пользователей
 const getAllUsers = event => {
-  const resultAllUsersList = document.querySelector(
-    ".js-result-all-users-list"
-  );
   fetch("https://test-users-api.herokuapp.com/users/", {
     method: "GET",
     headers: {
@@ -29,6 +27,15 @@ const getAllUsers = event => {
         users.data.map(user => {
           const ItemFromAllUsersList = document.createElement("li");
           const userId = document.createElement("p");
+          userId.classList.add("id_user");
+          const userIdNumber = document.createElement("span");
+          userIdNumber.classList.add("id_user_number");
+          const copyImg = document.createElement("img");
+          copyImg.setAttribute("src", "copy.svg");
+          copyImg.setAttribute("alt", "copy");
+          copyImg.setAttribute("width", "20");
+          copyImg.setAttribute("height", "20");
+          copyImg.classList.add("copy");
           const userName = document.createElement("p");
           const userAge = document.createElement("p");
           const numberUser = document.createElement("p");
@@ -42,12 +49,14 @@ const getAllUsers = event => {
           const age = document.createElement("span");
           age.textContent = "Age: ";
           age.classList.add("age");
-          userId.textContent = JSON.stringify(user.id);
+          userIdNumber.textContent = JSON.stringify(user.id);
           userName.textContent = JSON.stringify(user.name);
           userAge.textContent = JSON.stringify(user.age);
-          userId.prepend(id);
+          userId.append(id);
           userName.prepend(name);
           userAge.prepend(age);
+          userId.append(userIdNumber);
+          userId.append(copyImg);
           ItemFromAllUsersList.append(numberUser, userId, userName, userAge);
           arrayAllUsers.push(`${ItemFromAllUsersList.outerHTML}`);
         });
@@ -65,6 +74,36 @@ const getAllUsers = event => {
       console.error("Error: ", error);
     });
 };
+
+// работа с буфером обмена через кнопки скопировать/вставить
+resultAllUsersList.addEventListener("click", onClickCopy);
+function onClickCopy(event) {
+  event.preventDefault();
+  const target = event.target;
+  if (target.nodeName !== "IMG") return;
+  const userCard = target.parentNode;
+
+  let inputValue = userCard.querySelector(".id_user_number").textContent;
+  const imgCopy = userCard.querySelector(".copy");
+  inputValue = inputValue.slice(1, 25);
+  if (inputValue) {
+    const textCopy = document.createElement("span");
+    textCopy.textContent = "Copy";
+    textCopy.classList.add("copy-text", "green");
+    imgCopy.after(textCopy);
+    setTimeout(function() {
+      textCopy.classList.remove("copy-text");
+      textCopy.classList.remove("green");
+      textCopy.textContent = "";
+      navigator.clipboard
+        .writeText(inputValue)
+        .then(() => {})
+        .catch(err => {
+          console.log("Something went wrong", err);
+        });
+    }, 2000);
+  }
+}
 
 // получение данных пользователя по конкретному User ID
 const getUserById = id => {

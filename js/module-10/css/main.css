@@ -17,7 +17,7 @@ body {
 }
 
 .form:first-child {
-  flex-shrink: 1;
+  min-width: 300px;
 }
 
 h4 {
@@ -83,3 +83,15 @@ button:hover, button:focus {
 p {
   margin: 3px;
 }
+
+.copy{
+  vertical-align: text-bottom;
+}
+
+.copy-text {
+  margin-left: 5px;
+}
+/* 
+.copy_picture{
+  margin: 5px;
+} */
