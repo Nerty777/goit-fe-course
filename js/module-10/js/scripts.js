@@ -5,8 +5,7 @@ const formDeleteUserById = document.querySelector(".form-removeuser");
 const formAddUserById = document.querySelector(".form-adduser");
 const formUpdateUser = document.querySelector(".form-updateuser");
 const resultAllUsersList = document.querySelector(".js-result-all-users-list");
-  localStorage.clear();
-
+localStorage.clear();
 
 // получение всех пользователей
 const getAllUsers = event => {
@@ -97,29 +96,24 @@ function onClickCopy(event) {
       textCopy.classList.remove("copy-text");
       textCopy.classList.remove("green");
       textCopy.textContent = "";
-      localStorage.setItem('id', inputValue);
+      localStorage.setItem("id", inputValue);
     }, 2000);
   }
 }
 
-// работа с localStorage через кнопку вставить, минимум через 1 сек запускать, долго записуются данные в localStorage
+// работа с localStorage через кнопку вставить, минимум через 2 сек запускать, долго записуются данные в localStorage
 const pasteImg = document.querySelector(".copy_picture");
 pasteImg.addEventListener("click", onClickPaste);
 function onClickPaste(event) {
-    event.preventDefault();
-    const target = event.target;
-    if (target.nodeName !== "IMG") return;
-    const value = localStorage.getItem("id");
-    if(value){
-      const inputForm = target.parentNode.firstElementChild;
-       inputForm.value = value;
-    } else {
-    setTimeout(function() {
-      const value = localStorage.getItem("id");
-      const inputForm = target.parentNode.firstElementChild;
-       inputForm.value = value;
-    }, 1000);
-  }
+  event.preventDefault();
+  const target = event.target;
+  if (target.nodeName !== "IMG") return;
+  const valueByLocalStorage = localStorage.getItem("id");
+  setTimeout(function() {
+    const valueByLocalStorage = localStorage.getItem("id");
+    const inputForm = target.parentNode.firstElementChild;
+    inputForm.value = valueByLocalStorage;
+  }, 1000);
 }
 const pasteImgDeleteUser = document.querySelector(".remove_picture");
 pasteImgDeleteUser.addEventListener("click", onClickPaste);
@@ -181,6 +175,10 @@ const getUserById = id => {
       jsResultGetUser.append(userId, userName, userAge);
       // очистка инпута js-input-byid
       formGetUserById.reset();
+
+      setTimeout(function() {
+        jsResultGetUser.textContent = "";
+      }, 5000);
     })
     .catch(error => {
       console.error("Error: ", error);
@@ -199,14 +197,11 @@ const removeUser = id => {
     }
   })
     .then(response => {
-      console.log('response: ', response);
-
       if (response.ok) return response.json();
       throw new Error("Error fetching data");
     })
     .then(users => {
-      console.log('users: ', users);
-
+      console.log("users: ", users);
       if (users.status === 500 || !users.data) {
         jsResultIdRemove.textContent = "Введен не существующий User Id";
         jsResultIdRemove.classList.add("red");
@@ -218,32 +213,35 @@ const removeUser = id => {
       }
       bin.classList.remove("hidden");
       setTimeout(function() {
+        jsResultIdRemove.style.outline = "3px solid red";
         jsResultIdRemove.textContent = `Пользователь с User Id ${id} удален`;
         jsResultIdRemove.classList.add("red");
       }, 1000);
       setTimeout(function() {
-        jsResultIdRemove.style.top= '250px';
-        jsResultIdRemove.style.opacity= 1;
+        jsResultIdRemove.style.top = "250px";
+        jsResultIdRemove.style.opacity = 1;
+      }, 2000);
+      setTimeout(function() {
+        jsResultIdRemove.style.transform = "rotate(90deg)";
       }, 3000);
       setTimeout(function() {
-        jsResultIdRemove.style.transform= 'rotate(90deg)';
+        jsResultIdRemove.style.top = "300px";
+        jsResultIdRemove.style.opacity = 0.7;
       }, 4000);
       setTimeout(function() {
-        jsResultIdRemove.style.top= '300px';
-        jsResultIdRemove.style.opacity= 0.7;
+        jsResultIdRemove.style.opacity = 0.5;
+        jsResultIdRemove.style.top = "400px";
       }, 5000);
       setTimeout(function() {
-        jsResultIdRemove.style.opacity= 0.5;
-        jsResultIdRemove.style.top= '400px';
-      }, 6000);
-      setTimeout(function() {
-        jsResultIdRemove.style.opacity= 1;
-        jsResultIdRemove.style.top= '190px';
-        jsResultIdRemove.style.left= '20px';
+        jsResultIdRemove.style.opacity = 1;
+        jsResultIdRemove.style.top = "190px";
+        jsResultIdRemove.style.left = "20px";
         jsResultIdRemove.textContent = "";
-        jsResultIdRemove.style.transform= 'rotate(0deg)';
+        jsResultIdRemove.style.transform = "rotate(0deg)";
         jsResultIdRemove.classList.remove("green");
+        jsResultIdRemove.style.outline = "none";
         formDeleteUserById.reset();
+        resultAllUsersList.textContent = "";
       }, 7000);
       setTimeout(function() {
         bin.classList.add("hidden");
@@ -254,10 +252,10 @@ const removeUser = id => {
     });
 };
 
-
 //Добавление пользователя с именем и возрастом
+const stork = document.querySelector(".stork");
+const jsResultAddUser = document.querySelector(".js-result-add-user");
 const addUser = (name, age) => {
-  const jsResultAddUser = document.querySelector(".js-result-add-user");
   const ageNumber = +age;
   //проверка, что в имени нет цифр
   if (
@@ -274,6 +272,7 @@ const addUser = (name, age) => {
   ) {
     jsResultAddUser.textContent = "Введенное имя должно содержать только буквы";
     jsResultAddUser.classList.add("red");
+    jsResultAddUser.style.left = "0";
     setTimeout(function() {
       jsResultAddUser.textContent = "";
       jsResultAddUser.classList.remove("red");
@@ -283,6 +282,7 @@ const addUser = (name, age) => {
   // проверка, что введенный возраст число
   if (!ageNumber) {
     const age = document.createElement("div");
+    jsResultAddUser.style.left = "0";
     age.textContent = "Введенный возраст не число";
     age.classList.add("red");
     jsResultAddUser.append(age);
@@ -305,10 +305,10 @@ const addUser = (name, age) => {
       throw new Error("Error fetching data");
     })
     .then(users => {
+      stork.classList.remove("hidden");
       const createUser = document.createElement("p");
       createUser.textContent = "Пользователь успешно создан ";
       createUser.classList.add("green");
-      const hr = document.createElement("hr");
       const userId = document.createElement("p");
       const userName = document.createElement("p");
       const userAge = document.createElement("p");
@@ -327,12 +327,40 @@ const addUser = (name, age) => {
       userId.prepend(id);
       userName.prepend(name);
       userAge.prepend(age);
-      jsResultAddUser.append(createUser, userId, userName, userAge, hr);
       // очистка инпутов
       formAddUserById.reset();
       setTimeout(function() {
-        jsResultAddUser.textContent = "";
+        jsResultAddUser.append(createUser, userId, userName, userAge);
+        jsResultAddUser.style.outline = "2px solid green";
+        jsResultAddUser.style.left = "30vw";
+        stork.style.left = "calc(-300px + 30vw)";
+      }, 1000);
+      setTimeout(function() {
+        jsResultAddUser.style.left = "15vw";
+        stork.style.left = "calc(-300px + 15vw)";
+      }, 2000);
+      setTimeout(function() {
+        jsResultAddUser.style.left = "0";
+        stork.style.left = "-300px";
       }, 3000);
+      setTimeout(function() {
+        stork.style.left = "-500px";
+      }, 4000);
+      setTimeout(function() {
+        stork.style.left = "-700px";
+      }, 5000);
+      setTimeout(function() {
+        stork.classList.add("hidden");
+      }, 6000);
+      setTimeout(function() {
+        jsResultAddUser.style.left = "60vw";
+        jsResultAddUser.style.Top = "230px";
+        jsResultAddUser.classList.remove("green");
+        jsResultAddUser.style.outline = "none";
+        jsResultAddUser.textContent = "";
+        stork.style.left = "calc(-300px + 60vw)";
+        resultAllUsersList.textContent = "";
+      }, 8000);
     })
     .catch(error => {
       console.error("Error: ", error);
@@ -343,6 +371,7 @@ const addUser = (name, age) => {
 const updateUser = (id, user) => {
   const jsResultUpdateUser = document.querySelector(".js-result-update-user");
   const name = user.name;
+  console.log("name: ", name);
   const age = user.age;
   const ageNumber = +age;
   //проверка, что в имени нет цифр
@@ -394,10 +423,12 @@ const updateUser = (id, user) => {
     }
   })
     .then(response => {
+      console.log("response: ", response);
       if (response.ok) return response.json();
       throw new Error("Error fetching data");
     })
     .then(users => {
+      console.log("users: ", users);
       if (users.status === 500 || users.status === 404) {
         jsResultUpdateUser.textContent = "Введен не существующий User Id";
         jsResultUpdateUser.classList.add("red");
@@ -432,7 +463,8 @@ const updateUser = (id, user) => {
       formUpdateUser.reset();
       setTimeout(function() {
         jsResultUpdateUser.textContent = "";
-      }, 4000);
+        resultAllUsersList.textContent = "";
+      }, 3000);
     })
     .catch(error => {
       console.error("Error: ", error);
@@ -476,6 +508,8 @@ function handleButtonAddUserById(event) {
 formUpdateUser.addEventListener("submit", handleButtonUpdateUser);
 function handleButtonUpdateUser(event) {
   event.preventDefault();
+  console.log("event: ", event);
+
   const InputId = formUpdateUser.querySelector(".js-input-update-id");
   const InputName = formUpdateUser.querySelector(".js-input-update-name");
   const InputAge = formUpdateUser.querySelector(".js-input-update-age");
