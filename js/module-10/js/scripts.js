@@ -5,6 +5,8 @@ const formDeleteUserById = document.querySelector(".form-removeuser");
 const formAddUserById = document.querySelector(".form-adduser");
 const formUpdateUser = document.querySelector(".form-updateuser");
 const resultAllUsersList = document.querySelector(".js-result-all-users-list");
+  localStorage.clear();
+
 
 // получение всех пользователей
 const getAllUsers = event => {
@@ -76,13 +78,7 @@ const getAllUsers = event => {
     });
 };
 
-// работа с буфером обмена, при загрузке обнуляю буфер обмена
-window.onload = function() {
-  const emptyString = "";
-  navigator.clipboard.writeText(emptyString);
-};
-
-// работа с буфером обмена через кнопку скопировать
+// работа с localStorage через кнопку скопировать
 resultAllUsersList.addEventListener("click", onClickCopy);
 function onClickCopy(event) {
   event.preventDefault();
@@ -101,40 +97,32 @@ function onClickCopy(event) {
       textCopy.classList.remove("copy-text");
       textCopy.classList.remove("green");
       textCopy.textContent = "";
-      navigator.clipboard
-        .writeText(inputValue)
-        .then(() => {})
-        .catch(err => {
-          console.log("Something went wrong", err);
-        });
+      localStorage.setItem('id', inputValue);
     }, 2000);
   }
 }
 
-// работа с буфером обмена через кнопку вставить, не мгновенно, через минимум 1 сек
+// работа с localStorage через кнопку вставить, минимум через 1 сек запускать, долго записуются данные в localStorage
 const pasteImg = document.querySelector(".copy_picture");
 pasteImg.addEventListener("click", onClickPaste);
 function onClickPaste(event) {
-  setTimeout(function() {
     event.preventDefault();
     const target = event.target;
     if (target.nodeName !== "IMG") return;
-    navigator.clipboard
-      .readText()
-      .then(text => {
-        const inputForm = target.parentNode.firstElementChild;
-        inputForm.value = text;
-        console.log("inputForm.value: ", inputForm.value);
-      })
-      .catch(err => {
-        console.log("Something went wrong", err);
-      });
-  }, 1000);
+    const value = localStorage.getItem("id");
+    if(value){
+      const inputForm = target.parentNode.firstElementChild;
+       inputForm.value = value;
+    } else {
+    setTimeout(function() {
+      const value = localStorage.getItem("id");
+      const inputForm = target.parentNode.firstElementChild;
+       inputForm.value = value;
+    }, 1000);
+  }
 }
-
 const pasteImgDeleteUser = document.querySelector(".remove_picture");
 pasteImgDeleteUser.addEventListener("click", onClickPaste);
-
 const pasteImgUpdateUser = document.querySelector(".update_picture");
 pasteImgUpdateUser.addEventListener("click", onClickPaste);
 
@@ -202,6 +190,7 @@ const getUserById = id => {
 // удаление данных по User ID
 const removeUser = id => {
   const jsResultIdRemove = document.querySelector(".js-result-remove-user");
+  const bin = document.querySelector(".delete");
   fetch(`https://test-users-api.herokuapp.com/users/${id}`, {
     method: "DELETE",
     headers: {
@@ -210,11 +199,15 @@ const removeUser = id => {
     }
   })
     .then(response => {
+      console.log('response: ', response);
+
       if (response.ok) return response.json();
       throw new Error("Error fetching data");
     })
     .then(users => {
-      if (users.status === 500 || users.data === null) {
+      console.log('users: ', users);
+
+      if (users.status === 500 || !users.data) {
         jsResultIdRemove.textContent = "Введен не существующий User Id";
         jsResultIdRemove.classList.add("red");
         setTimeout(function() {
@@ -223,18 +216,44 @@ const removeUser = id => {
         }, 2000);
         return;
       }
-      jsResultIdRemove.textContent = `Пользователь с User Id ${id} удален`;
-      jsResultIdRemove.classList.add("green");
+      bin.classList.remove("hidden");
       setTimeout(function() {
+        jsResultIdRemove.textContent = `Пользователь с User Id ${id} удален`;
+        jsResultIdRemove.classList.add("red");
+      }, 1000);
+      setTimeout(function() {
+        jsResultIdRemove.style.top= '250px';
+        jsResultIdRemove.style.opacity= 1;
+      }, 3000);
+      setTimeout(function() {
+        jsResultIdRemove.style.transform= 'rotate(90deg)';
+      }, 4000);
+      setTimeout(function() {
+        jsResultIdRemove.style.top= '300px';
+        jsResultIdRemove.style.opacity= 0.7;
+      }, 5000);
+      setTimeout(function() {
+        jsResultIdRemove.style.opacity= 0.5;
+        jsResultIdRemove.style.top= '400px';
+      }, 6000);
+      setTimeout(function() {
+        jsResultIdRemove.style.opacity= 1;
+        jsResultIdRemove.style.top= '190px';
+        jsResultIdRemove.style.left= '20px';
         jsResultIdRemove.textContent = "";
+        jsResultIdRemove.style.transform= 'rotate(0deg)';
         jsResultIdRemove.classList.remove("green");
         formDeleteUserById.reset();
-      }, 2000);
+      }, 7000);
+      setTimeout(function() {
+        bin.classList.add("hidden");
+      }, 8000);
     })
     .catch(error => {
       console.error("Error: ", error);
     });
 };
+
 
 //Добавление пользователя с именем и возрастом
 const addUser = (name, age) => {

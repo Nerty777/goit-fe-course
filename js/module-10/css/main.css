@@ -13,7 +13,7 @@ body {
   padding: 5px;
   border: 1px solid #000000;
   margin: 5px;
-  width: 20%;
+  width: 20vw;;
 }
 
 .form:first-child {
@@ -98,4 +98,43 @@ p {
 
 .wrapper_input {
   display: flex;
+}
+
+.result-getuser {
+  position: absolute;
+top: 190px;
+left: 0px;
+outline: 3px solid green;
+
+}
+
+.form-getbyid {
+  position: relative;
+}
+
+.delete {
+  position: absolute;
+  top: 400px;
+  right: 48vh;
+}
+
+.form-removeuser {
+  position: relative;
+}
+
+
+.result-remove-user{
+  /* outline: 3px solid green; */
+  position: absolute;
+  top: 190px;
+  left: 20px;
+  padding: 5px;
+  width: 200px;
+  height: 55px;
+  animation-name: 2s delete;
+  z-index: 99;
+}
+
+.hidden {
+  display: none;
 }
