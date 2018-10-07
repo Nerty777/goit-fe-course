@@ -85,6 +85,10 @@ button {
   margin-bottom: 5px;
 }
 
+.button-remove-all-users {
+  /* background-color: #ff0000; */
+}
+
 button:hover,
 button:focus {
   outline: none;
@@ -101,7 +105,6 @@ button:focus {
 }
 
 .result-getuser {
-  position: absolute;
   top: 190px;
   left: 0px;
 }
@@ -157,4 +160,20 @@ button:focus {
   height: 100px;
   width: 240px;
   margin: 5px;
+}
+
+svg {
+position: absolute;
+top: 50vh;
+left: 0px;
+  width: 300px;
+  height: 300px;
+}
+
+.user:hover {
+  background-color: rgb(212, 234, 248);
+}
+
+.id, .name, .age, .number-user {
+  font-weight: 700;
 }

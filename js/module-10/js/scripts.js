@@ -25,8 +25,13 @@ const getAllUsers = event => {
         resultAllUsersList.textContent = "";
         let number = 0;
         const arrayAllUsers = [];
+        resultAllUsersList.classList.remove("red");
+        if (!users.data.length) {
+          throw new Error("Введен не существующий User Id");
+        }
         users.data.map(user => {
           const ItemFromAllUsersList = document.createElement("li");
+          ItemFromAllUsersList.classList.add("user");
           const userId = document.createElement("p");
           userId.classList.add("id_user");
           const userIdNumber = document.createElement("span");
@@ -41,6 +46,7 @@ const getAllUsers = event => {
           const userName = document.createElement("p");
           const userAge = document.createElement("p");
           const numberUser = document.createElement("p");
+          numberUser.classList.add("number-user");
           numberUser.textContent = `User ${(number += 1)}`;
           const id = document.createElement("span");
           id.textContent = "ID: ";
@@ -51,8 +57,8 @@ const getAllUsers = event => {
           const age = document.createElement("span");
           age.textContent = "Age: ";
           age.classList.add("age");
-          userIdNumber.textContent = JSON.stringify(user.id);
-          userName.textContent = JSON.stringify(user.name);
+          userIdNumber.textContent = JSON.stringify(user.id).slice(1, 25);
+          userName.textContent = JSON.stringify(user.name).slice(1, -1);
           userAge.textContent = JSON.stringify(user.age);
           userId.append(id);
           userName.prepend(name);
@@ -70,10 +76,22 @@ const getAllUsers = event => {
       // скрытие списка пользователей при нажатии кнопки Hide All Users List
       if (event.textContent === "Hide All Users List") {
         resultAllUsersList.textContent = "";
+
+        //  Удаление всех пользователей
+        function deleteAllUsers() {
+          users.data.map(user => {
+            removeUser(user.id);
+          });
+        }
       }
     })
     .catch(error => {
       console.error("Error: ", error);
+      resultAllUsersList.textContent = "Не создан ни один пользователь";
+      resultAllUsersList.classList.add("red");
+      setTimeout(function() {
+        resultAllUsersList.textContent = "";
+      }, 3000);
     });
 };
 
@@ -86,22 +104,21 @@ function onClickCopy(event) {
   const userCard = target.parentNode;
   let inputValue = userCard.querySelector(".id_user_number").textContent;
   const imgCopy = userCard.querySelector(".copy");
-  inputValue = inputValue.slice(1, 25);
   if (inputValue) {
     const textCopy = document.createElement("span");
     textCopy.textContent = "Copied";
     textCopy.classList.add("copy-text", "green");
     imgCopy.after(textCopy);
+    localStorage.setItem("id", inputValue);
     setTimeout(function() {
       textCopy.classList.remove("copy-text");
       textCopy.classList.remove("green");
       textCopy.textContent = "";
-      localStorage.setItem("id", inputValue);
     }, 2000);
   }
 }
 
-// работа с localStorage через кнопку вставить, минимум через 2 сек запускать, долго записуются данные в localStorage
+// работа с localStorage через кнопку вставить
 const pasteImg = document.querySelector(".copy_picture");
 pasteImg.addEventListener("click", onClickPaste);
 function onClickPaste(event) {
@@ -109,11 +126,8 @@ function onClickPaste(event) {
   const target = event.target;
   if (target.nodeName !== "IMG") return;
   const valueByLocalStorage = localStorage.getItem("id");
-  setTimeout(function() {
-    const valueByLocalStorage = localStorage.getItem("id");
-    const inputForm = target.parentNode.firstElementChild;
-    inputForm.value = valueByLocalStorage;
-  }, 1000);
+  const inputForm = target.parentNode.firstElementChild;
+  inputForm.value = valueByLocalStorage;
 }
 const pasteImgDeleteUser = document.querySelector(".remove_picture");
 pasteImgDeleteUser.addEventListener("click", onClickPaste);
@@ -144,13 +158,7 @@ const getUserById = id => {
     })
     .then(users => {
       if (users.status === 500 || users.status === 404) {
-        jsResultGetUser.textContent = "Введен не существующий User Id";
-        jsResultGetUser.classList.add("red");
-        setTimeout(function() {
-          jsResultGetUser.textContent = "";
-          formGetUserById.reset();
-        }, 2000);
-        return;
+        throw new Error("Введен не существующий User Id");
       }
       jsResultGetUser.classList.remove("red");
       jsResultGetUser.textContent = "";
@@ -166,8 +174,8 @@ const getUserById = id => {
       const age = document.createElement("span");
       age.textContent = "Age: ";
       age.classList.add("age");
-      userId.textContent = JSON.stringify(users.data.id);
-      userName.textContent = JSON.stringify(users.data.name);
+      userId.textContent = JSON.stringify(users.data.id).slice(1, 25);
+      userName.textContent = JSON.stringify(users.data.name).slice(1, -1);
       userAge.textContent = JSON.stringify(users.data.age);
       userId.prepend(id);
       userName.prepend(name);
@@ -175,13 +183,17 @@ const getUserById = id => {
       jsResultGetUser.append(userId, userName, userAge);
       // очистка инпута js-input-byid
       formGetUserById.reset();
-
       setTimeout(function() {
         jsResultGetUser.textContent = "";
-      }, 5000);
+      }, 3000);
     })
     .catch(error => {
-      console.error("Error: ", error);
+      jsResultGetUser.textContent = error.message;
+      jsResultGetUser.classList.add("red");
+      setTimeout(function() {
+        jsResultGetUser.textContent = "";
+        formGetUserById.reset();
+      }, 3000);
     });
 };
 
@@ -203,14 +215,9 @@ const removeUser = id => {
     .then(users => {
       console.log("users: ", users);
       if (users.status === 500 || !users.data) {
-        jsResultIdRemove.textContent = "Введен не существующий User Id";
-        jsResultIdRemove.classList.add("red");
-        setTimeout(function() {
-          jsResultIdRemove.textContent = "";
-          formDeleteUserById.reset();
-        }, 2000);
-        return;
+        throw new Error("Введен не существующий User Id");
       }
+      resultAllUsersList.textContent = "";
       bin.classList.remove("hidden");
       setTimeout(function() {
         jsResultIdRemove.style.outline = "3px solid red";
@@ -241,7 +248,6 @@ const removeUser = id => {
         jsResultIdRemove.classList.remove("green");
         jsResultIdRemove.style.outline = "none";
         formDeleteUserById.reset();
-        resultAllUsersList.textContent = "";
       }, 7000);
       setTimeout(function() {
         bin.classList.add("hidden");
@@ -249,6 +255,12 @@ const removeUser = id => {
     })
     .catch(error => {
       console.error("Error: ", error);
+      jsResultIdRemove.textContent = error.message;
+      jsResultIdRemove.classList.add("red");
+      setTimeout(function() {
+        jsResultIdRemove.textContent = "";
+        formDeleteUserById.reset();
+      }, 2000);
     });
 };
 
@@ -305,6 +317,7 @@ const addUser = (name, age) => {
       throw new Error("Error fetching data");
     })
     .then(users => {
+      resultAllUsersList.textContent = "";
       stork.classList.remove("hidden");
       const createUser = document.createElement("p");
       createUser.textContent = "Пользователь успешно создан ";
@@ -359,7 +372,6 @@ const addUser = (name, age) => {
         jsResultAddUser.style.outline = "none";
         jsResultAddUser.textContent = "";
         stork.style.left = "calc(-300px + 60vw)";
-        resultAllUsersList.textContent = "";
       }, 8000);
     })
     .catch(error => {
@@ -371,7 +383,6 @@ const addUser = (name, age) => {
 const updateUser = (id, user) => {
   const jsResultUpdateUser = document.querySelector(".js-result-update-user");
   const name = user.name;
-  console.log("name: ", name);
   const age = user.age;
   const ageNumber = +age;
   //проверка, что в имени нет цифр
@@ -423,19 +434,12 @@ const updateUser = (id, user) => {
     }
   })
     .then(response => {
-      console.log("response: ", response);
       if (response.ok) return response.json();
       throw new Error("Error fetching data");
     })
     .then(users => {
-      console.log("users: ", users);
       if (users.status === 500 || users.status === 404) {
-        jsResultUpdateUser.textContent = "Введен не существующий User Id";
-        jsResultUpdateUser.classList.add("red");
-        setTimeout(function() {
-          jsResultUpdateUser.textContent = "";
-        }, 3000);
-        return;
+        throw new Error("Введен не существующий User Id");
       }
       const createUser = document.createElement("p");
       createUser.textContent = "Пользователь успешно обновлен ";
@@ -468,6 +472,11 @@ const updateUser = (id, user) => {
     })
     .catch(error => {
       console.error("Error: ", error);
+      jsResultUpdateUser.textContent = error.message;
+      jsResultUpdateUser.classList.add("red");
+      setTimeout(function() {
+        jsResultUpdateUser.textContent = "";
+      }, 3000);
     });
 };
 
