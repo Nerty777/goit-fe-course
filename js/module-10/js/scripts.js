@@ -197,73 +197,6 @@ const getUserById = id => {
     });
 };
 
-// удаление данных по User ID
-const removeUser = id => {
-  const jsResultIdRemove = document.querySelector(".js-result-remove-user");
-  const bin = document.querySelector(".delete");
-  fetch(`https://test-users-api.herokuapp.com/users/${id}`, {
-    method: "DELETE",
-    headers: {
-      Accept: "application/json",
-      "Content-Type": "application/json"
-    }
-  })
-    .then(response => {
-      if (response.ok) return response.json();
-      throw new Error("Error fetching data");
-    })
-    .then(users => {
-      console.log("users: ", users);
-      if (users.status === 500 || !users.data) {
-        throw new Error("Введен не существующий User Id");
-      }
-      resultAllUsersList.textContent = "";
-      bin.classList.remove("hidden");
-      setTimeout(function() {
-        jsResultIdRemove.style.outline = "3px solid red";
-        jsResultIdRemove.textContent = `Пользователь с User Id ${id} удален`;
-        jsResultIdRemove.classList.add("red");
-      }, 1000);
-      setTimeout(function() {
-        jsResultIdRemove.style.top = "250px";
-        jsResultIdRemove.style.opacity = 1;
-      }, 2000);
-      setTimeout(function() {
-        jsResultIdRemove.style.transform = "rotate(90deg)";
-      }, 3000);
-      setTimeout(function() {
-        jsResultIdRemove.style.top = "300px";
-        jsResultIdRemove.style.opacity = 0.7;
-      }, 4000);
-      setTimeout(function() {
-        jsResultIdRemove.style.opacity = 0.5;
-        jsResultIdRemove.style.top = "400px";
-      }, 5000);
-      setTimeout(function() {
-        jsResultIdRemove.style.opacity = 1;
-        jsResultIdRemove.style.top = "190px";
-        jsResultIdRemove.style.left = "20px";
-        jsResultIdRemove.textContent = "";
-        jsResultIdRemove.style.transform = "rotate(0deg)";
-        jsResultIdRemove.classList.remove("green");
-        jsResultIdRemove.style.outline = "none";
-        formDeleteUserById.reset();
-      }, 7000);
-      setTimeout(function() {
-        bin.classList.add("hidden");
-      }, 8000);
-    })
-    .catch(error => {
-      console.error("Error: ", error);
-      jsResultIdRemove.textContent = error.message;
-      jsResultIdRemove.classList.add("red");
-      setTimeout(function() {
-        jsResultIdRemove.textContent = "";
-        formDeleteUserById.reset();
-      }, 2000);
-    });
-};
-
 //Добавление пользователя с именем и возрастом
 const stork = document.querySelector(".stork");
 const jsResultAddUser = document.querySelector(".js-result-add-user");
@@ -345,26 +278,38 @@ const addUser = (name, age) => {
       setTimeout(function() {
         jsResultAddUser.append(createUser, userId, userName, userAge);
         jsResultAddUser.style.outline = "2px solid green";
-        jsResultAddUser.style.left = "30vw";
-        stork.style.left = "calc(-300px + 30vw)";
+        jsResultAddUser.style.left = "50vw";
+        stork.style.left = "calc(-300px + 50vw)";
+      }, 500);
+      setTimeout(function() {
+        jsResultAddUser.style.left = "45vw";
+        stork.style.left = "calc(-300px + 45vw)";
       }, 1000);
+      setTimeout(function() {
+        jsResultAddUser.style.left = "35vw";
+        stork.style.left = "calc(-300px + 35vw)";
+      }, 1500);
+      setTimeout(function() {
+        jsResultAddUser.style.left = "25vw";
+        stork.style.left = "calc(-300px + 25vw)";
+      }, 2000);
       setTimeout(function() {
         jsResultAddUser.style.left = "15vw";
         stork.style.left = "calc(-300px + 15vw)";
-      }, 2000);
+      }, 2500);
       setTimeout(function() {
         jsResultAddUser.style.left = "0";
         stork.style.left = "-300px";
       }, 3000);
       setTimeout(function() {
         stork.style.left = "-500px";
-      }, 4000);
+      }, 3500);
       setTimeout(function() {
         stork.style.left = "-700px";
-      }, 5000);
+      }, 4000);
       setTimeout(function() {
         stork.classList.add("hidden");
-      }, 6000);
+      }, 4500);
       setTimeout(function() {
         jsResultAddUser.style.left = "60vw";
         jsResultAddUser.style.Top = "230px";
@@ -372,10 +317,77 @@ const addUser = (name, age) => {
         jsResultAddUser.style.outline = "none";
         jsResultAddUser.textContent = "";
         stork.style.left = "calc(-300px + 60vw)";
-      }, 8000);
+      }, 8500);
     })
     .catch(error => {
       console.error("Error: ", error);
+    });
+};
+
+// удаление данных по User ID
+const removeUser = id => {
+  const jsResultIdRemove = document.querySelector(".js-result-remove-user");
+  const bin = document.querySelector(".delete");
+  fetch(`https://test-users-api.herokuapp.com/users/${id}`, {
+    method: "DELETE",
+    headers: {
+      Accept: "application/json",
+      "Content-Type": "application/json"
+    }
+  })
+    .then(response => {
+      if (response.ok) return response.json();
+      throw new Error("Error fetching data");
+    })
+    .then(users => {
+      console.log("users: ", users);
+      if (users.status === 500 || !users.data) {
+        throw new Error("Введен не существующий User Id");
+      }
+      resultAllUsersList.textContent = "";
+      bin.classList.remove("hidden");
+      setTimeout(function() {
+        jsResultIdRemove.style.outline = "3px solid red";
+        jsResultIdRemove.textContent = `Пользователь с User Id ${id} удален`;
+        jsResultIdRemove.classList.add("red");
+      }, 500);
+      setTimeout(function() {
+        jsResultIdRemove.style.top = "250px";
+        jsResultIdRemove.style.opacity = 1;
+      }, 2000);
+      setTimeout(function() {
+        jsResultIdRemove.style.transform = "rotate(90deg)";
+      }, 2500);
+      setTimeout(function() {
+        jsResultIdRemove.style.top = "300px";
+        jsResultIdRemove.style.opacity = 0.7;
+      }, 3000);
+      setTimeout(function() {
+        jsResultIdRemove.style.opacity = 0.5;
+        jsResultIdRemove.style.top = "400px";
+      }, 3500);
+      setTimeout(function() {
+        jsResultIdRemove.style.opacity = 1;
+        jsResultIdRemove.style.top = "190px";
+        jsResultIdRemove.style.left = "20px";
+        jsResultIdRemove.textContent = "";
+        jsResultIdRemove.style.transform = "rotate(0deg)";
+        jsResultIdRemove.classList.remove("green");
+        jsResultIdRemove.style.outline = "none";
+        formDeleteUserById.reset();
+      }, 4000);
+      setTimeout(function() {
+        bin.classList.add("hidden");
+      }, 4500);
+    })
+    .catch(error => {
+      console.error("Error: ", error);
+      jsResultIdRemove.textContent = error.message;
+      jsResultIdRemove.classList.add("red");
+      setTimeout(function() {
+        jsResultIdRemove.textContent = "";
+        formDeleteUserById.reset();
+      }, 2000);
     });
 };
 
