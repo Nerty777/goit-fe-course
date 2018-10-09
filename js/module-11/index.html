@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Titillium+Web'>
+  <link rel="icon" type="x-icon" href="img/favicon.ico" />
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Homework-11</title>
+</head>
+
+<body>
+
+  <div class="logo">
+    <p class="logo__name">Интернет магазин Карандаш</p>
+    <div class="pencil"></div>
+
+  </div>
+  <div class="wrapper">
+    <form class="form js-form">
+      <section>
+        <h2>Screen size</h2>
+        <ul>
+          <li><label><input class="cb pristine" type="checkbox" name="size" value="13">
+              13"</label></li>
+          <li><label><input class="cb pristine" type="checkbox" name="size" value="15">
+              15"</label></li>
+          <li><label><input class="cb pristine" type="checkbox" name="size" value="17">
+              17"</label></li>
+        </ul>
+      </section>
+      <section>
+        <h2>Color</h2>
+        <ul>
+          <li><label><input class="cb pristine" type="checkbox" name="color" value="white">
+              white</label></li>
+          <li><label><input class="cb pristine" type="checkbox" name="color" value="gray">
+              gray</label></li>
+          <li><label><input class="cb pristine" type="checkbox" name="color" value="black">
+              black</label></li>
+        </ul>
+      </section>
+      <section>
+        <h2>Release date</h2>
+        <ul>
+          <li><label><input class="cb pristine" type="checkbox" name="release_date" value="2015">
+              2015</label></li>
+          <li><label><input class="cb pristine" type="checkbox" name="release_date" value="2016">
+              2016</label></li>
+          <li><label><input class="cb pristine" type="checkbox" name="release_date" value="2017">
+              2017</label></li>
+        </ul>
+      </section>
+      <button class="button_submit" type="reset">Clear</button>
+    </form>
+    <div class="offers"></div>
+  </div>
+
+  <template id="template" class="template">
+    <div class="card">
+      <div class="size-wrapper">
+        <p class="card__size"><span class="param-name">size:</span></p>
+        <img class="thirteen" src="img/{{size}}.svg" alt="{{size}}">"
+      </div>
+      <div class="color-wrapper">
+        <p class="card__color"><span class="param-name">color: </span>{{color}}</p>
+        <img class="color__img" src="img/{{color}}.svg" alt="{{color}}">
+      </div>
+      <p class="card__price">{{price}}₴</p>
+      <p class="card__release_date"><span class="param-name">release: </span>{{release_date}}</p>
+      <h2 class="card__name">{{name}}</h2>
+      <img class="card__img" src="{{img}}" alt="{{name}}">
+      <p class="card__descr">{{descr}}</p>
+      <button class="buy">Buy</button>
+    </div>
+  </template>
+  <script src="js/handlebars-v4.0.12.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
