@@ -7,7 +7,7 @@ const laptops = [
     price: 28000,
     release_date: 2015,
     name: 'Macbook Air White 13"',
-    img: "air.jpg",
+    img: "img/air.jpg",
     descr:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, beatae."
   },
@@ -17,7 +17,7 @@ const laptops = [
     price: 32000,
     release_date: 2016,
     name: 'Macbook Air Gray 13"',
-    img: "air.jpg",
+    img: "img/air.jpg",
     descr:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, beatae."
   },
@@ -27,7 +27,7 @@ const laptops = [
     price: 35000,
     release_date: 2017,
     name: 'Macbook Air Black 13"',
-    img: "air.jpg",
+    img: "img/air.jpg",
     descr:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, beatae."
   },
@@ -37,7 +37,7 @@ const laptops = [
     price: 45000,
     release_date: 2015,
     name: 'Macbook Air White 15"',
-    img: "air.jpg",
+    img: "img/air.jpg",
     descr:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, beatae."
   },
@@ -47,7 +47,7 @@ const laptops = [
     price: 55000,
     release_date: 2016,
     name: 'Macbook Pro Gray 15"',
-    img: "pro15_silver.jpg",
+    img: "img/pro15_silver.jpg",
     descr:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, beatae."
   },
@@ -57,7 +57,7 @@ const laptops = [
     price: 45000,
     release_date: 2017,
     name: 'Macbook Pro Black 15"',
-    img: "pro15_black.jpg",
+    img: "img/pro15_black.jpg",
     descr:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, beatae."
   },
@@ -67,7 +67,7 @@ const laptops = [
     price: 65000,
     release_date: 2015,
     name: 'Macbook Air White 17"',
-    img: "air.jpg",
+    img: "img/air.jpg",
     descr:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, beatae."
   },
@@ -77,7 +77,7 @@ const laptops = [
     price: 75000,
     release_date: 2016,
     name: 'Macbook Pro Gray 17"',
-    img: "pro17_silver.jpg",
+    img: "img/pro17_silver.jpg",
     descr:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, beatae."
   },
@@ -87,7 +87,7 @@ const laptops = [
     price: 80000,
     release_date: 2017,
     name: 'Macbook Pro Black 17"',
-    img: "pro17_black.jpg",
+    img: "img/pro17_black.jpg",
     descr:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, beatae."
   }
