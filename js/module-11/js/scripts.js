@@ -102,8 +102,20 @@ offers.innerHTML = markup;
 const filter = {
   size: [],
   color: [],
-  release_date: []
+  releaseDate: []
 };
+
+function objFilter(checkedSize, param, parametr) {
+  if (checkedSize.length) {
+    checkedSize.forEach(item => {
+      const value = item.value;
+      param.push(value);
+      filter[parametr] = param;
+    });
+  } else {
+    filter[parametr] = [];
+  }
+}
 
 const makeFilter = e => {
   const target = e.target;
@@ -115,55 +127,28 @@ const makeFilter = e => {
   );
   const size = [];
   const color = [];
-  const release_date = [];
-  if (checkedSize.length) {
-    checkedSize.forEach(item => {
-      const value = item.value;
-      size.push(value);
-      filter.size = size;
-    });
-  } else {
-    filter.size = [];
-  }
-  if (checkedColor.length) {
-    checkedColor.forEach(item => {
-      const value = item.value;
-      color.push(value);
-      filter.color = color;
-    });
-  } else {
-    filter.color = [];
-  }
-  if (checkedReleaseDate.length) {
-    checkedReleaseDate.forEach(item => {
-      const value = item.value;
-      release_date.push(value);
-      filter.release_date = release_date;
-    });
-  } else {
-    filter.release_date = [];
-  }
+  const releaseDate = [];
+  objFilter(checkedSize, size, "size");
+  objFilter(checkedColor, color, "color");
+  objFilter(checkedReleaseDate, releaseDate, "releaseDate");
   getFilteredCards(filter);
 };
 
 function getFilteredCards(filter) {
   const resultFilter = function(laptops, filter) {
     let filteredLaptops = laptops;
-    if (filter.size.length) {
-      filteredLaptops = filteredLaptops.filter(laptop =>
-        filter.size.includes(String(laptop.size))
-      );
+    function filterLaptops(param, keyLaptop) {
+      if (filter[param].length) {
+        filteredLaptops = filteredLaptops.filter(laptop =>
+          filter[param].includes(String(laptop[keyLaptop]))
+        );
+      }
     }
-    if (filter.color.length) {
-      filteredLaptops = filteredLaptops.filter(laptop =>
-        filter.color.includes(String(laptop.color))
-      );
-    }
-    if (filter.release_date.length) {
-      filteredLaptops = filteredLaptops.filter(laptop =>
-        filter.release_date.includes(String(laptop.release_date))
-      );
-    }
+
+    filterLaptops("size", "size");
+    filterLaptops("color", "color");
+    filterLaptops("releaseDate", "release_date");
+
     const markup = filteredLaptops.reduce(
       (acc, laptop) => acc + template(laptop),
       ""
@@ -171,7 +156,7 @@ function getFilteredCards(filter) {
     offers.innerHTML = markup;
     if (!filteredLaptops.length) {
       offers.innerHTML =
-        '<p class="error">Soory, but your choiced filter not found laptops</p>';
+        '<p class="error">Sorry, but your choiced filter not found laptops</p>';
     }
   };
   resultFilter(laptops, filter);
