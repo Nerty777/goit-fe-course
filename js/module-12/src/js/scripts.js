@@ -66,18 +66,17 @@ function addHidden() {
 function linkpreview(url) {
   const key = "5bb920a205cea06f38e7909709a72b521a4a9d1c05841";
   removeHidden();
-  fetch(`https://api.linkpreview.net/?key=${key}&q=${url}`)
+
+  axios
+    .get(`https://api.linkpreview.net/?key=${key}&q=${url}`)
     .then(response => {
-      if (response.ok) {
-        return response.json();
-      }
-      throw new Error("Error fetching data");
-    })
-    .then(urlInfo => {
+      console.log("response: ", response);
+      const urlInfo = response.data;
       makeBookmarks(urlInfo);
     })
     .catch(error => {
-      if (error.message === "Error fetching data") {
+      console.log(error);
+      if (error.message === "Request failed with status code 424") {
         const pattern = /^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/gim;
         let host = pattern.exec(url);
         host = host[1];

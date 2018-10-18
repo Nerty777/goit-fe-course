@@ -73,16 +73,14 @@ function addHidden() {
 function linkpreview(url) {
   var key = "5bb920a205cea06f38e7909709a72b521a4a9d1c05841";
   removeHidden();
-  fetch("https://api.linkpreview.net/?key=".concat(key, "&q=").concat(url)).then(function (response) {
-    if (response.ok) {
-      return response.json();
-    }
-
-    throw new Error("Error fetching data");
-  }).then(function (urlInfo) {
+  axios.get("https://api.linkpreview.net/?key=".concat(key, "&q=").concat(url)).then(function (response) {
+    console.log("response: ", response);
+    var urlInfo = response.data;
     makeBookmarks(urlInfo);
   }).catch(function (error) {
-    if (error.message === "Error fetching data") {
+    console.log(error);
+
+    if (error.message === "Request failed with status code 424") {
       var pattern = /^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/gim;
       var host = pattern.exec(url);
       host = host[1];
