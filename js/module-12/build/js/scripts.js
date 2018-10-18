@@ -73,7 +73,7 @@ function addHidden() {
 function linkpreview(url) {
   var key = "5bb920a205cea06f38e7909709a72b521a4a9d1c05841";
   removeHidden();
-  fetch("http://api.linkpreview.net/?key=".concat(key, "&q=").concat(url)).then(function (response) {
+  fetch("https://api.linkpreview.net/?key=".concat(key, "&q=").concat(url)).then(function (response) {
     if (response.ok) {
       return response.json();
     }
