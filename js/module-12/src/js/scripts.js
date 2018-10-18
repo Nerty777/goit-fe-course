@@ -66,7 +66,7 @@ function addHidden() {
 function linkpreview(url) {
   const key = "5bb920a205cea06f38e7909709a72b521a4a9d1c05841";
   removeHidden();
-  fetch(`http://api.linkpreview.net/?key=${key}&q=${url}`)
+  fetch(`https://api.linkpreview.net/?key=${key}&q=${url}`)
     .then(response => {
       if (response.ok) {
         return response.json();
