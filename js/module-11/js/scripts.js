@@ -144,11 +144,9 @@ function getFilteredCards(filter) {
         );
       }
     }
-
     filterLaptops("size", "size");
     filterLaptops("color", "color");
     filterLaptops("releaseDate", "release_date");
-
     const markup = filteredLaptops.reduce(
       (acc, laptop) => acc + template(laptop),
       ""

@@ -53,6 +53,10 @@ img {
   width: 250px;
 }
 
+input:hover {
+  cursor: pointer;
+}
+
 section {
   width: 150px;
   margin: 0 auto;
@@ -77,14 +81,18 @@ ul {
 .card {
   background-color: #e4e4e4;
   width: 250px;
+  height: 450px;
   margin: 0px 0px 10px 10px;
   padding: 10px;
   position: relative;
-  max-height: 450px;
 }
 
 .card:hover {
   outline: 1px solid rgba(0, 0, 0, 0.75);
+}
+
+.card__name:hover {
+  cursor: pointer;
 }
 
 .card__price {
@@ -93,6 +101,10 @@ ul {
   right: 20px;
   font-size: 25px;
   padding: 2px;
+}
+
+.wrapper-img {
+  min-height: 230px;
 }
 
 .param-name {
@@ -109,6 +121,7 @@ ul {
 .buy:hover,
 .buy:focus {
   outline: 1px solid rgba(0, 0, 0, 0.75);
+  cursor: pointer;
 }
 
 .button_submit {
@@ -124,6 +137,7 @@ ul {
 .button_submit:focus {
   background-color: #ffffff;
   outline: 1px solid rgba(0, 0, 0, 0.75);
+  cursor: pointer;
 }
 
 .thirteen {
