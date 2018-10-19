@@ -37,6 +37,9 @@ const getAllUsers = event => {
         let number = 0;
         const arrayAllUsers = [];
         resultAllUsersList.classList.remove("red");
+        if (!users.data.length) {
+          throw new Error("Не создан ни один пользователь");
+        }
         users.data.map(user => {
           const ItemFromAllUsersList = document.createElement("li");
           ItemFromAllUsersList.classList.add("user");
@@ -348,7 +351,6 @@ const removeUser = id => {
       throw new Error("Error fetching data");
     })
     .then(users => {
-      console.log("users: ", users);
       if (users.status === 500 || !users.data) {
         throw new Error("Введен не существующий User Id");
       }
