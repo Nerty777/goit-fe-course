@@ -5,10 +5,20 @@ const formDeleteUserById = document.querySelector(".form-removeuser");
 const formAddUserById = document.querySelector(".form-adduser");
 const formUpdateUser = document.querySelector(".form-updateuser");
 const resultAllUsersList = document.querySelector(".js-result-all-users-list");
+const loader = document.querySelector(".loader");
+
 localStorage.clear();
+
+function removeHidden() {
+  loader.classList.remove("hidden");
+}
+function addHidden() {
+  loader.classList.add("hidden");
+}
 
 // получение всех пользователей
 const getAllUsers = event => {
+  removeHidden()
   fetch("https://test-users-api.herokuapp.com/users/", {
     method: "GET",
     headers: {
@@ -21,14 +31,12 @@ const getAllUsers = event => {
       throw new Error("Error fetching data");
     })
     .then(users => {
+      addHidden()
       if (event.textContent === "Get All Users List") {
         resultAllUsersList.textContent = "";
         let number = 0;
         const arrayAllUsers = [];
         resultAllUsersList.classList.remove("red");
-        if (!users.data.length) {
-          throw new Error("Введен не существующий User Id");
-        }
         users.data.map(user => {
           const ItemFromAllUsersList = document.createElement("li");
           ItemFromAllUsersList.classList.add("user");

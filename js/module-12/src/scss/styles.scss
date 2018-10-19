@@ -210,7 +210,7 @@ body {
   }
 }
 
-// spinner-loader
+// spinner-loader START
 @keyframes loader {
   0% {
     transform: rotate(-45deg);
@@ -320,6 +320,12 @@ body {
   }
 }
 
+.hidden {
+  display: none;
+}
+// spinner-loader END
+
+
 @media screen and (max-width: 600px) {
   .bookmark {
     display: block;
@@ -344,8 +350,4 @@ body {
       margin: 10px auto;
     }
   }
-}
-
-.hidden {
-  display: none;
 }
