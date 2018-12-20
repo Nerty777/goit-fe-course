@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Тростянець. Вокзал-Круглий двір</title>
+  
+      <style>
+      svg {
+          width: 30px;
+          height: 30px;
+      }
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+        margin: 5px auto;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 400px;
+        margin: 0;
+        padding: 0;
+      }
+
+button {
+    padding: 5px 40px;
+    margin: 10px;
+}
+    </style>
+  
+</head>
+
+
+<body style="width: 300px; margin: 0 auto;">
+    <p style="width: 300px; color: #0000ff;">Веломаршрут. Тростянець.</p>
+    <p style="width: 300px; color: #006699;">Вокзал-Круглий двір</p>
+    <p style="color: green; margin-bottom: 2px;">Вокзал</p>
+    <img style="width: 300px;" src="railway_station.jpg" alt="вокзал">
+    <p style="color: green; margin-bottom: 2px;">Круглий двір</p>
+    <img style="width: 300px;" src="https://vesti-ukr.com/img/forall/imp/0/e35e29d1f42975968ef8ea6580.jpg" alt="Круглий двір">
+    <p style="color: green; margin-bottom: 2px;">Вiдео маршруту</p>
+    <img style=" width: 100vw; max-width: 300px" src="7c92a866-e814-41d6-80fe-8444c35e5081.gif" alt="map">
+      
+   
+   
+<div id="map"></div>
+<div id="coordinate"></div>
+<div id="map2"></div>
+<button>Play audio info</button>
+  <script>
+
+      let positionMarkerForAnimation = {};
+      
+      function initMap() {
+    var pointA = new google.maps.LatLng(50.481979, 34.968266),
+        pointB = new google.maps.LatLng(50.473974, 34.958143),
+        myOptions = {
+            // zoom: 17,
+            center: pointA,
+            disableDefaultUI: true
+        },
+        map = new google.maps.Map(document.getElementById('map'), myOptions),
+        // Instantiate a directions service.
+        directionsService = new google.maps.DirectionsService,
+        directionsDisplay = new google.maps.DirectionsRenderer({
+            map: map,
+            suppressMarkers: true
+              })
+
+    // get route from A to B
+calculateAndDisplayRoute(directionsService, directionsDisplay, pointA, pointB);
+ 
+let contentString = '<h1 id="Heading" class="Heading">Вокзал</h1>'+'<img style="width: 100%;" src="railway_station.jpg" alt="вокзал">'+'<p>Сейчас станция Смородино обеспечивает перевозку пассажиров на большом количестве пригородных маршрутов в Сумской и Харьковской областях, движение на которых выполняется в основном рельсовыми автобусами или классическими монстроидальными пригородными составами на базе одного тепловоза и двух-трёх списанных плацкартных вагонов.</p>';
+let contentString2 = '<h1 id="Heading" class="Heading">Круглий двір</h1>'+'<img style="width: 100%;" src="https://vesti-ukr.com/img/forall/imp/0/e35e29d1f42975968ef8ea6580.jpg" alt="Круглий двір">'+'<p>Входил в состав поместья Надаржинских, впоследствии — Голицыных и использовался как сцена для цирка и актёров, а также для хозяйственных нужд.</p>';;
+let contentString3 = '<h1 id="Heading" class="Heading">Тут был я</h1>'
+
+// first marker
+var infowindow = new google.maps.InfoWindow({
+    content: contentString,
+  });
+  var marker = new google.maps.Marker({
+    position: {lat: 50.481979, lng: 34.968266},
+    map: map,
+    // label: "START",
+    title: 'Вокзал',
+    label: {
+    text: 'START',
+    color: 'green',
+  },
+    icon: {
+        labelOrigin: new google.maps.Point(50, 15),
+        url: "bicycle-green.svg"
+      },
+    animation: google.maps.Animation.DROP,
+  });
+  marker.addListener('click', function() {
+    infowindow.open(map, marker);
+  });
+  
+//   second marker
+  var infowindow2 = new google.maps.InfoWindow({
+    content: contentString2,
+    width: '300',
+    height: '500',
+  });
+  var marker2 = new google.maps.Marker({
+    position: {lat: 50.473372, lng: 34.957994},
+    map: map,
+    title: 'Круглий двір',
+        label: {
+    text: 'FINISH',
+    color: 'red',
+  },
+    icon: {
+        labelOrigin: new google.maps.Point(-25,20),
+        url: "bicycle-red.svg"
+      },
+    animation: google.maps.Animation.DROP,
+  });
+  marker2.addListener('click', function() {
+    infowindow2.open(map, marker2);
+  });
+  
+  //   third marker
+  var infowindow3 = new google.maps.InfoWindow({
+    content: contentString3,
+    width: '100',
+    height: '100',
+  });
+  var marker3 = new google.maps.Marker({
+    position: {lat: 50.482180, lng: 34.960309},
+    map: map,
+    title: 'Тут был я',
+    label: {
+    text: 'Тут был я',
+    color: 'red',
+  },
+      icon: {
+        labelOrigin: new google.maps.Point(21,54),
+        url: "unnamed.jpg"
+      }
+  });
+  marker3.addListener('click', function() {
+    infowindow3.open(map, marker3);
+  });
+      
+      var marker4 = new google.maps.Marker({
+    position: {lat: 50.469273, lng: 34.959724},
+    map: map,
+    // optimized: false,
+    // title: 'Тут был я',
+    label: {
+    // text: 'Тут был я',
+    // color: 'red',
+  },
+      icon: {
+        labelOrigin: new google.maps.Point(21,54),
+        url: "turn.svg"
+      },
+    animation: google.maps.Animation.DROP,
+  });
+  
+  console.log(marker4);
+//   let timerID = setInterval(() => {
+// marker4.setAnimation(google.com.Animation.BOUNCE);
+// console.log('jhvjv');
+// }, 2000);
+  
+  
+  
+//   Polyline
+  var flightPlanCoordinates = [
+{lat: 50.470470000000006, lng: 34.959590000000006},
+{lat: 50.470420000000004, lng: 34.958780000000004},
+{lat: 50.470330000000004, lng: 34.95835},
+{lat: 50.470240000000004, lng: 34.958110000000005},
+{lat: 50.47068, lng: 34.9583},
+{lat: 50.471340000000005, lng: 34.95868}
+        ];
+        var flightPath = new google.maps.Polyline({
+          path: flightPlanCoordinates,
+          geodesic: true,
+          strokeColor: '#FF0000',
+          strokeOpacity: 1.0,
+          strokeWeight: 8
+        });
+        flightPath.setMap(map);
+  
+  var marker5 = new google.maps.Marker({
+    position: {lat: 50.481979, lng: 34.968266},
+    map: map,
+    label: {
+  },
+      icon: {
+        url: "cat.svg"
+      },
+    animation: google.maps.Animation.DROP,
+  });
+  positionMarkerForAnimation = marker5;
+  
+// новый маркер
+// var uluru = {lat: 50.478547, lng: 34.965809};
+// var marker6 = new google.maps.Marker({
+//     position: uluru,
+//     map: map});
+  
+
+  
+//   close initmap      
+}
+
+
+
+      
+     function calculateAndDisplayRoute(directionsService, directionsDisplay, pointA, pointB) {
+    directionsService.route({
+        origin: pointA,
+        destination: pointB,
+        avoidTolls: true,
+        avoidHighways: false,
+        travelMode: google.maps.TravelMode.DRIVING
+    }, function (response, status) {
+        
+        
+// получение массива координат {lat, lng}
+const arrayWay = [];
+response.routes[0].overview_path.map(map => map.lat());
+response.routes[0].overview_path.map(map => map.lng());
+response.routes[0].overview_path.map(map => arrayWay.push({lat: map.lat(), lng: map.lng()}));
+console.log(arrayWay);
+
+const coordinate = document.getElementById('coordinate');
+coordinate.textContent = JSON.stringify(arrayWay);
+console.log(coordinate);
+
+
+// смена позиции маркера
+let seconds = 1000; 
+// var coordinates = arrayWay;
+const marker = positionMarkerForAnimation;
+function animationPozitionMarker(coordinate, marker) {
+    setTimeout(() => {
+marker.setPosition(
+coordinate
+  );
+}, seconds +=150);
+};
+let i = 0;
+while(i< 100) {
+arrayWay.map(coordinate => animationPozitionMarker(coordinate, marker));
+i += 1;
+}
+
+
+        if (status == google.maps.DirectionsStatus.OK) {
+            directionsDisplay.setDirections(response);
+        } else {
+            window.alert('Directions request failed due to ' + status);
+        }
+    });
+}
+
+
+// initMap(); 
+
+
+  
+      
+      
+    </script>
+    
+    
+    
+    <script>
+    // var map2;
+    //   function initMap() {
+    //     map2 = new google.maps.Map(document.getElementById('map2'), {
+    //       center: {lat: 50.481979, lng: 34.968266},
+    //       zoom: 8
+    //     });
+    //   }
+    
+    </script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYGYN6VkB7gjuyQl_KvtxpsgAZkQlu_WQ&callback=initMap"
+    async defer></script>  
+    
+    
+    
+    <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+<script>
+
+const btn = document.querySelector('button');
+
+const handleClick = () => {
+responsiveVoice.speak("Тростянец, город, Сумская область, Украина. Располагается в 55 км к югу от областного центра Сум. Является административным центром Тростянецкого района, а также Тростянецкого городского совета, в который не входят другие населённые пункты.", "Russian Female");
+responsiveVoice.speak("Круглый двор» входил в состав поместья Надаржинских и использовался как сцена для цирка и актёров, а также для хозяйственных нужд.", "Russian Female")
+responsiveVoice.speak("Конный двор овального плана (65х85) похож на небольшую крепость, по периметру которой размещены четыре круглые ярусное башни и одноэтажные помещения, в которых даже в XX веке ещё жили люди. С восточной стороны «крепость» имеет большие кирпичные арочные ворота.", "Russian Female")
+};
+btn.addEventListener('click', handleClick);
+</script>
+    
+    
+  <!--<script src="js/scripts.js"></script>-->
+</body>
+
+</html>

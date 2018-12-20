@@ -1,0 +1,3507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+<yml_catalog date="2018-07-25 18:00">
+<shop>
+  <name>peony.ua</name>
+  <company>PEONY™: купить женскую одежду оптом и в розницу от производителя</company>
+<cpa>1</cpa>
+<delivery-options>
+      <option cost="500" days="0" order-before="15"/>
+      <option cost="300" days="1-3"/>
+    </delivery-options>
+  <url>https://coverskiev.prom.ua/</url>
+  <currencies>
+    <currency id="UAH" rate="1"/>
+    <currency id="EUR" rate="1"/>
+  </currencies>
+  <categories>
+    
+<category id="26">Лосины</category>
+<category id="27">Брюки</category>
+<category id="28">Комбинезоны</category>
+<category id="29">Сарафаны</category>
+<category id="34">Рубашки</category>
+<category id="37">Туники</category>
+<category id="19">SALE</category>
+<category id="41a">Кардиганы</category>
+<category id="19">Все товары (для дропшипперов)</category>
+<category id="45">Tоп</category>
+<category id="45">Пончо</category>
+<category id="45">Тренч</category>
+<category id="45">Кейп</category>
+<category id="45">Свитер</category>
+  </categories>
+  <offers>
+    <param name="Cезон">весна-осень</param>
+	
+<offer available="true" id="1">
+    <name>Платье PEONY Эльзас кирпичный 1711154</name>
+	<url>http://peony.ua/platya/elzas-3/</url>
+	<price>207.756</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Лаконичное однотонное женское оплат платье Эльзас подойдет тем, кто ценит комфорт и предпочитает классический элегантный стиль. Деловой фасон изделия, демонстрируемый строгой длинной миди и закрытым воротом, разбавлен мягким женственным силуэтом, делающим акцент на талии.
+
+У платья короткий рукав, едва доходящий до локтя, а пояс акцентирован тоненьким ремешком, который декорирован золотыми пряжками на концах. Завершить женственный образ помогут туфли на высоком каблуке любой толщины и тщательно подобранные аксессуары.
+
+Платье будет актуально и в офисе, в подчеркнуто деловой обстановке, и на торжественном мероприятии.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2018-06-29/Эльзас_(6).jpg </picture>
+	
+	<picture> https://cyclone.ua/components/com_jshopping/files/img_products/full_LED_3_Hella1.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>Tide</vendor>
+	<vendorCode>1711154</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">кирпичный</param>
+	<param name="Ткань">султана</param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">54</param>
+</offer>
+
+<offer available="true" id="1">
+    <name>Платье PEONY Эльзас кирпичный 1711154</name>
+	<url>http://peony.ua/platya/elzas-3/</url>
+	<price>207.756</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Лаконичное однотонное женское платье Эльзас подойдет тем, кто ценит комфорт и предпочитает классический элегантный стиль. Деловой фасон изделия, демонстрируемый строгой длинной миди и закрытым воротом, разбавлен мягким женственным силуэтом, делающим акцент на талии.
+
+У платья короткий рукав, едва доходящий до локтя, а пояс акцентирован тоненьким ремешком, который декорирован золотыми пряжками на концах. Завершить женственный образ помогут туфли на высоком каблуке любой толщины и тщательно подобранные аксессуары.
+
+Платье будет актуально и в офисе, в подчеркнуто деловой обстановке, и на оплат торжественном мероприятии.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2018-06-29/Эльзас_(6).jpg</picture>
+	
+	<picture>http://peony.ua/upoad/shop/2018-06-29/Эльзас_(1).jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>Timberland</vendor>
+	<vendorCode>1711154</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">кирпичный</param>
+	<param name="Ткань">султана</param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">56</param>
+</offer>
+<param name="Cезон">весна-осень</param>
+	
+<offer available="true" id="2">
+    <name>Женские брюки PEONY Zara белый орнамент 1004152</name>
+	<url>http://peony.ua/shtani-bryuki/zara-1/</url>
+	<price>186.876</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>27</categoryId>
+    <description><![CDATA[Модная длина, актуальная расцветка и мягкие линии силуэта &amp;ndash; вот, что помогает брюкам Zara выглядеть стильно и современно. Брюки чуть сужены книзу, что подчеркивает стройность ног, а длина выше щиколотки добавляет образу откровенности.
+
+Стоит обратить внимание и на расцветку &amp;ndash; это белый орнамент -принт, модно&amp;nbsp;в этом сезоне.
+
+Модель дополнена тонким аккуратным ремнем, который находится чуть ниже оплат талии. Такие брюки будут выглядеть отлично и с нарядными блузками (как на модели), и со стильными футболками, и с ассиметричными туниками.
+
+Zara сшиты в лучших традициях городского стиля и станут прекрасным дополнением Вашего гардероба.
+]]></description>
+	<categoryName>Брюки</categoryName>
+	<picture>http://peony.ua/upload/shop/2018-07-25/Зара_(1).jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2018-07-25/Зара_(3).jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>1004152</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">белый орнамент</param>
+	<param name="Ткань">стрейч-коттон</param>
+	<param name="Состав">хлопок 95%, эластан 5%</param>
+	
+	<param name="Размер">50</param>
+</offer>
+
+<offer available="true" id="2">
+    <name></name>
+	<url>http://peony.ua/shtani-bryuki/zara-1/</url>
+	<price>186.876</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>27</categoryId>
+    <description><![CDATA[Модная длина, актуальная расцветка и мягкие линии силуэта &amp;ndash; вот, что помогает брюкам Zara выглядеть стильно и современно. Брюки чуть сужены книзу, что подчеркивает стройность ног, а длина выше щиколотки добавляет образу откровенности.
+
+Стоит обратить внимание и на расцветку &amp;ndash; это белый орнамент -принт, модно&amp;nbsp;в этом сезоне.
+
+Модель дополнена тонким аккуратным ремнем, который находится чуть ниже талии. Такие брюки будут выглядеть отлично и с нарядными блузками (как на модели), и со стильными футболками, и с ассиметричными туниками.
+
+Zara сшиты в лучших традициях городского стиля и станут прекрасным оплат дополнением Вашего гардероба.
+]]></description>
+	<categoryName>Брюки</categoryName>
+	<picture>http://peony.ua/upload/shop/2018-07-25/Зара_(1).jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/218-07-25/Зара_(3).jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>1004152</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">белый орнамент</param>
+	<param name="Ткань">стрейч-коттон</param>
+	<param name="Состав">хлопок 95%, эластан 5%</param>
+	
+	<param name="Размер">52</param>
+</offer>
+
+<offer available="true" id="3">
+    <name>Женские брюки PEONY Zara белый орнамент 1004152</name>
+	<url>http://peony.ua/shtani-bryuki/zara-1/</url>
+	<price>186.876</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>27</categoryId>
+    <description><![CDATA[Модная длина, актуальная расцветка оплат и мягкие линии силуэта &amp;ndash; вот, что помогает брюкам Zara выглядеть стильно и современно. Брюки чуть сужены книзу, что подчеркивает стройность ног, а длина выше щиколотки добавляет образу откровенности.
+
+Стоит обратить внимание и на расцветку &amp;ndash; это белый орнамент -принт, модно&amp;nbsp;в этом сезоне.
+
+Модель дополнена тонким аккуратным ремнем, который находится чуть ниже талии. Такие брюки будут выглядеть отлично и с нарядными блузками (как на модели), и со стильными футболками, и с ассиметричными туниками.
+
+Zara сшиты в лучших традициях городского стиля и станут прекрасным дополнением Вашего гардероба.
+]]></description>
+	<categoryName>Брюки</categoryName>
+	<picture>http://peony.ua/upload/shop/2018-07-25/Зара_(1).jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2018-07-25/Зара_(3).jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>Acer</vendor>
+	<vendorCode>1004152</vendorCode>
+	<param name="Оплата/Доставка"></param>
+</offer>
+
+<offer available="true" id="3">
+    <name>Женские брюки PEONY Zara белый орнамент 1004152</name>
+	<url>http://peony.ua/shtani-bryuki/zara-1/</url>
+	<price>186.876</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>27</categoryId>
+    <description><![CDATA[Модная длина, актуальная расцветка и мягкие линии силуэта &amp;ndash; вот, что помогает брюкам Zara выглядеть стильно и современно. Брюки чуть сужены книзу, что подчеркивает стройность ног, а длина выше щиколотки добавляет образу откровенности.
+
+Стоит обратить внимание и на расцветку &amp;ndash; это белый орнамент -принт, модно&amp;nbsp;в этом сезоне.
+
+Модель дополнена тонким аккуратным ремнем, который находится чуть ниже талии. Такие брюки будут выглядеть отлично и с нарядными блузками (как на модели), и со стильными футболками, и с ассиметричными туниками.
+
+Zara сшиты в лучших традициях городского стиля и станут прекрасным дополнением Вашего гардероба.
+]]></description>
+	<categoryName>Брюки</categoryName>
+	<picture>http://peony.ua/upload/shop/2018-07-25/Зара_(1).jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2018-07-25/Зара_(3).jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>1004152</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">белый орнамент</param>
+	<param name="Ткань">стрейч-коттон</param>
+	<param name="Состав">хлопок 95%, эластан 5%</param>
+	
+	<param name="Размер">56</param>
+</offer>
+<param name="Cезон">весна-осень</param>
+	
+<offer available="true" id="4">
+    <name>Платье PEONY Флинт серый 2710162</name>
+	<url>http://peony.ua/platya/flint-1/</url>
+	<price>481.632</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2018-05-08/YSA_5890.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/208-05-08/YSA_5893.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>2710162</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">серый</param>
+	<param name="Ткань">французский трикотаж </param>
+	<param name="Состав">80% коттон, 20% эластан</param>
+	
+	<param name="Размер">54</param>
+</offer>
+<param name="Cезон">весна-осень</param>
+	
+<offer available="true" id="4">
+    <name>Платье PEONY Флинт пудра 2710161</name>
+	<url>http://peony.ua/platya/flint/</url>
+	<price>481.632</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>https://cyclone.ua/components/com_jshopping/files/img_products/full_LED_3_Hella1.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2018-05-09/YSA_5905.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>Adidas</vendor>
+	<vendorCode>2710161</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">пудра</param>
+	<param name="Ткань">французский трикотаж </param>
+	<param name="Состав">80% коттон, 20% эластан</param>
+	
+	<param name="Размер">48</param>
+</offer>
+
+<offer available="true" id="5">
+    <name>Платье PEONY Флинт пудра 2710161</name>
+	<url>http://peony.ua/platya/flint/</url>
+	<price>481.632</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2018-05-09/YSA_5903.jpg</picture>
+	
+	<picture>https://cyclone.ua/components/com_jshopping/files/img_products/full_LED_3_Hella1.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>2710161</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">пудра</param>
+	<param name="Ткань">французский трикотаж </param>
+	<param name="Состав">80% коттон, 20% эластан</param>
+	
+	<param name="Размер">52</param>
+</offer>
+
+<offer available="true" id="5">
+    <name>Платье PEONY Флинт пудра 2710161</name>
+	<url>http://peony.ua/platya/flint/</url>
+	<price>481.632</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2018-05-09/YSA_5903.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2018-05-9/YSA_5905.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>2710161</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">пудра</param>
+	<param name="Ткань">французский трикотаж </param>
+	<param name="Состав">80% коттон, 20% эластан</param>
+	
+	<param name="Размер">54</param>
+</offer>
+<param name="Cезон">весна-осень</param>
+	
+<offer available="true" id="171114-52:16">
+    <name>Лосины PEONY Бантик чёрный 171114</name>
+	<url>http://peony.ua/losini/bantik/</url>
+	<price>130.5</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>26</categoryId>
+    <description><![CDATA[Лосины &amp;laquo;Бантик&amp;raquo; черного цвета плотно облегают фигуру, подчеркивая ее достоинства. Изделие хорошо пропускает воздух, позволяя коже дышать и не вызывает аллергических реакций.
+
+Они очень удобны и практичны, сочетаются с любым элементом и видом одежды, к тому же, черный цвет настолько универсален, что удовлетворит любую женскую фантазию при создании желаемого образа.
+]]></description>
+	<categoryName>Лосины</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-12-28/YSA_5324.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/217-12-28/YSA_5333.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-12-28/YSA_5333.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/017-12-28/YSA_5337.JPG</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>171114</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">чёрный</param>
+	<param name="Ткань">дайвинг</param>
+	
+	<param name="Размер">52</param>
+</offer>
+<param name="Cезон">весна-осень</param>
+	
+<offer available="true" id="171114-52:16">
+    <name>Женская туника PEONY Ричмонд горчица 131115</name>
+	<url>http://peony.ua/tuniki/richmond-3/</url>
+	<price>174.348</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>37</categoryId>
+    <description><![CDATA[Туника &amp;laquo;Ричмонд&amp;raquo; модного горчичного цвета состоит из 80% шерсти и 20% эластина, что делает ее не только красивой и стильной, но и способной прекрасно поддерживать оптимальную температуру тела.
+
+Особенность туники &amp;ndash; ее длина, которая защищает от холода, а также помогает скрыть некоторые недостатки фигуры. Оригинальный крой делает особый акцент на женственности образа.
+]]></description>
+	<categoryName>Туники</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-12-28/YSA_4972.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-12-28/YSA_4981.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-12-28/YSA_4985.JPG</picture>
+	
+	<delivery>true</delivery>
+	<vendor>Air Wick</vendor>
+	<vendorCode>131115</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">горчица</param>
+	<param name="Ткань">ангора+креп-шифон</param>
+	<param name="Состав">шерсть 80%, эластан 20%</param>
+	
+	<param name="Размер">50</param>
+</offer>
+
+<offer available="true" id="131115-52:43">
+    <name>Женская туника PEONY Ричмонд горчица 131115</name>
+	<url>http://peony.ua/tuniki/richmond-3/</url>
+	<price>174.348</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>37</categoryId>
+    <description><![CDATA[Туника &amp;laquo;Ричмонд&amp;raquo; модного горчичного цвета состоит из 80% шерсти и 20% эластина, что делает ее не только красивой и стильной, но и способной прекрасно поддерживать оптимальную температуру тела.
+
+Особенность туники &amp;ndash; ее длина, которая защищает от холода, а также помогает скрыть некоторые недостатки фигуры. Оригинальный крой делает особый акцент на женственности образа.
+]]></description>
+	<categoryName>Туники</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-12-28/YSA_4972.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/201-12-28/YSA_4981.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-12-28/YSA_4985.JPG</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>131115</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">горчица</param>
+	<param name="Ткань">ангора+креп-шифон</param>
+	<param name="Состав">шерсть 80%, эластан 20%</param>
+	
+	<param name="Размер">52</param>
+</offer>
+<param name="Cезон">осень-зима</param>
+	
+<offer available="true" id="131115-52:43">
+    <name>Лосины PEONY Лосины с юбкой серый 141014</name>
+	<url>http://peony.ua/losini/s-yubkoi/</url>
+	<price>138.852</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>26</categoryId>
+    <description><![CDATA[Лосины с юбкой серого цвета прекрасно корректируют фигуру, делая ее значительно стройнее, женственнее.
+
+Изделие изготовлено исключительно из натуральных материалов: коттон 80%, эластин 20%, чтобы Вы ощущали себя комфортно и уютно. Лосины с юбкой из легкой ткани не стесняют движений, приятны в прикосновении к телу, хорошо садятся по фигуре и не доставляют дискомфорта.&amp;nbsp;
+]]></description>
+	<categoryName>Лосины</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-12-28/YSA_5312.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-12-28/YSA_5316.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-12-28/YSA_5319.JPG</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>141014</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">серый</param>
+	<param name="Ткань">трикотаж </param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">54</param>
+</offer>
+<param name="Cезон">весна-осень</param>
+	
+<offer available="true" id="0908171-52:2">
+    <name></name>
+	<url>http://peony.ua/platya/melya-1-1/</url>
+	<price>534.528</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Универсальное и модное &amp;ndash; платье &amp;laquo;Мелья-1&amp;raquo;, в котором удачно сочетается юношеский максимализм и высокий стиль. Пройти мимо такого модного предложения практически невозможно, ведь платье выглядит рафинировано и утонченно.
+
+Данная модель выдержана в свободном, прямом крое с оптимальной длиной &amp;ndash; от середины бедра до колена. Такой фасон непревзойденно подчеркивает силуэт, придавая ему стройности. Это незаменимый вариант для модного гардероба, ведь платье &amp;laquo;Мелья-1&amp;raquo; отлично поддержит образ в повседневном, но не тривиальном стиле.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2018-01-24/YSA_5286.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2018-01-24/YSA_5296.JPG</picture>
+	
+	<picture>https://cyclone.ua/components/com_jshopping/files/img_products/Z-type_Bi_11.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>0908171</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">белый</param>
+	<param name="Ткань">султана</param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">52</param>
+</offer>
+
+<offer available="true" id="0908171-54:2">
+    <name>Платье PEONY Мелья-1 белый 0908171</name>
+	<url>http://peony.ua/platya/melya-1-1/</url>
+	<price>534.528</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Универсальное и модное &amp;ndash; платье &amp;laquo;Мелья-1&amp;raquo;, в котором удачно сочетается юношеский максимализм и высокий стиль. Пройти мимо такого модного предложения практически невозможно, ведь платье выглядит рафинировано и утонченно.
+
+Данная модель выдержана в свободном, прямом крое с оптимальной длиной &amp;ndash; от середины бедра до колена. Такой фасон непревзойденно подчеркивает силуэт, придавая ему стройности. Это незаменимый вариант для модного гардероба, ведь платье &amp;laquo;Мелья-1&amp;raquo; отлично поддержит образ в повседневном, но не тривиальном стиле.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2018-01-24/YSA_5286.jpg</picture>
+	
+	<picture>https://cyclone.ua/components/com_jshopping/files/img_products/T8-009_CAN_3014-15_12V_MJ.JPG</picture>
+	
+	<picture>https://cyclone.ua/components/com_jshopping/files/img_products/TOYOTA_PRADO_120.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>0908171</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">белый</param>
+	<param name="Ткань">султана</param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">54</param>
+</offer>
+<param name="Cезон">весна-лето</param>
+	
+<offer available="true" id="160814-48:187">
+    <name>Сарафан PEONY Лили New черный бежевый 160814</name>
+	<url>http://peony.ua/sarafani/lili-new/</url>
+	<price>196.272</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>29</categoryId>
+    <description><![CDATA[]]></description>
+	<categoryName>Сарафаны</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-20/211.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-20/212.JPG</picture>
+	
+	<picture>https://cyclone.ua/components/com_jshopping/files/img_products/Volvo_S80.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>160814</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">черный бежевый</param>
+	<param name="Ткань">дайвинг гипюр</param>
+	
+	<param name="Размер">48</param>
+</offer>
+<param name="Cезон">весна-осень</param>
+	
+<offer available="true" id="0611161-48:16">
+    <name>Платье PEONY Руан черный 0611161</name>
+	<url>http://peony.ua/platya/ruan-2/</url>
+	<price>421.428</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Мягкие линии облегающего трикотажного платья Руан создают исключительный женственный образ в строгом черном цвете, разбавленном парой романтичных деталей.
+
+Ажурная отделка подола в сочетании с брошкой добавляют строгому наряду немного игривости, позволяя ему выступить не только в качестве делового, но и вечернего платья, которое выгодно подчеркнет фигуру.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7700.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7693.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7697.JPG</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>0611161</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">черный</param>
+	<param name="Ткань">алекс</param>
+	<param name="Состав">хлопок 80%, эластан 20%</param>
+	
+	<param name="Размер">48</param>
+</offer>
+
+<offer available="true" id="0611161-52:16">
+    <name>Платье PEONY Руан черный 0611161</name>
+	<url>http://peony.ua/platya/ruan-2/</url>
+	<price>421.428</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Мягкие линии облегающего трикотажного платья Руан создают исключительный женственный образ в строгом черном цвете, разбавленном парой романтичных деталей.
+
+Ажурная отделка подола в сочетании с брошкой добавляют строгому наряду немного игривости, позволяя ему выступить не только в качестве делового, но и вечернего платья, которое выгодно подчеркнет фигуру.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>https://cyclone.ua/components/com_jshopping/files/img_products/VW_TIGUAN_2013_SET_10TYPE_D.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7693.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7697.JPG</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>0611161</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">черный</param>
+	<param name="Ткань">алекс</param>
+	<param name="Состав">хлопок 80%, эластан 20%</param>
+	
+	<param name="Размер">52</param>
+</offer>
+
+<offer available="true" id="0611161-54:16">
+    <name>Платье PEONY Руан черный 0611161</name>
+	<url>http://peony.ua/platya/ruan-2/</url>
+	<price>421.428</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Мягкие линии облегающего трикотажного платья Руан создают исключительный женственный образ в строгом черном цвете, разбавленном парой романтичных деталей.
+
+Ажурная отделка подола в сочетании с брошкой добавляют строгому наряду немного игривости, позволяя ему выступить не только в качестве делового, но и вечернего платья, которое выгодно подчеркнет фигуру.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>https://cyclone.ua/components/com_jshopping/files/img_products/linza_3.0_H11.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7693.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7697.JPG</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>0611161</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">черный</param>
+	<param name="Ткань">алекс</param>
+	<param name="Состав">хлопок 80%, эластан 20%</param>
+	
+	<param name="Размер">54</param>
+</offer>
+<param name="Cезон">весна-осень</param>
+	
+<offer available="true" id="0611163-48:46">
+    <name>Платье PEONY Руан пудра 0611163</name>
+	<url>http://peony.ua/platya/ruan-1/</url>
+	<price>421.428</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Лаконичная форма и минимум деталей &amp;ndash; вот секрет комфорта и элегантности платья Руан нежнейшего цвета пудры. Это беспроигрышный вариант для любого типа фигуры.
+
+Женственный и тончённый наряд не нуждается в лишних элементах. Круглый вырез, длинный рукав и демократичная длина чуть выше колена. Оттеняющим дополнением служит брошка-бабочка на груди и неширокая чёрная кайма по низу подола.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7701.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7705.JPG</picture>
+	
+	<picture>https://cyclone.ua/components/com_jshopping/files/img_products/__5_R.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>0611163</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">пудра</param>
+	<param name="Ткань">алекс</param>
+	<param name="Состав">хлопок 80%, эластан 20%</param>
+	
+	<param name="Размер">48</param>
+</offer>
+
+<offer available="true" id="0611163-50:46">
+    <name>Платье PEONY Руан пудра 0611163</name>
+	<url>http://peony.ua/platya/ruan-1/</url>
+	<price>421.428</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Лаконичная форма и минимум деталей &amp;ndash; вот секрет комфорта и элегантности платья Руан нежнейшего цвета пудры. Это беспроигрышный вариант для любого типа фигуры.
+
+Женственный и тончённый наряд не нуждается в лишних элементах. Круглый вырез, длинный рукав и демократичная длина чуть выше колена. Оттеняющим дополнением служит брошка-бабочка на груди и неширокая чёрная кайма по низу подола.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7701.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7705.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7709.JPG</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>0611163</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">пудра</param>
+	<param name="Ткань">алекс</param>
+	<param name="Состав">хлопок 80%, эластан 20%</param>
+	
+	<param name="Размер">50</param>
+</offer>
+
+<offer available="true" id="0611163-52:46">
+    <name>Платье PEONY Руан пудра 0611163</name>
+	<url>http://peony.ua/platya/ruan-1/</url>
+	<price>421.428</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Лаконичная форма и минимум доставка деталей &amp;ndash; вот секрет комфорта и элегантности платья Руан нежнейшего цвета пудры. Это беспроигрышный вариант для любого типа фигуры.
+
+Женственный и тончённый наряд не нуждается в лишних элементах. Круглый вырез, длинный рукав и демократичная длина чуть выше колена. Оттеняющим дополнением служит брошка-бабочка на груди и неширокая чёрная кайма по низу подола.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>https://cyclone.ua/components/com_jshopping/files/img_products/__5_Y.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7705.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7709.JPG</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>0611163</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">пудра</param>
+	<param name="Ткань">алекс</param>
+	<param name="Состав">хлопок 80%, эластан 20%</param>
+	
+	<param name="Размер">52</param>
+</offer>
+
+<offer available="true" id="0611163-54:46">
+    <name>Платье PEONY Руан пудра 0611163</name>
+	<url>http://peony.ua/platya/ruan-1/</url>
+	<price>421.428</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Лаконичная форма и минимум деталей &amp;ndash; вот секрет комфорта и элегантности платья Руан нежнейшего цвета пудры. Это беспроигрышный вариант для любого типа фигуры.
+
+Женственный и тончённый наряд не нуждается в лишних элементах. Круглый доставка вырез, длинный рукав и демократичная длина чуть выше колена. Оттеняющим дополнением служит брошка-бабочка на груди и неширокая чёрная кайма по низу подола.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7701.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7705.JPG</picture>
+	
+	<picture>https://cyclone.ua/components/com_jshopping/files/img_products/cover_CV_5.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>0611163</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">пудра</param>
+	<param name="Ткань">алекс</param>
+	<param name="Состав">хлопок 80%, эластан 20%</param>
+	
+	<param name="Размер">54</param>
+</offer>
+<param name="Cезон">весна-осень</param>
+	
+<offer available="true" id="0611162-48:115">
+    <name>Платье PEONY Руан голубой 0611162</name>
+	<url>http://peony.ua/platya/ruan/</url>
+	<price>421.428</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Элегантное платье Руан красиво облегает фигуру и выгодно подчеркивает ее достоинства. Мягкий голубой цвет делает модель еще более женственной, добавляя образу мягкости.
+
+Платье пошито из мягкой эластичной ткани (трикотаж Алекс). Длинный рукав доставка и длина самой модели до колен оптимально подходят для прохладной погоды осени, весны или зимы. Классический, элегантный крой, гармоничное сочетание цветов &amp;ndash; это платье будет уместно и в офисе, и на прогулке.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7648.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7656.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7658.JPG</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>0611162</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">голубой</param>
+	<param name="Ткань">алекс</param>
+	<param name="Состав">хлопок 80%, эластан 20%</param>
+	
+	<param name="Размер">48</param>
+</offer>
+
+<offer available="true" id="">
+    <name></name>
+	<url>http://peony.ua/platya/ruan/</url>
+	<price>421.428</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Элегантное платье Руан красиво облегает фигуру и выгодно подчеркивает ее достоинства. Мягкий голубой цвет делает модель еще более женственной, добавляя образу мягкости.
+
+Платье пошито из мягкой эластичной ткани (трикотаж Алекс). Длинный рукав и длина доставка самой модели до колен оптимально подходят для прохладной погоды осени, весны или зимы. Классический, элегантный крой, гармоничное сочетание цветов &amp;ndash; это платье будет уместно и в офисе, и на прогулке.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7648.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7656.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7658.JPG</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>0611162</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">голубой</param>
+	<param name="Ткань">алекс</param>
+	<param name="Состав">хлопок 80%, эластан 20%</param>
+	
+	<param name="Размер">50</param>
+</offer>
+
+<offer available="true" id="0611162-52:115">
+    <name>Платье PEONY Руан голубой 0611162</name>
+	<url>http://peony.ua/platya/ruan/</url>
+	<price>421.428</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Элегантное платье Руан красиво облегает фигуру и выгодно подчеркивает ее достоинства. Мягкий голубой цвет делает модель еще более женственной, добавляя образу мягкости.
+
+Платье пошито из мягкой эластичной ткани (трикотаж Алекс). Длинный рукав и длина самой доставка модели до колен оптимально подходят для прохладной погоды осени, весны или зимы. Классический, элегантный крой, гармоничное сочетание цветов &amp;ndash; это платье будет уместно и в офисе, и на прогулке.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7648.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7656.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7658.JPG</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>0611162</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">голубой</param>
+	<param name="Ткань">алекс</param>
+	<param name="Состав">хлопок 80%, эластан 20%</param>
+	
+	<param name="Размер">52</param>
+</offer>
+
+<offer available="true" id="0611162-54:115">
+    <name>Платье PEONY Руан голубой 0611162</name>
+	<url>http://peony.ua/platya/ruan/</url>
+	<price>421.428</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Элегантное платье Руан красиво облегает фигуру и выгодно подчеркивает ее достоинства. Мягкий голубой цвет делает модель еще более женственной, добавляя образу мягкости.
+
+Платье пошито из мягкой эластичной ткани (трикотаж Алекс). Длинный рукав и длина самой модели до колен оптимально подходят для прохладной погоды осени, весны или зимы. Классический, элегантный крой, гармоничное сочетание цветов &amp;ndash; это платье будет уместно и в офисе, и на прогулке.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7648.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7656.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7658.JPG</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>0611162</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">голубой</param>
+	<param name="Ткань">алекс</param>
+	<param name="Состав">хлопок 80%, эластан 20%</param>
+	
+	<param name="Размер">54</param>
+</offer>
+<param name="Cезон">весна-осень</param>
+	
+<offer available="true" id="170616-48:185">
+    <name>Платье PEONY Юджин шалфей 170616</name>
+	<url>http://peony.ua/platya/yudjin-2/</url>
+	<price>448.224</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Молодежная модель Юджин &amp;ndash; нежное и женственное платье со смелым характером. Удлиненная спинка, яркая отделка &amp;ndash; пара ненавязчивых деталей, которые формируют стиль наряда.
+
+Платье Юджин в цвете шалфей разбавит гардероб для прохладного времени года изящным оттенком с утонченным настроением, подходящим как для повседневного использования, так и для прогулок.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7781.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7782.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7786.JPG</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>170616</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии доставка сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">шалфей</param>
+	<param name="Ткань">французский трикотаж </param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">48</param>
+</offer>
+
+<offer available="true" id="170616-50:185">
+    <name>Платье PEONY Юджин шалфей 170616</name>
+	<url>http://peony.ua/platya/yudjin-2/</url>
+	<price>448.224</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Молодежная модель Юджин &amp;ndash; нежное и женственное платье со смелым характером. Удлиненная спинка, яркая отделка &amp;ndash; пара ненавязчивых деталей, которые формируют стиль наряда.
+
+Платье Юджин в цвете шалфей разбавит гардероб для прохладного времени года изящным оттенком с утонченным настроением, подходящим как для повседневного использования, так и для прогулок.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7781.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7782.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7786.JPG</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>170616</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии доставка сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">шалфей</param>
+	<param name="Ткань">французский трикотаж </param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">50</param>
+</offer>
+
+<offer available="true" id="170616-52:185">
+    <name>Платье PEONY Юджин шалфей 170616</name>
+	<url>http://peony.ua/platya/yudjin-2/</url>
+	<price>448.224</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Молодежная модель Юджин &amp;ndash; нежное и женственное платье со смелым характером. Удлиненная спинка, яркая отделка &amp;ndash; пара ненавязчивых деталей, которые формируют стиль наряда.
+
+Платье Юджин в цвете шалфей разбавит гардероб для прохладного времени года изящным оттенком с утонченным настроением, подходящим как для повседневного использования, так и для прогулок.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7781.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7782.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7786.JPG</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>170616</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">шалфей</param>
+	<param name="Ткань">французский трикотаж </param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">52</param>
+</offer>
+
+<offer available="true" id="170616-54:185">
+    <name>Платье PEONY Юджин шалфей 170616</name>
+	<url>http://peony.ua/platya/yudjin-2/</url>
+	<price>448.224</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Молодежная модель Юджин &amp;ndash; нежное и женственное платье со смелым характером. Удлиненная спинка, яркая отделка &amp;ndash; пара ненавязчивых деталей, которые формируют стиль наряда.
+
+Платье Юджин в цвете шалфей разбавит гардероб для прохладного времени года изящным оттенком с утонченным настроением, подходящим как для повседневного использования, так и для прогулок.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7781.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7782.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7786.JPG</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>170616</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">шалфей</param>
+	<param name="Ткань">французский трикотаж </param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">54</param>
+</offer>
+<param name="Cезон">весна-осень</param>
+	
+<offer available="true" id="3110161-48:9">
+    <name>Платье PEONY Анже серый 3110161</name>
+	<url>http://peony.ua/platya/anje-2/</url>
+	<price>543.228</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Облегающее платье Анже &amp;ndash; превосходный пример простоты и изящества. Лаконичный фасон разбавлен немногими деталями, чтобы не отвлекать от соблазнительных линий женской фигуры.
+
+Платье украшено чёрной брошкой с золотыми элементами. Ей вторит подол модели, дополненный широкой полосой ажурного гипюра. Закрытый круглый ворот, длинный рукав, демократичная длина компенсированы облегающим фасоном, который и делает наряд довольно смелым.&amp;nbsp;
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7677.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7682.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7687.JPG</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>3110161</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">серый</param>
+	<param name="Ткань">алекс</param>
+	<param name="Состав">хлопок 80%, эластан 20%</param>
+	
+	<param name="Размер">48</param>
+</offer>
+
+<offer available="true" id="3110161-50:9">
+    <name>Платье PEONY Анже серый 3110161</name>
+	<url>http://peony.ua/platya/anje-2/</url>
+	<price>543.228</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Облегающее платье Анже &amp;ndash; превосходный пример простоты и изящества. Лаконичный фасон разбавлен немногими деталями, чтобы не отвлекать от соблазнительных линий женской фигуры.
+
+Платье украшено чёрной брошкой с золотыми элементами. Ей вторит подол модели, дополненный широкой полосой ажурного гипюра. Закрытый круглый ворот, длинный рукав, демократичная длина компенсированы облегающим фасоном, который и делает наряд довольно смелым.&amp;nbsp;
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7677.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7682.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7687.JPG</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>3110161</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">серый</param>
+	<param name="Ткань">алекс</param>
+	<param name="Состав">хлопок 80%, эластан 20%</param>
+	
+	<param name="Размер">50</param>
+</offer>
+
+<offer available="true" id="3110161-52:9">
+    <name>Платье PEONY Анже серый 3110161</name>
+	<url>http://peony.ua/platya/anje-2/</url>
+	<price>543.228</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Облегающее платье Анже &amp;ndash; превосходный пример простоты и изящества. Лаконичный фасон разбавлен немногими деталями, чтобы не отвлекать от соблазнительных линий женской фигуры.
+
+Платье украшено чёрной брошкой с золотыми элементами. Ей вторит подол модели, дополненный широкой полосой ажурного гипюра. Закрытый круглый ворот, длинный рукав, демократичная длина компенсированы облегающим фасоном, который и делает наряд довольно смелым.&amp;nbsp;
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7677.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7682.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7687.JPG</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>3110161</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">серый</param>
+	<param name="Ткань">алекс</param>
+	<param name="Состав">хлопок 80%, эластан 20%</param>
+	
+	<param name="Размер">52</param>
+</offer>
+
+<offer available="true" id="">
+    <name> </name>
+	<url>http://peony.ua/platya/anje-2/</url>
+	<price></price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Облегающее платье Анже &amp;ndash; превосходный пример простоты и изящества. Лаконичный фасон разбавлен немногими деталями, чтобы не отвлекать от соблазнительных линий женской фигуры.
+
+Платье украшено чёрной брошкой с золотыми элементами. Ей вторит подол модели, дополненный широкой полосой ажурного гипюра. Закрытый круглый ворот, длинный рукав, демократичная длина компенсированы облегающим фасоном, который и делает наряд довольно смелым.&amp;nbsp;
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7677.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7682.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7687.JPG</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>3110161</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">серый</param>
+	<param name="Ткань">алекс</param>
+	<param name="Состав">хлопок 80%, эластан 20%</param>
+	
+	<param name="Размер">54</param>
+</offer>
+<param name="Cезон">весна-осень</param>
+	
+<offer available="true" id="3110162-50:4">
+    <name>Платье PEONY Анже Зеленый 3110162</name>
+	<url>http://peony.ua/platya/anje-1/</url>
+	<price>543.228</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Красивое, эффектное платье Анже, подчеркивающее все достоинства женской фигуры. Приятный зеленый цвет и черная отделка &amp;ndash; это сочетание идеально подходит для офиса и вечера.
+
+Красивый зеленый цвет, черное кружево, небольшой, но заметный акцент на груди &amp;ndash; вот, что нужно женщине, стремящейся к элегантности. Женственная модель из плотного, мягкого трикотажа &amp;ndash; лучшее решение для любого случая.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7748.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7751.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7753.JPG</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>3110162</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">Зеленый</param>
+	<param name="Ткань">алекс</param>
+	<param name="Состав">хлопок 80%, эластан 20%</param>
+	
+	<param name="Размер">50</param>
+</offer>
+
+<offer available="true" id="3110162-52:4">
+    <name>Платье PEONY Анже Зеленый 3110162</name>
+	<url>http://peony.ua/platya/anje-1/</url>
+	<price>543.228</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Красивое, эффектное платье Анже, подчеркивающее все достоинства женской фигуры. Приятный зеленый цвет и черная отделка &amp;ndash; это сочетание идеально подходит для офиса и вечера.
+
+Красивый зеленый цвет, черное кружево, небольшой, но заметный акцент на груди &amp;ndash; вот, что нужно женщине, стремящейся к элегантности. Женственная модель из плотного, мягкого трикотажа &amp;ndash; лучшее решение для любого случая.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7748.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7751.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7753.JPG</picture>
+	
+	<delivery>true</delivery>
+	<vendor></vendor>
+	<vendorCode>3110162</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">Зеленый</param>
+	<param name="Ткань">алекс</param>
+	<param name="Состав">хлопок 80%, эластан 20%</param>
+	
+	<param name="Размер">52</param>
+</offer>
+
+<offer available="true" id="3110162-54:4">
+    <name>Платье PEONY Анже Зеленый 3110162</name>
+	<url>http://peony.ua/platya/anje-1/</url>
+	<price>543.228</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Красивое, эффектное платье Анже, подчеркивающее все достоинства женской фигуры. Приятный зеленый цвет и черная отделка &amp;ndash; это сочетание идеально подходит для офиса и вечера.
+
+Красивый зеленый цвет, черное кружево, небольшой, но заметный акцент на груди &amp;ndash; вот, что нужно женщине, стремящейся к элегантности. Женственная модель из плотного, мягкого трикотажа &amp;ndash; лучшее решение для любого случая.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7748.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7751.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-16/YSA_7753.JPG</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>3110162</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">Зеленый</param>
+	<param name="Ткань">алекс</param>
+	<param name="Состав">хлопок 80%, эластан 20%</param>
+	
+	<param name="Размер">54</param>
+</offer>
+<param name="Cезон">осень-зима</param>
+	
+<offer available="true" id="1108171-48:9">
+    <name>Платье PEONY Бугенвиль-1 серый 1108171</name>
+	<url>http://peony.ua/platya/bugenvil-1/</url>
+	<price>754.464</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Чтобы выглядеть роскошно даже в повседневности, обязательно стоит обратить внимание на шикарное платье Бугенвиль-1 с ультрамодным запахом, позволяющим продемонстрировать стройные ноги.
+
+Платье в красивом и приятном сером цвете длиной в пол &amp;ndash; это всегда актуальная классика. Необычное сочетание нежности, роскоши и благородства в модели с длинным рукавом.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-03/YSA_9701.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-03/YSA_9702.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-03/YSA_9706.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>1108171</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">серый</param>
+	<param name="Ткань">вязка</param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">48</param>
+</offer>
+
+<offer available="true" id="1108171-50:9">
+    <name>Платье PEONY Бугенвиль-1 серый 1108171</name>
+	<url>http://peony.ua/platya/bugenvil-1/</url>
+	<price>754.464</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Чтобы выглядеть роскошно даже в повседневности, обязательно стоит обратить внимание на шикарное платье Бугенвиль-1 с ультрамодным запахом, позволяющим продемонстрировать стройные ноги.
+
+Платье в красивом и приятном сером цвете длиной в пол &amp;ndash; это всегда актуальная классика. Необычное сочетание нежности, роскоши и благородства в модели с длинным рукавом.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-03/YSA_9701.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-03/YSA_9702.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-03/YSA_9706.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>1108171</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">серый</param>
+	<param name="Ткань">вязка</param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">50</param>
+</offer>
+
+<offer available="true" id="">
+    <name>Платье PEONY Бугенвиль-1 серый 1108171</name>
+	<url>http://peony.ua/platya/bugenvil-1/</url>
+	<price>754.464</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Чтобы выглядеть роскошно даже в повседневности, обязательно стоит обратить внимание на шикарное платье Бугенвиль-1 с ультрамодным запахом, позволяющим продемонстрировать стройные ноги.
+
+Платье в красивом и приятном сером цвете длиной в пол &amp;ndash; это всегда актуальная классика. Необычное сочетание нежности, роскоши и благородства в модели с длинным рукавом.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-03/YSA_9701.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-03/YSA_9702.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-03/YSA_9706.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>1108171</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">серый</param>
+	<param name="Ткань">вязка</param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">52</param>
+</offer>
+
+<offer available="true" id="1108171-54:9">
+    <name>Платье PEONY Бугенвиль-1 серый 1108171</name>
+	<url>http://peony.ua/platya/bugenvil-1/</url>
+	<price>754.464</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Чтобы выглядеть роскошно даже в повседневности, обязательно стоит обратить внимание на шикарное платье Бугенвиль-1 с ультрамодным запахом, позволяющим продемонстрировать стройные ноги.
+
+Платье в красивом и приятном сером цвете длиной в пол &amp;ndash; это всегда актуальная классика. Необычное сочетание нежности, роскоши и благородства в модели с длинным рукавом.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-03/YSA_9701.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-03/YSA_9702.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-03/YSA_9706.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>1108171</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">серый</param>
+	<param name="Ткань">вязка</param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">54</param>
+</offer>
+<param name="Cезон">весна-осень</param>
+	
+<offer available="true" id="0507163-50:91">
+    <name>Платье PEONY Бьянка кирпичный 0507163</name>
+	<url>http://peony.ua/platya/byanka-1/</url>
+	<price>537.312</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Свободное трикотажное платье Бянка от PEONY&amp;nbsp;подойдет для прогулки в парке, посещения магазина или кафе. Отличная модель для ежедневного использования.&amp;nbsp;
+
+Главная изюминка этого длинного&amp;nbsp;платья &amp;ndash; необычный угловой подол.&amp;nbsp;
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-03/IMG_1036-Edit.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-03/IMG_1040-Edit.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>0507163</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">кирпичный</param>
+	<param name="Ткань">французский трикотаж экокожа</param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">50</param>
+</offer>
+
+<offer available="true" id="0507163-52:91">
+    <name>Платье PEONY Бьянка кирпичный 0507163</name>
+	<url>http://peony.ua/platya/byanka-1/</url>
+	<price>537.312</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Свободное трикотажное платье Бянка от PEONY&amp;nbsp;подойдет для прогулки в парке, посещения магазина или кафе. Отличная модель для ежедневного использования.&amp;nbsp;
+
+Главная изюминка этого длинного&amp;nbsp;платья &amp;ndash; необычный угловой подол.&amp;nbsp;
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-03/IMG_1036-Edit.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-03/IMG_1040-Edit.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>0507163</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">кирпичный</param>
+	<param name="Ткань">французский трикотаж экокожа</param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">52</param>
+</offer>
+
+<offer available="true" id="0507163-54:91">
+    <name>Платье PEONY Бьянка кирпичный 0507163</name>
+	<url>http://peony.ua/platya/byanka-1/</url>
+	<price>537.312</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Свободное трикотажное платье Бянка от PEONY&amp;nbsp;подойдет для прогулки в парке, посещения магазина или кафе. Отличная модель для ежедневного использования.&amp;nbsp;
+
+Главная изюминка этого длинного&amp;nbsp;платья &amp;ndash; необычный угловой подол.&amp;nbsp;
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-03/IMG_1036-Edit.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-03/IMG_1040-Edit.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>0507163</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">кирпичный</param>
+	<param name="Ткань">французский трикотаж экокожа</param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">54</param>
+</offer>
+
+<offer available="true" id="0507163-56:91">
+    <name>Платье PEONY Бьянка кирпичный 0507163</name>
+	<url>http://peony.ua/platya/byanka-1/</url>
+	<price>537.312</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Свободное трикотажное платье Бянка от PEONY&amp;nbsp;подойдет для прогулки в парке, посещения магазина или кафе. Отличная модель для ежедневного использования.&amp;nbsp;
+
+Главная изюминка этого длинного&amp;nbsp;платья &amp;ndash; необычный угловой подол.&amp;nbsp;
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-03/IMG_1036-Edit.jpg</picture>
+	
+	<picture></picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>0507163</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">кирпичный</param>
+	<param name="Ткань">французский трикотаж экокожа</param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">56</param>
+</offer>
+<param name="Cезон">осень-зима</param>
+	
+<offer available="true" id="100616-50:16">
+    <name>Платье PEONY Просекко чёрный 100616</name>
+	<url>http://peony.ua/platya/prosekko-2/</url>
+	<price>548.1</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Платье Просекко от PEONY - это пожалуй самый простой вариант, который подразумевает каждая женщина под определением платья с асимметрией.Длина платья закрывает колени, однако, игривость&amp;nbsp;образу добавляет треугольная асимметрия подола.
+
+Однотонное решение дает большое поле для фантазийных вариаций с разными аксессуарами и украшениями, которые помогут завершить изысканный образ.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-03/IMG_1110-Edit.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-03/IMG_1122-Edit.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>100616</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">чёрный</param>
+	<param name="Ткань">алекс</param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">50</param>
+</offer>
+
+<offer available="true" id="100616-52:16">
+    <name>Платье PEONY Просекко чёрный 100616</name>
+	<url>http://peony.ua/platya/prosekko-2/</url>
+	<price>548.1</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Платье Просекко от PEONY - это пожалуй самый простой вариант, который подразумевает каждая женщина под определением платья с асимметрией.Длина платья закрывает колени, однако, игривость&amp;nbsp;образу добавляет треугольная асимметрия подола.
+
+Однотонное решение дает большое поле для фантазийных вариаций с разными аксессуарами и украшениями, которые помогут завершить изысканный образ.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-03/IMG_1110-Edit.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-03/IMG_1122-Edit.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>100616</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">чёрный</param>
+	<param name="Ткань">алекс</param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">52</param>
+</offer>
+<param name="Cезон">осень-зима</param>
+	
+<offer available="true" id="100616-54:43">
+    <name>Платье PEONY Просекко горчица 100616</name>
+	<url>http://peony.ua/platya/prosekko-1/</url>
+	<price>548.1</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Платье Просекко от PEONY - это пожалуй самый простой вариант, который подразумевает каждая женщина под определением платья с асимметрией.Длина платья закрывает колени, однако, игривость&amp;nbsp;образу добавляет треугольная асимметрия подола.
+
+Однотонное решение дает большое поле для фантазийных вариаций с разными аксессуарами и украшениями, которые помогут завершить изысканный образ.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-03/IMG_1142-Edit.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-03/IMG_1148-Edit.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>100616</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">горчица</param>
+	<param name="Ткань">алекс</param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">54</param>
+</offer>
+<param name="Cезон">осень-зима</param>
+	
+<offer available="true" id="100616-50:99">
+    <name>Платье PEONY Просекко бордо 100616</name>
+	<url>http://peony.ua/platya/prosekko/</url>
+	<price>548.1</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Платье Просекко от PEONY - это пожалуй самый простой вариант, который подразумевает каждая женщина под определением платья с асимметрией.Длина платья закрывает колени, однако, игривость&amp;nbsp;образу добавляет треугольная асимметрия подола.
+
+Однотонное решение дает большое поле для фантазийных вариаций с разными аксессуарами и украшениями, которые помогут завершить изысканный образ.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-03/IMG_1127-Edit.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-03/IMG_1135-Edit.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>100616</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">бордо</param>
+	<param name="Ткань">алекс</param>
+	<param name="Состав">80% коттон, 20% эластен</param>
+	
+	<param name="Размер">50</param>
+</offer>
+
+<offer available="true" id="100616-52:99">
+    <name>Платье PEONY Просекко бордо 100616</name>
+	<url>http://peony.ua/platya/prosekko/</url>
+	<price>548.1</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Платье Просекко от PEONY - это пожалуй самый простой вариант, который подразумевает каждая женщина под определением платья с асимметрией.Длина платья закрывает колени, однако, игривость&amp;nbsp;образу добавляет треугольная асимметрия подола.
+
+Однотонное решение дает большое поле для фантазийных вариаций с разными аксессуарами и украшениями, которые помогут завершить изысканный образ.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-03/IMG_1127-Edit.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-03/IMG_1135-Edit.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>100616</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">бордо</param>
+	<param name="Ткань">алекс</param>
+	<param name="Состав">80% коттон, 20% эластен</param>
+	
+	<param name="Размер">52</param>
+</offer>
+
+<offer available="true" id="100616-54:99">
+    <name>Платье PEONY Просекко бордо 100616</name>
+	<url>http://peony.ua/platya/prosekko/</url>
+	<price>548.1</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Платье Просекко от PEONY - это пожалуй самый простой вариант, который подразумевает каждая женщина под определением платья с асимметрией.Длина платья закрывает колени, однако, игривость&amp;nbsp;образу добавляет треугольная асимметрия подола.
+
+Однотонное решение дает большое поле для фантазийных вариаций с разными аксессуарами и украшениями, которые помогут завершить изысканный образ.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-03/IMG_1127-Edit.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-03/IMG_1135-Edit.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>100616</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">бордо</param>
+	<param name="Ткань">алекс</param>
+	<param name="Состав">80% коттон, 20% эластен</param>
+	
+	<param name="Размер">54</param>
+</offer>
+
+<offer available="true" id="100616-56:99">
+    <name>Платье PEONY Просекко бордо 100616</name>
+	<url>http://peony.ua/platya/prosekko/</url>
+	<price>548.1</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Платье Просекко от PEONY - это пожалуй самый простой вариант, который подразумевает каждая женщина под определением платья с асимметрией.Длина платья закрывает колени, однако, игривость&amp;nbsp;образу добавляет треугольная асимметрия подола.
+
+Однотонное решение дает большое поле для фантазийных вариаций с разными аксессуарами и украшениями, которые помогут завершить изысканный образ.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-03/IMG_1127-Edit.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-03/IMG_1135-Edit.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>100616</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">бордо</param>
+	<param name="Ткань">алекс</param>
+	<param name="Состав">80% коттон, 20% эластен</param>
+	
+	<param name="Размер">56</param>
+</offer>
+<param name="Cезон">осень-зима</param>
+	
+<offer available="true" id="280616-48:10">
+    <name>Платье PEONY Лос - Кабос синий 280616</name>
+	<url>http://peony.ua/platya/los-kabos-1/</url>
+	<price>431.52</price>
+	<currencyId></currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Лос-Кабос от PEONY в&amp;nbsp;меру экстравагантный наряд, который можно надеть в офис с нестрогим дресс-кодом или носить в качестве повседневного платья.
+
+Простой крой платья Лос-Кабос &amp;nbsp;&amp;ndash; залог того, что ничего лишнего выделяться не будет.&amp;nbsp;Если Вы можете похвастаться стройными ножками&amp;nbsp;&amp;nbsp;&amp;ndash; прекрасный повод это продемонстрировать.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-03/IMG_1217-Edit.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-03/IMG_1223-Edit.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>280616</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">синий</param>
+	<param name="Ткань">французский трикотаж </param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">48</param>
+</offer>
+
+<offer available="true" id="280616-50:10">
+    <name>Платье PEONY Лос - Кабос синий 280616</name>
+	<url>http://peony.ua/platya/los-kabos-1/</url>
+	<price>431.52</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Лос-Кабос от PEONY в&amp;nbsp;меру экстравагантный наряд, который можно надеть в офис с нестрогим дресс-кодом или носить в качестве повседневного платья.
+
+Простой крой платья Лос-Кабос &amp;nbsp;&amp;ndash; залог того, что ничего лишнего выделяться не будет.&amp;nbsp;Если Вы можете похвастаться стройными ножками&amp;nbsp;&amp;nbsp;&amp;ndash; прекрасный повод это продемонстрировать.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-03/IMG_1217-Edit.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-03/IMG_1223-Edit.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>280616</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">синий</param>
+	<param name="Ткань">французский трикотаж </param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">50</param>
+</offer>
+
+<offer available="true" id="280616-52:10">
+    <name>Платье PEONY Лос - Кабос синий 280616</name>
+	<url>http://peony.ua/platya/los-kabos-1/</url>
+	<price>431.52</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Лос-Кабос от PEONY в&amp;nbsp;меру экстравагантный наряд, который можно надеть в офис с нестрогим дресс-кодом или носить в качестве повседневного платья.
+
+Простой крой платья Лос-Кабос &amp;nbsp;&amp;ndash; залог того, что ничего лишнего выделяться не будет.&amp;nbsp;Если Вы можете похвастаться стройными ножками&amp;nbsp;&amp;nbsp;&amp;ndash; прекрасный повод это продемонстрировать.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-03/IMG_1217-Edit.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-03/IMG_1223-Edit.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>280616</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">синий</param>
+	<param name="Ткань">французский трикотаж </param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">52</param>
+</offer>
+<param name="Cезон">осень-зима</param>
+	
+<offer available="true" id="280616-48:43">
+    <name>Платье PEONY Лос - Кабос горчица 280616</name>
+	<url>http://peony.ua/platya/los-kabos/</url>
+	<price>431.52</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Лос-Кабос от PEONY в&amp;nbsp;меру экстравагантный наряд, который можно надеть в офис с нестрогим дресс-кодом или носить в качестве повседневного платья.
+
+Простой крой платья Лос-Кабос &amp;nbsp;&amp;ndash; залог того, что ничего лишнего выделяться не будет.&amp;nbsp;Если Вы можете похвастаться стройными ножками&amp;nbsp;&amp;nbsp;&amp;ndash; прекрасный повод это продемонстрировать.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-03/IMG_1213-Edit.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-03/IMG_1215-Edit.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>280616</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">горчица</param>
+	<param name="Ткань">французский трикотаж </param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">48</param>
+</offer>
+
+<offer available="true" id="280616-52:43">
+    <name>Платье PEONY Лос - Кабос горчица 280616</name>
+	<url>http://peony.ua/platya/los-kabos/</url>
+	<price>431.52</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Лос-Кабос от PEONY в&amp;nbsp;меру экстравагантный наряд, который можно надеть в офис с нестрогим дресс-кодом или носить в качестве повседневного платья.
+
+Простой крой платья Лос-Кабос &amp;nbsp;&amp;ndash; залог того, что ничего лишнего выделяться не будет.&amp;nbsp;Если Вы можете похвастаться стройными ножками&amp;nbsp;&amp;nbsp;&amp;ndash; прекрасный повод это продемонстрировать.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-03/IMG_1213-Edit.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-03/IMG_1215-Edit.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>280616</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">горчица</param>
+	<param name="Ткань">французский трикотаж </param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">52</param>
+</offer>
+
+<offer available="true" id="280616-54:43">
+    <name>Платье PEONY Лос - Кабос горчица 280616</name>
+	<url>http://peony.ua/platya/los-kabos/</url>
+	<price>431.52</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Лос-Кабос от PEONY в&amp;nbsp;меру экстравагантный наряд, который можно надеть в офис с нестрогим дресс-кодом или носить в качестве повседневного платья.
+
+Простой крой платья Лос-Кабос &amp;nbsp;&amp;ndash; залог того, что ничего лишнего выделяться не будет.&amp;nbsp;Если Вы можете похвастаться стройными ножками&amp;nbsp;&amp;nbsp;&amp;ndash; прекрасный повод это продемонстрировать.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-10-03/IMG_1213-Edit.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-10-03/IMG_1215-Edit.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>280616</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">горчица</param>
+	<param name="Ткань">французский трикотаж </param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">54</param>
+</offer>
+<param name="Cезон">весна-осень</param>
+	
+<offer available="true" id="170616-48:16">
+    <name>SALE PEONY Юджин черный 170616</name>
+	<url>http://peony.ua/sale/yudjin-1/</url>
+	<price>448.224</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>19</categoryId>
+    <description><![CDATA[Прекрасное трикотажное платье в модном дизайне с удлиненной спинкой. Платье из коллекции PEONY&amp;nbsp;станет прекрасной основой для создания самых различных стилей.
+]]></description>
+	<categoryName>SALE</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-11-17/IMG_0545-Edit.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-11-17/IMG_0551-Edit.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>170616</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">черный</param>
+	<param name="Ткань">французский трикотаж </param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">48</param>
+</offer>
+<param name="Cезон">весна-осень</param>
+	
+<offer available="true" id="170616-48:48">
+    <name>SALE PEONY Юджин капучино 170616</name>
+	<url>http://peony.ua/sale/yudjin/</url>
+	<price>448.224</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>19</categoryId>
+    <description><![CDATA[Прекрасное трикотажное платье в модном дизайне с удлиненной спинкой. Платье из коллекции PEONY&amp;nbsp;станет прекрасной основой для создания самых различных стилей.
+]]></description>
+	<categoryName>SALE</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-11-17/954_1.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-11-17/954_2.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>170616</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">капучино</param>
+	<param name="Ткань">французский трикотаж </param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">48</param>
+</offer>
+
+<offer available="true" id="170616-50:48">
+    <name>SALE PEONY Юджин капучино 170616</name>
+	<url>http://peony.ua/sale/yudjin/</url>
+	<price>448.224</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>19</categoryId>
+    <description><![CDATA[Прекрасное трикотажное платье в модном дизайне с удлиненной спинкой. Платье из коллекции PEONY&amp;nbsp;станет прекрасной основой для создания самых различных стилей.
+]]></description>
+	<categoryName>SALE</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-11-17/954_1.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-11-17/954_2.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>170616</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">капучино</param>
+	<param name="Ткань">французский трикотаж </param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">50</param>
+</offer>
+
+<offer available="true" id="170616-52:48">
+    <name>SALE PEONY Юджин капучино 170616</name>
+	<url>http://peony.ua/sale/yudjin/</url>
+	<price>448.224</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>19</categoryId>
+    <description><![CDATA[Прекрасное трикотажное платье в модном дизайне с удлиненной спинкой. Платье из коллекции PEONY&amp;nbsp;станет прекрасной основой для создания самых различных стилей.
+]]></description>
+	<categoryName>SALE</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-11-17/954_1.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-11-17/954_2.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>170616</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">капучино</param>
+	<param name="Ткань">французский трикотаж </param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">52</param>
+</offer>
+
+<offer available="true" id="170616-54:48">
+    <name>SALE PEONY Юджин капучино 170616</name>
+	<url>http://peony.ua/sale/yudjin/</url>
+	<price>448.224</price>
+	<currencyId>UAH</currencyId>
+	<categoryId></categoryId>
+    <description><![CDATA[Прекрасное трикотажное платье в модном дизайне с удлиненной спинкой. Платье из коллекции PEONY&amp;nbsp;станет прекрасной основой для создания самых различных стилей.
+]]></description>
+	<categoryName>SALE</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-11-17/954_1.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-11-17/954_2.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>170616</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">капучино</param>
+	<param name="Ткань">французский трикотаж </param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">54</param>
+</offer>
+<param name="Cезон">весна-осень</param>
+	
+<offer available="true" id="0208161-48:27">
+    <name>SALE PEONY Бильбао электрик 0208161</name>
+	<url>http://peony.ua/sale/bilbao-2/</url>
+	<price>382.8</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>19</categoryId>
+    <description><![CDATA[Спортивное sexy - cтиль появился несколько лет назад как альтернатива гламуру. Любим обеспеченными и независимыми девушками. Основные слагаемые - простые дорогие вещи и ухоженная внешность. Приталенный силуэт, комфортная обувь, общая спортивность -&amp;nbsp;как реклама здорового образа жизни. Таким компания PEONY предлагает модель Бильбао.
+]]></description>
+	<categoryName>SALE</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-11-14/IMG_5889-Edit.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-11-14/IMG_5897-Edit.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-11-14/IMG_5895-Edit.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>0208161</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">электрик</param>
+	<param name="Ткань">французский трикотаж </param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">48</param>
+</offer>
+<param name="Cезон">весна-осень</param>
+	
+<offer available="true" id="0208163-50:48">
+    <name>SALE PEONY Бильбао капучино 0208163</name>
+	<url>http://peony.ua/sale/bilbao/</url>
+	<price>382.8</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>19</categoryId>
+    <description></description>
+	<categoryName>SALE</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-11-14/947_1.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-11-14/947_2.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-11-14/947_3.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>0208163</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">капучино</param>
+	<param name="Ткань">французский трикотаж </param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">50</param>
+</offer>
+
+<offer available="true" id="0208163-52:48">
+    <name>SALE PEONY Бильбао капучино 0208163</name>
+	<url>http://peony.ua/sale/bilbao/</url>
+	<price>382.8</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>19</categoryId>
+    <description><![CDATA[Спортивное sexy - cтиль появился несколько лет назад как альтернатива гламуру. Любим обеспеченными и независимыми девушками. Основные слагаемые - простые дорогие вещи и ухоженная внешность. Приталенный силуэт, комфортная обувь, общая спортивность -&amp;nbsp;как реклама здорового образа жизни. Таким компания PEONY предлагает модель Бильбао.
+]]></description>
+	<categoryName>SALE</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-11-14/947_1.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-11-14/947_2.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-11-14/947_3.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>0208163</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">капучино</param>
+	<param name="Ткань">французский трикотаж </param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">52</param>
+</offer>
+
+<offer available="true" id="0208163-54:48">
+    <name>SALE PEONY Бильбао капучино 0208163</name>
+	<url>http://peony.ua/sale/bilbao/</url>
+	<price>382.8</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>19</categoryId>
+    <description><![CDATA[Спортивное sexy - cтиль появился несколько лет назад как альтернатива гламуру. Любим обеспеченными и независимыми девушками. Основные слагаемые - простые дорогие вещи и ухоженная внешность. Приталенный силуэт, комфортная обувь, общая спортивность -&amp;nbsp;как реклама здорового образа жизни. Таким компания PEONY предлагает модель Бильбао.
+]]></description>
+	<categoryName>SALE</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-11-14/947_1.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-11-14/947_2.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-11-14/947_3.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>0208163</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">капучино</param>
+	<param name="Ткань">французский трикотаж </param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">54</param>
+</offer>
+
+<offer available="true" id="271114-48:2">
+    <name>SALE PEONY АББА белый 271114</name>
+	<url>http://peony.ua/sale/abba/</url>
+	<price>176.958</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>19</categoryId>
+    <description><![CDATA[Белый цвет перекликается с молодостью, чистотой, весенним настроением и воздушной легкостью. Гипюровые платья белого цвета очаровательно женственны, они легко спишут несколько лет возраста.Не менее эффектно с белым платьем смотрятся дополнения черного цвета.
+
+Гипюровое платье с черныйм широким поясом&amp;nbsp;от PEONY&amp;nbsp;выглядит особенно привлекательно, владелица такого наряда неизменно будет в центре внимания.
+
+&amp;nbsp;
+]]></description>
+	<categoryName>SALE</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-09-05/IMG_5931-Edit.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>271114</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">белый</param>
+	<param name="Ткань">гипюр + подкладка</param>
+	
+	<param name="Размер">48</param>
+</offer>
+<param name="Cезон">весна-осень</param>
+	
+<offer available="true" id="28073-48:188">
+    <name>Платье PEONY Парагон красный горошек 28073</name>
+	<url>http://peony.ua/platya/paragon/</url>
+	<price>467.712</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Платье комбинированного типа Парагон, отрезное с заниженной линией талии. Классический силуэт дополнен сочетанием шоколадного и кораллового оттенков.
+Декоративный хлястик с золотой пряжкой спереди и мелкий рисунок лифа делает модель романтичной и одновременно сдержанной. Платье отлично подойдет для офиса и раскрасит серые будни. Материал не сминается, легкий в уходе.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-08-10/Парагон_красный.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-08-10/YSA_6008.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>28073</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">красный горошек</param>
+	<param name="Ткань">николь</param>
+	
+	<param name="Размер">48</param>
+</offer>
+
+<offer available="true" id="28073-50:188">
+    <name>Платье PEONY Парагон красный горошек 28073</name>
+	<url>http://peony.ua/platya/paragon/</url>
+	<price>467.712</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Платье комбинированного типа Парагон, отрезное с заниженной линией талии. Классический силуэт дополнен сочетанием шоколадного и кораллового оттенков.
+Декоративный хлястик с золотой пряжкой спереди и мелкий рисунок лифа делает модель романтичной и одновременно сдержанной. Платье отлично подойдет для офиса и раскрасит серые будни. Материал не сминается, легкий в уходе.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-08-10/Парагон_красный.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-08-10/YSA_6008.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>28073</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">красный горошек</param>
+	<param name="Ткань">николь</param>
+	
+	<param name="Размер">50</param>
+</offer>
+
+<offer available="true" id="28073-54:188">
+    <name>Платье PEONY Парагон красный горошек 28073</name>
+	<url>http://peony.ua/platya/paragon/</url>
+	<price>467.712</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Платье комбинированного типа Парагон, отрезное с заниженной линией талии. Классический силуэт дополнен сочетанием шоколадного и кораллового оттенков.
+Декоративный хлястик с золотой пряжкой спереди и мелкий рисунок лифа делает модель романтичной и одновременно сдержанной. Платье отлично подойдет для офиса и раскрасит серые будни. Материал не сминается, легкий в уходе.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-08-10/Парагон_красный.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-08-10/YSA_6008.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>28073</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">красный горошек</param>
+	<param name="Ткань">николь</param>
+	
+	<param name="Размер">54</param>
+</offer>
+
+<offer available="true" id="28073-56:188">
+    <name>Платье PEONY Парагон красный горошек 28073</name>
+	<url>http://peony.ua/platya/paragon/</url>
+	<price>467.712</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Платье комбинированного типа Парагон, отрезное с заниженной линией талии. Классический силуэт дополнен сочетанием шоколадного и кораллового оттенков.
+Декоративный хлястик с золотой пряжкой спереди и мелкий рисунок лифа делает модель романтичной и одновременно сдержанной. Платье отлично подойдет для офиса и раскрасит серые будни. Материал не сминается, легкий в уходе.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-08-10/Парагон_красный.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-08-10/YSA_6008.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>28073</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">красный горошек</param>
+	<param name="Ткань">николь</param>
+	
+	<param name="Размер">56</param>
+</offer>
+<param name="Cезон">лето</param>
+	
+<offer available="true" id="0605172-48:10">
+    <name>Блузка PEONY Муреа синий 0605172</name>
+	<url>http://peony.ua/bluzki/murea-1/</url>
+	<price>304.5</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>23</categoryId>
+    <description><![CDATA[Простой крой, рукав выше локтя, V-образный вырез. Блуза Муреа приятного синего оттенка в тонкую белую полоску. Очень просто и универсально. Подойдет к джинсам, брюкам или юбке.
+Фишка модели в элегантной отделке низа оригинальной фигурной каймой, которая поддерживает цвет полос и в то же время смягчает излишнюю строгость. Демократичная модель для будней.
+]]></description>
+	<categoryName>Блузки</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-08-10/Муреа_синий.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-08-10/YSA_5829.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-08-10/YSA_5830.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>0605172</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">синий</param>
+	<param name="Ткань">коттон</param>
+	<param name="Состав">хлопок 95%, эластан 5%</param>
+	
+	<param name="Размер">48</param>
+</offer>
+
+<offer available="true" id="0605172-50:10">
+    <name>Блузка PEONY Муреа синий 0605172</name>
+	<url>http://peony.ua/bluzki/murea-1/</url>
+	<price>304.5</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>23</categoryId>
+    <description><![CDATA[Простой крой, рукав выше локтя, V-образный вырез. Блуза Муреа приятного синего оттенка в тонкую белую полоску. Очень просто и универсально. Подойдет к джинсам, брюкам или юбке.
+Фишка модели в элегантной отделке низа оригинальной фигурной каймой, которая поддерживает цвет полос и в то же время смягчает излишнюю строгость. Демократичная модель для будней.
+]]></description>
+	<categoryName>Блузки</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-08-10/Муреа_синий.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-08-10/YSA_5829.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-08-10/YSA_5830.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>0605172</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">синий</param>
+	<param name="Ткань">коттон</param>
+	<param name="Состав">хлопок 95%, эластан 5%</param>
+	
+	<param name="Размер">50</param>
+</offer>
+
+<offer available="true" id="0605172-52:10">
+    <name>Блузка PEONY Муреа синий 0605172</name>
+	<url>http://peony.ua/bluzki/murea-1/</url>
+	<price>304.5</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>23</categoryId>
+    <description><![CDATA[Простой крой, рукав выше локтя, V-образный вырез. Блуза Муреа приятного синего оттенка в тонкую белую полоску. Очень просто и универсально. Подойдет к джинсам, брюкам или юбке.
+Фишка модели в элегантной отделке низа оригинальной фигурной каймой, которая поддерживает цвет полос и в то же время смягчает излишнюю строгость. Демократичная модель для будней.
+]]></description>
+	<categoryName>Блузки</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-08-10/Муреа_синий.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-08-10/YSA_5829.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-08-10/YSA_5830.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>0605172</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">синий</param>
+	<param name="Ткань">коттон</param>
+	<param name="Состав">хлопок 95%, эластан 5%</param>
+	
+	<param name="Размер">52</param>
+</offer>
+
+<offer available="true" id="0605172-54:10">
+    <name>Блузка PEONY Муреа синий 0605172</name>
+	<url>http://peony.ua/bluzki/murea-1/</url>
+	<price>304.5</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>23</categoryId>
+    <description><![CDATA[Простой крой, рукав выше локтя, V-образный вырез. Блуза Муреа приятного синего оттенка в тонкую белую полоску. Очень просто и универсально. Подойдет к джинсам, брюкам или юбке.
+Фишка модели в элегантной отделке низа оригинальной фигурной каймой, которая поддерживает цвет полос и в то же время смягчает излишнюю строгость. Демократичная модель для будней.
+]]></description>
+	<categoryName>Блузки</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-08-10/Муреа_синий.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-08-10/YSA_5829.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-08-10/YSA_5830.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>0605172</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">синий</param>
+	<param name="Ткань">коттон</param>
+	<param name="Состав">хлопок 95%, эластан 5%</param>
+	
+	<param name="Размер">54</param>
+</offer>
+<param name="Cезон">лето</param>
+	
+<offer available="true" id="0605171-48:6">
+    <name>Блузка PEONY Муреа красный 0605171</name>
+	<url>http://peony.ua/bluzki/murea/</url>
+	<price>304.5</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>23</categoryId>
+    <description><![CDATA[Свободная классическая блуза Муреа понравится тем, кто любит уличный стиль в одежде. Легкий коттон прекрасно подходит для лета, как и жизнерадостная расцветка ткани.
+
+Простой, но элегантный крой делает блузу удачным решением в сочетании с джинсами или шортами, капри. Мило, стильно, удобно и практично &amp;ndash; если вы предпочитаете такую одежду, блузка Муреа вам подойдет.
+
+&amp;nbsp;
+]]></description>
+	<categoryName>Блузки</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-08-10/Муреа_красный.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-08-10/YSA_5815.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-08-10/YSA_5819.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>0605171</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">красный</param>
+	<param name="Ткань">коттон</param>
+	<param name="Состав">хлопок 95%, эластан 5%</param>
+	
+	<param name="Размер">48</param>
+</offer>
+
+<offer available="true" id="0605171-50:6">
+    <name>Блузка PEONY Муреа красный 0605171</name>
+	<url>http://peony.ua/bluzki/murea/</url>
+	<price>304.5</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>23</categoryId>
+    <description><![CDATA[Свободная классическая блуза Муреа понравится тем, кто любит уличный стиль в одежде. Легкий коттон прекрасно подходит для лета, как и жизнерадостная расцветка ткани.
+
+Простой, но элегантный крой делает блузу удачным решением в сочетании с джинсами или шортами, капри. Мило, стильно, удобно и практично &amp;ndash; если вы предпочитаете такую одежду, блузка Муреа вам подойдет.
+
+&amp;nbsp;
+]]></description>
+	<categoryName>Блузки</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-08-10/Муреа_красный.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-08-10/YSA_5815.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-08-10/YSA_5819.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>0605171</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">красный</param>
+	<param name="Ткань">коттон</param>
+	<param name="Состав">хлопок 95%, эластан 5%</param>
+	
+	<param name="Размер">50</param>
+</offer>
+
+<offer available="true" id="0605171-52:6">
+    <name>Блузка PEONY Муреа красный 0605171</name>
+	<url>http://peony.ua/bluzki/murea/</url>
+	<price>304.5</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>23</categoryId>
+    <description><![CDATA[Свободная классическая блуза Муреа понравится тем, кто любит уличный стиль в одежде. Легкий коттон прекрасно подходит для лета, как и жизнерадостная расцветка ткани.
+
+Простой, но элегантный крой делает блузу удачным решением в сочетании с джинсами или шортами, капри. Мило, стильно, удобно и практично &amp;ndash; если вы предпочитаете такую одежду, блузка Муреа вам подойдет.
+
+&amp;nbsp;
+]]></description>
+	<categoryName>Блузки</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-08-10/Муреа_красный.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-08-10/YSA_5815.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-08-10/YSA_5819.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>0605171</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">красный</param>
+	<param name="Ткань">коттон</param>
+	<param name="Состав">хлопок 95%, эластан 5%</param>
+	
+	<param name="Размер">52</param>
+</offer>
+
+<offer available="true" id="0605171-54:6">
+    <name>Блузка PEONY Муреа красный 0605171</name>
+	<url>http://peony.ua/bluzki/murea/</url>
+	<price>304.5</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>23</categoryId>
+    <description><![CDATA[Свободная классическая блуза Муреа понравится тем, кто любит уличный стиль в одежде. Легкий коттон прекрасно подходит для лета, как и жизнерадостная расцветка ткани.
+
+Простой, но элегантный крой делает блузу удачным решением в сочетании с джинсами или шортами, капри. Мило, стильно, удобно и практично &amp;ndash; если вы предпочитаете такую одежду, блузка Муреа вам подойдет.
+
+&amp;nbsp;
+]]></description>
+	<categoryName>Блузки</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-08-10/Муреа_красный.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-08-10/YSA_5815.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-08-10/YSA_5819.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>0605171</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">красный</param>
+	<param name="Ткань">коттон</param>
+	<param name="Состав">хлопок 95%, эластан 5%</param>
+	
+	<param name="Размер">54</param>
+</offer>
+<param name="Cезон">лето</param>
+	
+<offer available="true" id="1603171-52:49">
+    <name>Платье PEONY Ламбаль персик 1603171</name>
+	<url>http://peony.ua/platya/lambal-2/</url>
+	<price>651.456</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Прямое платье Ламбаль персикового цвета украшено гипюровой вставкой и накладными гипюровыми карманами.&amp;nbsp; Покрой платья &amp;laquo;требует&amp;raquo; элегантной обуви на высоком каблуке.&amp;nbsp;
+
+Модель подойдет для посещения театра, кино, концерта любимого артиста. Будет отлично смотреться на романтическом свидании в хорошем ресторане. &amp;nbsp;Украсит именинницу на праздновании Дня рождения.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-05-08/bec26a753a48f098cbd9a830972385d5.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-05-08/17e6e4fea3739982539c1cfc93a52d6e.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-05-08/e9473ff53aea1690891c6f753817d680.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>1603171</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">персик</param>
+	<param name="Ткань">лен</param>
+	<param name="Состав">коттон 90%, полиэстер 10%</param>
+	
+	<param name="Размер">52</param>
+</offer>
+
+<offer available="true" id="1603171-54:49">
+    <name>Платье PEONY Ламбаль персик 1603171</name>
+	<url>http://peony.ua/platya/lambal-2/</url>
+	<price>651.456</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Прямое платье Ламбаль персикового цвета украшено гипюровой вставкой и накладными гипюровыми карманами.&amp;nbsp; Покрой платья &amp;laquo;требует&amp;raquo; элегантной обуви на высоком каблуке.&amp;nbsp;
+
+Модель подойдет для посещения театра, кино, концерта любимого артиста. Будет отлично смотреться на романтическом свидании в хорошем ресторане. &amp;nbsp;Украсит именинницу на праздновании Дня рождения.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-05-08/bec26a753a48f098cbd9a830972385d5.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-05-08/17e6e4fea3739982539c1cfc93a52d6e.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-05-08/e9473ff53aea1690891c6f753817d680.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>1603171</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">персик</param>
+	<param name="Ткань">лен</param>
+	<param name="Состав">коттон 90%, полиэстер 10%</param>
+	
+	<param name="Размер">54</param>
+</offer>
+
+<offer available="true" id="1603171-56:49">
+    <name>Платье PEONY Ламбаль персик 1603171</name>
+	<url>http://peony.ua/platya/lambal-2/</url>
+	<price>651.456</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Прямое платье Ламбаль персикового цвета украшено гипюровой вставкой и накладными гипюровыми карманами.&amp;nbsp; Покрой платья &amp;laquo;требует&amp;raquo; элегантной обуви на высоком каблуке.&amp;nbsp;
+
+Модель подойдет для посещения театра, кино, концерта любимого артиста. Будет отлично смотреться на романтическом свидании в хорошем ресторане. &amp;nbsp;Украсит именинницу на праздновании Дня рождения.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-05-08/bec26a753a48f098cbd9a830972385d5.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-05-08/17e6e4fea3739982539c1cfc93a52d6e.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-05-08/e9473ff53aea1690891c6f753817d680.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>1603171</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">персик</param>
+	<param name="Ткань">лен</param>
+	<param name="Состав">коттон 90%, полиэстер 10%</param>
+	
+	<param name="Размер">56</param>
+</offer>
+<param name="Cезон">лето</param>
+	
+<offer available="true" id="1603172-50:191">
+    <name>Платье PEONY Ламбаль васильковый 1603172</name>
+	<url>http://peony.ua/platya/lambal/</url>
+	<price>651.456</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Стильное платье Ламбаль сшито из льна василькового цвета. Используемое для отделки кокетки и карманов кружево дарит строгой модели необходимую нотку нежности и романтизма.
+
+Прямой покрой современной модели подчеркнут вырезом &amp;laquo;лодочка&amp;raquo;, вставкой в районе выреза, короткими простыми рукавами и формой накладных карманов.
+
+Модель предназначена для женщин, которые хотят выглядеть нарядно всегда и везде.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-05-08/4e2448cd2e9299e6564a259e1b5ddcc8.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-05-08/91042a27d2faa58584a7024864493a74.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-05-08/e748d78f222efb46c2ec101d60e627b4.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>1603172</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">васильковый</param>
+	<param name="Ткань">лен</param>
+	<param name="Состав">коттон 90%, полиэстер 10%</param>
+	
+	<param name="Размер">50</param>
+</offer>
+
+<offer available="true" id="1603172-52:191">
+    <name>Платье PEONY Ламбаль васильковый 1603172</name>
+	<url>http://peony.ua/platya/lambal/</url>
+	<price>651.456</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Стильное платье Ламбаль сшито из льна василькового цвета. Используемое для отделки кокетки и карманов кружево дарит строгой модели необходимую нотку нежности и романтизма.
+
+Прямой покрой современной модели подчеркнут вырезом &amp;laquo;лодочка&amp;raquo;, вставкой в районе выреза, короткими простыми рукавами и формой накладных карманов.
+
+Модель предназначена для женщин, которые хотят выглядеть нарядно всегда и везде.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-05-08/4e2448cd2e9299e6564a259e1b5ddcc8.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-05-08/91042a27d2faa58584a7024864493a74.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-05-08/e748d78f222efb46c2ec101d60e627b4.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>1603172</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">васильковый</param>
+	<param name="Ткань">лен</param>
+	<param name="Состав">коттон 90%, полиэстер 10%</param>
+	
+	<param name="Размер">52</param>
+</offer>
+
+<offer available="true" id="1603172-54:191">
+    <name>Платье PEONY Ламбаль васильковый 1603172</name>
+	<url>http://peony.ua/platya/lambal/</url>
+	<price>651.456</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Стильное платье Ламбаль сшито из льна василькового цвета. Используемое для отделки кокетки и карманов кружево дарит строгой модели необходимую нотку нежности и романтизма.
+
+Прямой покрой современной модели подчеркнут вырезом &amp;laquo;лодочка&amp;raquo;, вставкой в районе выреза, короткими простыми рукавами и формой накладных карманов.
+
+Модель предназначена для женщин, которые хотят выглядеть нарядно всегда и везде.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-05-08/4e2448cd2e9299e6564a259e1b5ddcc8.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-05-08/91042a27d2faa58584a7024864493a74.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-05-08/e748d78f222efb46c2ec101d60e627b4.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>1603172</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">васильковый</param>
+	<param name="Ткань">лен</param>
+	<param name="Состав">коттон 90%, полиэстер 10%</param>
+	
+	<param name="Размер">54</param>
+</offer>
+
+<offer available="true" id="1603172-56:191">
+    <name>Платье PEONY Ламбаль васильковый 1603172</name>
+	<url>http://peony.ua/platya/lambal/</url>
+	<price>651.456</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Стильное платье Ламбаль сшито из льна василькового цвета. Используемое для отделки кокетки и карманов кружево дарит строгой модели необходимую нотку нежности и романтизма.
+
+Прямой покрой современной модели подчеркнут вырезом &amp;laquo;лодочка&amp;raquo;, вставкой в районе выреза, короткими простыми рукавами и формой накладных карманов.
+
+Модель предназначена для женщин, которые хотят выглядеть нарядно всегда и везде.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-05-08/4e2448cd2e9299e6564a259e1b5ddcc8.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-05-08/91042a27d2faa58584a7024864493a74.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-05-08/e748d78f222efb46c2ec101d60e627b4.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>1603172</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">васильковый</param>
+	<param name="Ткань">лен</param>
+	<param name="Состав">коттон 90%, полиэстер 10%</param>
+	
+	<param name="Размер">56</param>
+</offer>
+<param name="Cезон">лето</param>
+	
+<offer available="true" id="070515-52:63">
+    <name>Юбка PEONY Сиам синий ромб 070515</name>
+	<url>http://peony.ua/yubki/siam-3/</url>
+	<price>156.6</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>25</categoryId>
+    <description><![CDATA[Элегантная юбка Сиам &amp;ndash; эффектная модель в деловом стиле. Облегающий крой подчеркивает достоинства фигуры, а дуэт однотонной спинки и узора спереди делают фигуру более изящной.
+
+Строгий фасон разбавляет деталь с узором &amp;laquo;ромб&amp;raquo;, изысканно подчеркивая женственность силуэта. Идеальная для делового стиля длина считается универсальной &amp;ndash; для девушек с любыми формами.
+]]></description>
+	<categoryName>Юбки</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-04-27/80b282c0b07b719d564e64b8b8672f8e.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-04-27/801e73cf14a10ad6174f8accba8cf7f2.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-04-27/7b03420df26f93ec279162b2ee6389c7.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>070515</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">синий ромб</param>
+	<param name="Ткань">котон жаккард</param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">52</param>
+</offer>
+
+<offer available="true" id="070515-54:63">
+    <name>Юбка PEONY Сиам синий ромб 070515</name>
+	<url>http://peony.ua/yubki/siam-3/</url>
+	<price>156.6</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>25</categoryId>
+    <description><![CDATA[Элегантная юбка Сиам &amp;ndash; эффектная модель в деловом стиле. Облегающий крой подчеркивает достоинства фигуры, а дуэт однотонной спинки и узора спереди делают фигуру более изящной.
+
+Строгий фасон разбавляет деталь с узором &amp;laquo;ромб&amp;raquo;, изысканно подчеркивая женственность силуэта. Идеальная для делового стиля длина считается универсальной &amp;ndash; для девушек с любыми формами.
+]]></description>
+	<categoryName>Юбки</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-04-27/80b282c0b07b719d564e64b8b8672f8e.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-04-27/801e73cf14a10ad6174f8accba8cf7f2.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-04-27/7b03420df26f93ec279162b2ee6389c7.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>070515</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">синий ромб</param>
+	<param name="Ткань">котон жаккард</param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">54</param>
+<param name="Cезон">лето</param>
+</offer>	
+<offer available="true" id="070515-48:60">
+    <name>Юбка PEONY Сиам белый бабочка 070515</name>
+	<url>http://peony.ua/yubki/siam-2/</url>
+	<price>156.6</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>25</categoryId>
+    <description><![CDATA[Классическая белая юбка прямого кроя в модели Сиам приобретает новое звучание: комбинация однотонной основы и передней детали с узором &amp;laquo;бабочка&amp;raquo; делает силуэт более женственным и изящным.
+
+Элегантность модели заключается в ее сдержанности и изысканных решениях фасона. Натуральный коттон с добавлением эластана обеспечивают хорошую посадку модели на любую фигуру.
+]]></description>
+	<categoryName>Юбки</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-04-27/e8735806d10eb695cf8469164c015ec9.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-04-27/da065be2c7675bbd0557a1e070ebe0dd.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-04-27/d6b189a9624875bf8ee8760ac3db9874.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>070515</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">белый бабочка</param>
+	<param name="Ткань">котон жаккард</param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">48</param>
+</offer>
+
+<offer available="true" id="070415-50:27">
+    <name>Женские брюки PEONY Рипли электрик 070415</name>
+	<url>http://peony.ua/shtani-bryuki/ripli-2/</url>
+	<price>167.04</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>27</categoryId>
+    <description><![CDATA[Штаны Рипли
+
+В стиле этногламур. Выполнены из тонкого шёлка с удивительным рисунком, напоминающем тропические заросли. Пояс контрастного цвета, собран на кулиску. Это обеспечит Вам свободное облегание. Летом ходить в таких брючках одно удовольствие.
+&amp;nbsp;
+]]></description>
+	<categoryName>Брюки</categoryName>
+	<picture>http://peony.ua/upload/shop/2016-04-21/5a364aabbeb290eaa8f9beb1ee492ea2.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2016-04-21/0ff3bf7cff30c6cc5626dba26a4b704c.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>Ariel</vendor>
+	<vendorCode>070415</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">электрик</param>
+	<param name="Ткань">Шёлк</param>
+	<param name="Состав">полиэстер 100%</param>
+	
+	<param name="Размер">50</param>
+</offer>
+<param name="Cезон">лето</param>
+	
+<offer available="true" id="070415-52:48">
+    <name>Женские брюки PEONY Рипли капучино 070415</name>
+	<url>http://peony.ua/shtani-bryuki/ripli/</url>
+	<price>167.04</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>27</categoryId>
+    <description><![CDATA[Штаны Рипли
+
+В стиле этногламур. Выполнены из тонкого шёлка с удивительным рисунком, напоминающем тропические заросли. Пояс, контрастного цвета, собран на кулиску. Это обеспечит Вам свободное облегание. Летом ходить в таких брючках одно удовольствие.
+&amp;nbsp;
+]]></description>
+	<categoryName>Брюки</categoryName>
+	<picture>http://peony.ua/upload/shop/2015-05-15/c5edf6718d9a88c3f5ec903c89c81416.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>070415</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">капучино</param>
+	<param name="Ткань">Шелк Армани</param>
+	<param name="Состав">полиэстер 100%</param>
+	
+	<param name="Размер">52</param>
+</offer>
+<param name="Cезон">лето</param>
+	
+<offer available="true" id="030315-54:6">
+    <name>Платье PEONY Марокко красный 030315</name>
+	<url>http://peony.ua/platya/marokko/</url>
+	<price>330.6</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Мечты сбываются! Вы мечтали о Марокко?
+
+Это наша современная, стильная, удобная, комфортная модель.
+
+Летнее платье без рукавов длиною в пол. Широкая оборка снизу и&amp;nbsp;мягко заложенные складки на талии и по горловине, делают эту модель
+
+необыкновенно женственной и мягкой, а&amp;nbsp;Вашу талию подчеркнёт широкий,&amp;nbsp;контрастный пояс. Бант, завязывающийся сзади, сделает акцент на&amp;nbsp;V-образном вырезе спинки.
+
+Современное решение спортивного и романтического стилей.
+
+&amp;nbsp;
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2016-05-27/55e442feb44183cfb344f450cc7de17a.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2016-05-27/01e27f844f4194b94c39281fd973da66.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>030315</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">красный</param>
+	<param name="Ткань">Штапель</param>
+	<param name="Состав">коттон 90%, полиэстер 10%</param>
+	
+	<param name="Размер">54</param>
+</offer>
+<param name="Cезон">лето</param>
+	
+<offer available="true" id="250115-50:53">
+    <name>Женские брюки PEONY Дакар цветные зебра 250115</name>
+	<url>http://peony.ua/shtani-bryuki/dakar-cvetnie/</url>
+	<price>300.672</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>27</categoryId>
+    <description><![CDATA[Задорный фасон для непосредственных и жизнерадостных натур.&amp;nbsp;Комфорт и стиль. Вот что отличает эту модель. Ровные по всей длине, с заложенными складками у пояса и накладным карманом. Ультрамодная деталь этой модели - широкий пояс. Спереди на поясе&amp;nbsp;заложены поперечные складки,а&amp;nbsp;отличную посадку по фигуре&amp;nbsp;обеспечивает&amp;nbsp;встроченная резинка на спинке пояса.&amp;nbsp;
+
+Вы любите креативность? Тогда Вам подойдёт модель с анималистическим&amp;nbsp;принтом.
+
+В любой модели&amp;nbsp;вы можете отправиться на ралли Дакар или на автодром в своём любимом парке.&amp;nbsp;
+
+&amp;nbsp;
+
+&amp;nbsp;
+]]></description>
+	<categoryName>Брюки</categoryName>
+	<picture>http://peony.ua/upload/shop/2016-04-21/3d5b3e0e3cea3d7bbeb0816afec3098e.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2016-04-21/a5ab0ba01661a039f05b7db483bd8696.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>LG</vendor>
+	<vendorCode>250115</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">зебра</param>
+	<param name="Ткань">Штапель</param>
+	<param name="Состав">коттон 90%, полиэстер 10%
+</param>
+	
+	<param name="Размер">50</param>
+</offer>
+
+<offer available="true" id="250115-52:53">
+    <name>Женские брюки PEONY Дакар цветные зебра 250115</name>
+	<url>http://peony.ua/shtani-bryuki/dakar-cvetnie/</url>
+	<price>300.672</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>27</categoryId>
+    <description><![CDATA[Задорный фасон для непосредственных и жизнерадостных натур.&amp;nbsp;Комфорт и стиль. Вот что отличает эту модель. Ровные по всей длине, с заложенными складками у пояса и накладным карманом. Ультрамодная деталь этой модели - широкий пояс. Спереди на поясе&amp;nbsp;заложены поперечные складки,а&amp;nbsp;отличную посадку по фигуре&amp;nbsp;обеспечивает&amp;nbsp;встроченная резинка на спинке пояса.&amp;nbsp;
+
+Вы любите креативность? Тогда Вам подойдёт модель с анималистическим&amp;nbsp;принтом.
+
+В любой модели&amp;nbsp;вы можете отправиться на ралли Дакар или на автодром в своём любимом парке.&amp;nbsp;
+
+&amp;nbsp;
+
+&amp;nbsp;
+]]></description>
+	<categoryName>Брюки</categoryName>
+	<picture>http://peony.ua/upload/shop/2016-04-21/3d5b3e0e3cea3d7bbeb0816afec3098e.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2016-04-21/a5ab0ba01661a039f05b7db483bd8696.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>250115</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">зебра</param>
+	<param name="Ткань">Штапель</param>
+	<param name="Состав">коттон 90%, полиэстер 10%
+</param>
+	
+	<param name="Размер">52</param>
+</offer>
+<param name="Cезон">лето</param>
+	
+<offer available="true" id="190215-56:2">
+    <name>Юбка PEONY Мальта белый 190215</name>
+	<url>http://peony.ua/yubki/malta-2/</url>
+	<price>107.88</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>25</categoryId>
+    <description><![CDATA[&amp;nbsp;Длинная юбка в пол. Контрастная кокетка спереди, с&amp;nbsp;блестящей молнией, придают этой модели игривые нотки. Мягко заложенные складки на линии бёдер и слегка расклешённая к низу, она скроет все недостатки&amp;nbsp;Вашей фигуры. Тоненький ремешок можно одеть в тон&amp;nbsp;Вашему наряду или сыграть на контрасте.&amp;nbsp;
+В таком наряде Вы непременно должны побывать на самых известных островах Средиземного моря.&amp;nbsp;
+&amp;quot;Мальта&amp;quot;- это отдых, это стиль от PEONY, это изысканный вкус!
+]]></description>
+	<categoryName>Юбки</categoryName>
+	<picture>http://peony.ua/upload/shop/2016-04-21/8533c15d5d570a73d140f6af9f696fd1.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2016-04-21/92c276870331e65049e1442b856306f9.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>190215</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">белый</param>
+	<param name="Ткань">Штапель</param>
+	<param name="Состав">коттон 90%, полиэстер 10%
+</param>
+	
+	<param name="Размер">56</param>
+</offer>
+<param name="Cезон">лето</param>
+	
+<offer available="true" id="060315-48:3">
+    <name>Блузка PEONY Сантьяго желтый 060315</name>
+	<url>http://peony.ua/bluzki/santyago/</url>
+	<price>128.412</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>23</categoryId>
+    <description><![CDATA[Эта блузка&amp;nbsp;&amp;quot;Сантьяго&amp;quot; -&amp;nbsp; нечто совершенно особенное. Стильная! Современная! В ритме&amp;nbsp;мегаполиса!. Умеренно широкого покроя, без рукавов, сшитая из тонкогокреп-шифона. С большими накладными карманами, планкой по центру переда&amp;nbsp;и открытой спинкой с двумя широкими бретелями.
+
+
+В таком наряде вы можете посетить парк Патагонии или остров Пасхи....
+Или одевайте с такой блузкой узкие брюки и отправляйтесь на верховую прогулку.
+]]></description>
+	<categoryName>Блузки</categoryName>
+	<picture>http://peony.ua/upload/shop/2016-05-27/dedeaed553f5341c04d84250ec0f5bf8.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2016-05-27/dff96e98799749d85829aa137d9c5c90.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>060315</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">желтый</param>
+	<param name="Ткань">Креп-шифон</param>
+	<param name="Состав">полиэстер 100%
+</param>
+	
+	<param name="Размер">48</param>
+</offer>
+
+<offer available="true" id="060315-52:3">
+    <name>Блузка PEONY Сантьяго желтый 060315</name>
+	<url>http://peony.ua/bluzki/santyago/</url>
+	<price>128.412</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>23</categoryId>
+    <description><![CDATA[Эта блузка&amp;nbsp;&amp;quot;Сантьяго&amp;quot; -&amp;nbsp; нечто совершенно особенное. Стильная! Современная! В ритме&amp;nbsp;мегаполиса!. Умеренно широкого покроя, без рукавов, сшитая из тонкогокреп-шифона. С большими накладными карманами, планкой по центру переда&amp;nbsp;и открытой спинкой с двумя широкими бретелями.
+
+
+В таком наряде вы можете посетить парк Патагонии или остров Пасхи....
+Или одевайте с такой блузкой узкие брюки и отправляйтесь на верховую прогулку.
+]]></description>
+	<categoryName>Блузки</categoryName>
+	<picture>http://peony.ua/upload/shop/2016-05-27/dedeaed553f5341c04d84250ec0f5bf8.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2016-05-27/dff96e98799749d85829aa137d9c5c90.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>060315</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">желтый</param>
+	<param name="Ткань">Креп-шифон</param>
+	<param name="Состав">полиэстер 100%
+</param>
+	
+	<param name="Размер">52</param>
+</offer>
+<param name="Cезон">лето</param>
+	
+<offer available="true" id="050115-48:27">
+    <name>Платье PEONY Соната электрик 050115</name>
+	<url>http://peony.ua/platya/sonata-2/</url>
+	<price>172.26</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Вы собрались провести отпуск на море?
+
+Предлагаем Вам простое решение. Длинное платье с карманами и мягкими складками на талии. Такое платье прекрасно подойдёт даже невысоким женщинам. Оно зрительно удлинит Вашу фигуру. А дополнения&amp;nbsp;в качестве золотых пуговиц и золотого пояса, подчеркнут Ваш стиль.&amp;nbsp;
+&amp;nbsp;В таком платье Вы будете выглядеть уверенной, стильной и модной!
+
+Желаем Вам&amp;nbsp;нескучно провести&amp;nbsp;отдых&amp;nbsp;в наших нарядах.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-11-17/311_1.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-11-17/311_2.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-11-17/311_3.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>050115</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">электрик</param>
+	<param name="Ткань">Штапель</param>
+	<param name="Состав">коттон 90%, полиэстер 10%
+</param>
+	
+	<param name="Размер">48</param>
+</offer>
+
+<offer available="true" id="050115-50:27">
+    <name>Платье PEONY Соната электрик 050115</name>
+	<url>http://peony.ua/platya/sonata-2/</url>
+	<price>172.26</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Вы собрались провести отпуск на море?
+
+Предлагаем Вам простое решение. Длинное платье с карманами и мягкими складками на талии. Такое платье прекрасно подойдёт даже невысоким женщинам. Оно зрительно удлинит Вашу фигуру. А дополнения&amp;nbsp;в качестве золотых пуговиц и золотого пояса, подчеркнут Ваш стиль.&amp;nbsp;
+&amp;nbsp;В таком платье Вы будете выглядеть уверенной, стильной и модной!
+
+Желаем Вам&amp;nbsp;нескучно провести&amp;nbsp;отдых&amp;nbsp;в наших нарядах.
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-11-17/311_1.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-11-17/311_2.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-11-17/311_3.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>050115</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">электрик</param>
+	<param name="Ткань">Штапель</param>
+	<param name="Состав">коттон 90%, полиэстер 10%
+</param>
+	
+	<param name="Размер">50</param>
+</offer>
+<param name="Cезон">весна-лето</param>
+	
+<offer available="true" id="200115-48:16">
+    <name>Блузка PEONY Сингапур чёрный 200115</name>
+	<url>http://peony.ua/bluzki/singapur-5/</url>
+	<price>304.5</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>23</categoryId>
+    <description><![CDATA[&amp;nbsp;Легкая блуза из нежнейшего&amp;nbsp;креп-шифона выглядит женственно и элегантно.&amp;nbsp;
+
+Украшения особенно хороши в маленьких дозах. Так, например, достаточно&amp;nbsp;тоненькой блестящей ленты из стекляруса, спускающейся с плеча на рукав,&amp;nbsp;чтобы умело расставить акценты. Словно шарм востока и стиль запада&amp;nbsp;слились воедино. А, оригинально выполненная спинка, будто сложенные&amp;nbsp;крылья бабочки, подчеркнёт изысканность этой модели.
+В такой блузке Вы будете выглядеть необыкновенно притягательной.&amp;nbsp;
+Будьте Красивы!!!
+]]></description>
+	<categoryName>Блузки</categoryName>
+	<picture>http://peony.ua/upload/shop/2016-05-13/25e554e249cebe25d0d3ac18e66eefb1.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2016-05-13/be2216724e75b5a5786ef8f5a3053764.JPG</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>200115</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">чёрный</param>
+	<param name="Ткань">Креп-шифон</param>
+	<param name="Состав">полиэстер 100%</param>
+	
+	<param name="Размер">48</param>
+</offer>
+<param name="Cезон">весна-лето</param>
+	
+<offer available="true" id="200115-48:30">
+    <name>Блузка PEONY Сингапур тёмно-синий 200115</name>
+	<url>http://peony.ua/bluzki/singapur-4/</url>
+	<price>304.5</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>23</categoryId>
+    <description><![CDATA[&amp;nbsp;Легкая блуза из нежнейшего&amp;nbsp;креп-шифона выглядит женственно и элегантно.&amp;nbsp;
+
+Украшения особенно хороши в маленьких дозах. Так, например, достаточно&amp;nbsp;тоненькой блестящей ленты из стекляруса, спускающейся с плеча на рукав,&amp;nbsp;чтобы умело расставить акценты. Словно шарм востока и стиль запада&amp;nbsp;слились воедино. А, оригинально выполненная спинка, будто сложенные&amp;nbsp;крылья бабочки, подчеркнёт изысканность этой модели.
+В такой блузке Вы будете выглядеть необыкновенно притягательной.&amp;nbsp;
+Будьте Красивы!!!
+]]></description>
+	<categoryName>Блузки</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-12-28/YSA_4933.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-12-28/YSA_4942.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-12-28/YSA_4947.JPG</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>200115</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">тёмно-синий</param>
+	<param name="Ткань">Креп-шифон</param>
+	<param name="Состав">полиэстер 100%</param>
+	
+	<param name="Размер">48</param>
+</offer>
+
+<offer available="true" id="200115-52:30">
+    <name>Блузка PEONY Сингапур тёмно-синий 200115</name>
+	<url>http://peony.ua/bluzki/singapur-4/</url>
+	<price>304.5</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>23</categoryId>
+    <description><![CDATA[&amp;nbsp;Легкая блуза из нежнейшего&amp;nbsp;креп-шифона выглядит женственно и элегантно.&amp;nbsp;
+
+Украшения особенно хороши в маленьких дозах. Так, например, достаточно&amp;nbsp;тоненькой блестящей ленты из стекляруса, спускающейся с плеча на рукав,&amp;nbsp;чтобы умело расставить акценты. Словно шарм востока и стиль запада&amp;nbsp;слились воедино. А, оригинально выполненная спинка, будто сложенные&amp;nbsp;крылья бабочки, подчеркнёт изысканность этой модели.
+В такой блузке Вы будете выглядеть необыкновенно притягательной.&amp;nbsp;
+Будьте Красивы!!!
+]]></description>
+	<categoryName>Блузки</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-12-28/YSA_4933.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-12-28/YSA_4942.JPG</picture>
+	
+	<picture>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmc_FeKpNs_p8KPYM---y_ZnMuOE4eP7Jc2jA30PCaa2uUcIAJ</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>200115</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">тёмно-синий</param>
+	<param name="Ткань">Креп-шифон</param>
+	<param name="Состав">полиэстер 100%</param>
+	
+	<param name="Размер">52</param>
+</offer>
+<param name="Cезон">весна-лето</param>
+	
+<offer available="true" id="200115-48:48">
+    <name>Блузка PEONY Сингапур капучино 200115</name>
+	<url>http://peony.ua/bluzki/singapur-3/</url>
+	<price>304.5</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>23</categoryId>
+    <description><![CDATA[&amp;nbsp;Легкая блуза из нежнейшего&amp;nbsp;креп-шифона выглядит женственно и элегантно.&amp;nbsp;
+
+Украшения особенно хороши в маленьких дозах. Так, например, достаточно&amp;nbsp;тоненькой блестящей ленты из стекляруса, спускающейся с плеча на рукав,&amp;nbsp;чтобы умело расставить акценты. Словно шарм востока и стиль запада&amp;nbsp;слились воедино. А, оригинально выполненная спинка, будто сложенные&amp;nbsp;крылья бабочки, подчеркнёт изысканность этой модели.
+В такой блузке Вы будете выглядеть необыкновенно притягательной.&amp;nbsp;
+Будьте Красивы!!!
+]]></description>
+	<categoryName>Блузки</categoryName>
+	<picture>http://peony.ua/upload/shop/2016-05-13/49e722bfc90c54434688b9d5d634b8c4.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2016-05-13/8348c036d24759dcc683c6b750b73c09.JPG</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>200115</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">капучино</param>
+	<param name="Ткань">Креп-шифон</param>
+	<param name="Состав">полиэстер 100%</param>
+	
+	<param name="Размер">48</param>
+</offer>
+<param name="Cезон">весна-лето</param>
+	
+<offer available="true" id="200115-48:128">
+    <name>Блузка PEONY Сингапур молоко 200115</name>
+	<url>http://peony.ua/bluzki/singapur-2/</url>
+	<price>304.5</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>23</categoryId>
+    <description><![CDATA[&amp;nbsp;Легкая блуза из нежнейшего&amp;nbsp;креп-шифона выглядит женственно и элегантно.&amp;nbsp;
+
+Украшения особенно хороши в маленьких дозах. Так, например, достаточно&amp;nbsp;тоненькой блестящей ленты из стекляруса, спускающейся с плеча на рукав,&amp;nbsp;чтобы умело расставить акценты. Словно шарм востока и стиль запада&amp;nbsp;слились воедино. А, оригинально выполненная спинка, будто сложенные&amp;nbsp;крылья бабочки, подчеркнёт изысканность этой модели.
+В такой блузке Вы будете выглядеть необыкновенно притягательной.&amp;nbsp;
+Будьте Красивы!!!
+]]></description>
+	<categoryName>Блузки</categoryName>
+	<picture>https://pm1.narvii.com/6793/6e07b88bd1e271dc495bb64e4a50c24d773bfa55v2_128.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-12-22/YSA_4906.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>200115</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">молоко</param>
+	<param name="Ткань">Креп-шифон</param>
+	<param name="Состав">полиэстер 100%</param>
+	
+	<param name="Размер">48</param>
+</offer>
+
+<offer available="true" id="200115-50:128">
+    <name>Блузка PEONY Сингапур молоко 200115</name>
+	<url>http://peony.ua/bluzki/singapur-2/</url>
+	<price>304.5</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>23</categoryId>
+    <description><![CDATA[&amp;nbsp;Легкая блуза из нежнейшего&amp;nbsp;креп-шифона выглядит женственно и элегантно.&amp;nbsp;
+
+Украшения особенно хороши в маленьких дозах. Так, например, достаточно&amp;nbsp;тоненькой блестящей ленты из стекляруса, спускающейся с плеча на рукав,&amp;nbsp;чтобы умело расставить акценты. Словно шарм востока и стиль запада&amp;nbsp;слились воедино. А, оригинально выполненная спинка, будто сложенные&amp;nbsp;крылья бабочки, подчеркнёт изысканность этой модели.
+В такой блузке Вы будете выглядеть необыкновенно притягательной.&amp;nbsp;
+Будьте Красивы!!!
+]]></description>
+	<categoryName>Блузки</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-12-22/YSA_4901.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2017-12-22/YSA_4906.jpg</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>200115</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">молоко</param>
+	<param name="Ткань">Креп-шифон</param>
+	<param name="Состав">полиэстер 100%</param>
+	
+	<param name="Размер">50</param>
+</offer>
+<param name="Cезон">весна-лето</param>
+	
+<offer available="true" id="200115-48:27">
+    <name>Блузка PEONY Сингапур электрик 200115</name>
+	<url>http://peony.ua/bluzki/singapur/</url>
+	<price>304.5</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>23</categoryId>
+    <description><![CDATA[&amp;nbsp;Легкая блуза из нежнейшего&amp;nbsp;креп-шифона выглядит женственно и элегантно.&amp;nbsp;
+
+Украшения особенно хороши в маленьких дозах. Так, например, достаточно&amp;nbsp;тоненькой блестящей ленты из стекляруса, спускающейся с плеча на рукав,&amp;nbsp;чтобы умело расставить акценты. Словно шарм востока и стиль запада&amp;nbsp;слились воедино. А, оригинально выполненная спинка, будто сложенные&amp;nbsp;крылья бабочки, подчеркнёт изысканность этой модели.
+В такой блузке Вы будете выглядеть необыкновенно притягательной.&amp;nbsp;
+Будьте Красивы!!!
+]]></description>
+	<categoryName>Блузки</categoryName>
+	<picture>http://peony.ua/upload/shop/2018-03-29/YSA_5172.JPG</picture>
+	
+	<picture>https://lh3.googleusercontent.com/0EFBnnkiD-AzftiPXDxonaUgwqNl9jbQnK9dpuU5AbLiCA7Pw2mClgdCQ9vp8fENUUk=s128-rw</picture>
+	
+	<picture>http://peony.ua/upload/shop/2018-03-29/YSA_5191.JPG</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>200115</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">электрик</param>
+	<param name="Ткань">Креп-шифон</param>
+	<param name="Состав">полиэстер 100%</param>
+	
+	<param name="Размер">48</param>
+</offer>
+<param name="Cезон">весна-осень</param>
+	
+<offer available="true" id="051214-54:6">
+    <name>Юбка PEONY Ко-ко красный 051214</name>
+	<url>http://peony.ua/yubki/ko-ko/</url>
+	<price>125.28</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>25</categoryId>
+    <description><![CDATA[Красный! На пике моды.
+
+Стильно, сексуально, комфортно. Короткая юбка, выполненная из дайвинга,&amp;nbsp;благодаря удачному крою, отлично будет смотреться на Вашей фигуре. Необычно оформленный низ юбки, делает Вас загадочной и романтичной. А, присобранное нежное кружево в тон ткани, добавит Вам шарма. 
+
+Смело добавляйте сюда топ на тоненьких бретельках или лёгкую блузку из стуящейся ткани, и Вы королева на любой вечеринке!
+]]></description>
+	<categoryName>Юбки</categoryName>
+	<picture>http://peony.ua/upload/shop/2016-04-21/6364da81a541cb1c2b0e5cb87eb7fab0.JPG</picture>
+	
+	<picture>http://peony.ua/upload/shop/2016-04-21/97b4b5f137178a5fe114c8e629808cb6.JPG</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>051214</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">красный</param>
+	<param name="Ткань">Дайвинг</param>
+	<param name="Состав">полиэстер 100%</param>
+	
+	<param name="Размер">54</param>
+</offer>
+<param name="Cезон">весна-осень</param>
+	
+<offer available="true" id="281014-48:10">
+    <name>Платье PEONY Сириус синий 281014</name>
+	<url>http://peony.ua/platya/sirius-1/</url>
+	<price>240.12</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Удобное повседневное платье &amp;quot;Сириус&amp;quot; от PEONY для женщин, ценящих комфорт.
+
+Преимущества модели:
+
+- ткань приятно ложится по фигуре, не сковывая движений, обеспечивает комфорт;
+
+- благодаря свободному крою скрывает недостатки фигуры;
+
+- длина изделия чуть выше колена подойдет даже девушкам невысокого роста;
+
+- модель отлично сочетается с обувью и на высоком каблуке, и на низкой платформе.
+
+
+
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-02-06/9f65cb668bd7766d5fbe8836d3c0b040.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2016-04-21/96da903738d22d81af08a32a1e75e4ae.JPG</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>281014</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">синий</param>
+	<param name="Ткань">Трикотаж на флисе + пайетка на гипюре</param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">48</param>
+</offer>
+<param name="Cезон">осень-зима</param>
+	
+<offer available="true" id="291014-50:91">
+    <name>Платье PEONY Мадрид - зима кирпичный 291014</name>
+	<url>http://peony.ua/platya/madrid-zima-2/</url>
+	<price>226.548</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Удобное повседневное платье &amp;quot;Мадрид зима&amp;quot; от PEONY для женщин, ценящих комфорт.
+
+Преимущества модели:
+
+- ткань приятно ложится по фигуре, не сковывая движений, обеспечивает комфорт;
+
+- благодаря свободному крою скрывает недостатки фигуры
+
+- длина изделия чуть выше колена подойдет даже девушкам невысокого роста;
+
+
+
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-02-06/b3c3ca1aa9b1eb90e1bd92d5bb7dd5ca.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2016-02-29/11b1fea917a7d94b3f52677f20897ed8.JPG</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>291014</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">кирпичный</param>
+	<param name="Ткань">Ангора + пайетка</param>
+	<param name="Состав">шерсть 80%, эластан 20%</param>
+	
+	<param name="Размер">50</param>
+</offer>
+<param name="Cезон">осень-зима</param>
+	
+<offer available="true" id="200914-48:10">
+    <name>Свитшот PEONY Ромашка синий 200914</name>
+	<url>http://peony.ua/svitshoti/svitshot-romashka/</url>
+	<price>278.4</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>24</categoryId>
+    <description><![CDATA[Очень мягкий и приятный к телу свитшот. Особенности модели:
+
+Свитшот - незаменимый элемент гардероба современной модницы
+
+
+	
+	
+		Свободный покрой;
+		Отсутствие застежки;
+		Длинные рукава;
+		Круглый горловой вырез;
+	
+	
+
+]]></description>
+	<categoryName>Свитшоты</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-02-06/2c2b270fb0538917e8a761c0e006640a.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2016-04-21/03e96aae22e5db11633e7294989196a3.JPG</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>200914</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">синий</param>
+	<param name="Ткань">Стёганый трикотаж</param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">48</param>
+</offer>
+
+<offer available="true" id="200914-54:10">
+    <name>Свитшот PEONY Ромашка синий 200914</name>
+	<url>http://peony.ua/svitshoti/svitshot-romashka/</url>
+	<price>278.4</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>24</categoryId>
+    <description><![CDATA[Очень мягкий и приятный к телу свитшот. Особенности модели:
+
+Свитшот - незаменимый элемент гардероба современной модницы
+
+
+	
+	
+		Свободный покрой;
+		Отсутствие застежки;
+		Длинные рукава;
+		Круглый горловой вырез;
+	
+	
+
+]]></description>
+	<categoryName>Свитшоты</categoryName>
+	<picture>http://peony.ua/upload/shop/2017-02-06/2c2b270fb0538917e8a761c0e006640a.jpg</picture>
+	
+	<picture>http://peony.ua/upload/shop/2016-04-21/03e96aae22e5db11633e7294989196a3.JPG</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>200914</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">синий</param>
+	<param name="Ткань">Стёганый трикотаж</param>
+	<param name="Состав">коттон 80%, эластан 20%</param>
+	
+	<param name="Размер">54</param>
+</offer>
+<param name="Cезон">лето</param>
+	
+<offer available="true" id="010613-48:168">
+    <name>Платье PEONY Даша синий + мята 010613</name>
+	<url>http://peony.ua/platya/dasha/</url>
+	<price>172.26</price>
+	<currencyId>UAH</currencyId>
+	<categoryId>21</categoryId>
+    <description><![CDATA[Летнее платье &amp;quot;Даша&amp;quot; от PEONY - стильное решение для модниц.
+Преимущества модели:
+- высококачественный креп обладает высокой драпируемостью и малой сминаемостью;
+- крой и цветовое решение способны скрыть недостатки фигуры;
+- повседневное платье отлично подойдет как молодым девушкам, так и зрелым женщинам;
+- идеально для рабочих будней, прогулок по городу, встреч с друзьями.
+Купить модные платья от PEONY легко - свяжитесь с нами и сообщите о заказе.
+
+&amp;nbsp;
+]]></description>
+	<categoryName>Платья</categoryName>
+	<picture>http://peony.ua/upload/shop/2013-11-05/29cb393d999907c0bcdfd93c0908744a.JPG</picture>
+	
+	<delivery>true</delivery>
+	<vendor>PEONY</vendor>
+	<vendorCode>010613</vendorCode>
+	<param name="Оплата/Доставка">Предоплата 20% от суммы заказа. Отправка заказа осуществляется на следующий день после оплаты</param>
+	<param name="Гарантия от производителя">Обмен/возврат в течении 14 дней при условии сохранности товарного вида и бирок</param>
+	<param name="country_of_origin">Украина</param>
+	<param name="Цвет">синий + мята</param>
+	<param name="Ткань">Бенгалин</param>
+	<param name="Состав">полиэстер 100%</param>
+	
+	<param name="Размер">48</param>
+</offer>
+
+  </offers>
+</shop>
+</yml_catalog>

@@ -1,0 +1,27 @@
+body {
+	background: #17141F;
+	color: #b8b5c0;
+}
+
+.card, .wrapper-body, .demandsxml-wrapper, .wrapper-spoiler, .result-wrapper, .wrapper-picture {
+    border-color: #392E5C;
+    background: #201C2B;
+}
+
+ .body-category, .description, .picture, .spoiler_body-list , .spoiler_body {
+     background: #392E5C;
+ }
+
+.category, .name, .vendor, .price, .available, .stock_quantity, .offer_id, .number, .attention,
+.links, .backgroundLinksDiscription, .footer, .linkwordlink  {
+    background: #201C2B;
+    border-color: #392E5C;
+}
+
+.name-color a, .name-color a:visited {
+    color: #b8b5c0;
+}
+
+.percent, .preload {
+    background-color: #201C2B;
+}
