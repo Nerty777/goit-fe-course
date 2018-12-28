@@ -87,8 +87,8 @@ const getAllUsers = event => {
       // скрытие списка пользователей при нажатии кнопки Hide All Users List
       if (event.textContent === "Hide All Users List") {
         resultAllUsersList.textContent = "";
-
         //  Удаление всех пользователей
+        deleteAllUsers();
         function deleteAllUsers() {
           users.data.map(user => {
             removeUser(user.id);
