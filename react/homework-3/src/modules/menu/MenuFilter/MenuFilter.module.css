@@ -1,0 +1,24 @@
+.container {
+  margin: 0 15px;
+}
+
+.input_filter {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #3c1c78;
+  color: #714bb9;
+  width: 200px;
+}
+
+::-webkit-input-placeholder {
+  color: #714bb9;
+}
+::-moz-placeholder {
+  color: #714bb9;
+} /* Firefox 19+ */
+:-moz-placeholder {
+  color: #714bb9;
+} /* Firefox 18- */
+:-ms-input-placeholder {
+  color: #714bb9;
+}

@@ -1,0 +1,40 @@
+.menupage {
+  padding: 0px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.modal {
+  max-width: 600px;
+  min-height: 300px;
+  background-color: #fff;
+  padding: 16px;
+}
+
+.red {
+  color: red;
+  font-size: 40px;
+}
+
+.loading {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+  font-size: 70px;
+  color: blue;
+  background-color: #fff;
+  padding: 5px;
+}
+
+.link {
+  display: block;
+  padding: 5px 5px;
+  text-decoration: none;
+  color: #6c42ce;
+  margin: 5px 15px;
+}
+
+.link_hover {
+  color: palevioletred;
+}

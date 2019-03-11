@@ -1,0 +1,30 @@
+
+.form {
+  padding: 0 10px;
+}
+
+.input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #3c1c78;
+  color: #714bb9;
+  min-width: 240px;
+}
+
+::-webkit-input-placeholder {
+  color: #714bb9;
+}
+::-moz-placeholder {
+  color: #714bb9;
+} /* Firefox 19+ */
+:-moz-placeholder {
+  color: #714bb9;
+} /* Firefox 18- */
+:-ms-input-placeholder {
+  color: #714bb9;
+}
+
+.input, .label {
+  display: block;
+  margin: 10px 0px;
+}

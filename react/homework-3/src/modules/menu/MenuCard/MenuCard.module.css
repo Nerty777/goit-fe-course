@@ -1,0 +1,14 @@
+.container {
+  padding: 5px;
+}
+
+.img,
+.id,
+.name,
+.image,
+.price,
+.category,
+.description,
+.ingredients {
+  margin: 10px;
+}
