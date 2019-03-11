@@ -84,8 +84,8 @@ const getAllUsers = event => {
           arrayAllUsers.join("")
         );
       }
-      // скрытие списка пользователей при нажатии кнопки Hide All Users List
-      if (event.textContent === "Hide All Users List") {
+      // скрытие списка пользователей при нажатии кнопки Delete All Users
+      if (event.textContent === "Delete All Users") {
         resultAllUsersList.textContent = "";
         //  Удаление всех пользователей
         deleteAllUsers();
