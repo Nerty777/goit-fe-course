@@ -1,0 +1,17 @@
+.container {
+  padding: 5px;
+}
+
+.id,
+.name,
+.price,
+.category,
+.description,
+.ingredients {
+  margin: 10px;
+}
+
+.img {
+  display: block;
+  margin: 0 auto;
+}

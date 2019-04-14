@@ -14,6 +14,7 @@ body {
   font-weight: 400;
   margin: 0 auto;
 }
+
 .wrapper {
   margin: 0 auto;
 }
@@ -158,8 +159,8 @@ img {
 }
 
 .wrapper-img::after {
-  display: block;z
-  content: "";
+  display: block;
+  zcontent: "";
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -246,7 +247,6 @@ img {
   .partner-title {
     margin-bottom: 32px;
   }
-
 
   .partner-item {
     margin-right: 50px;

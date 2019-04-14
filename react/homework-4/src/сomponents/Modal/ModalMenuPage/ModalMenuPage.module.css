@@ -1,0 +1,7 @@
+.modal {
+  max-width: 600px;
+  min-width: 600px;
+  min-height: 300px;
+  background-color: #fff;
+  padding: 16px;
+}
