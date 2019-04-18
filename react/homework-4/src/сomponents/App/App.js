@@ -18,10 +18,10 @@ const AsyncOrderHistory = lazy(() =>
   import('../Pages/OrderHistory' /* webpackChunkName: "order-history-page" */),
 );
 const AsyncMenuAddItem = lazy(() =>
-  import('../Pages/MenuAddItemPage' /* webpackChunkName: "menu-add-item-page" */),
+  import('../Pages/MenuAddItem' /* webpackChunkName: "menu-add-item-page" */),
 );
 const AsyncMenuCardPage = lazy(() =>
-  import('../Pages/MenuOneCardPage' /* webpackChunkName: "menu-card-page" */),
+  import('../Pages/MenuOneCard' /* webpackChunkName: "menu-card-page" */),
 );
 const AsyncAboutPage = lazy(() =>
   import('../Pages/About' /* webpackChunkName: "about-page" */),
@@ -37,6 +37,9 @@ const AsyncAccountPage = lazy(() =>
 );
 const AsyncPlannerPage = lazy(() =>
   import('../Pages/Planner' /* webpackChunkName: "planner-page" */),
+);
+const AsyncCartPage = lazy(() =>
+  import('../Pages/Cart' /* webpackChunkName: "planner-page" */),
 );
 const AsyncNotFoundPage = lazy(() =>
   import('../Pages/NotFound' /* webpackChunkName: "not-found-page" */),
@@ -88,6 +91,7 @@ export default class App extends Component {
             <Route path={routes.ORDER_HISTORY} component={AsyncOrderHistory} />
             <Route path={routes.ACCOUNT} component={AsyncAccountPage} />
             <Route path={routes.PLANNER} component={AsyncPlannerPage} />
+            <Route path={routes.CART} component={AsyncCartPage} />
             <Route component={AsyncNotFoundPage} />
             {/* <ProtectedRoute exact path={routes.CART} component={Cart} />
             <Route exact path={routes.SIGNUP} component={SignUpPage} />

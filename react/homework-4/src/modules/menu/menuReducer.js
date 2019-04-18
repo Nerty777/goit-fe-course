@@ -4,12 +4,27 @@ import types from './menuActionTypes';
 function menuReducer(state = [], action) {
   switch (action.type) {
     case types.FETCH_SUCCESS_ALL_ITEMS:
-      return action.payload;
+      return action.payload.IDs.menuItemsIds;
     case types.DELETE_SUCCESS:
-      return state.filter(item => item.id !== action.payload);
+      state.filter(item => console.log(item));
+      return state.filter(item => +item !== action.payload);
     default:
       return state;
   }
+}
+
+function entityReducer(state = {}, action) {
+  if (action.payload && action.payload.entities) {
+    const newState = { ...state };
+    Object.keys(action.payload.entities).forEach(entityKey => {
+      newState[entityKey] = {
+        ...state[entityKey],
+        ...action.payload.entities[entityKey],
+      };
+    });
+    return newState;
+  }
+  return state;
 }
 
 function menuOneItemReducer(state = {}, action) {
@@ -37,7 +52,7 @@ function modalStatusReducer(state = false, action) {
 function categoriesReducer(state = [], action) {
   switch (action.type) {
     case types.FETCH_SUCCESS_ALL_CATEGORIES:
-      return action.payload;
+      return action.payload.IDs.menuCategoriesIds;
     default:
       return state;
   }
@@ -76,11 +91,12 @@ function errorReducer(state = null, action) {
 }
 
 export default combineReducers({
-  items: menuReducer,
+  entities: entityReducer,
+  menuIDs: menuReducer,
   filter: filterReducer,
   isLoading: loadingReducer,
   error: errorReducer,
-  categories: categoriesReducer,
+  categoriesIDs: categoriesReducer,
   menuOneItem: menuOneItemReducer,
   modalStatus: modalStatusReducer,
 });

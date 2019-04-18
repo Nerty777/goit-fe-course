@@ -3,12 +3,5 @@
   align-items: center;
   padding: 8px 0px;
   margin-bottom: 15px;
-}
-
-.logo {
-  margin-right: 16px;
-}
-
-.usermenu {
-  margin-left: auto;
+  justify-content: space-between;
 }

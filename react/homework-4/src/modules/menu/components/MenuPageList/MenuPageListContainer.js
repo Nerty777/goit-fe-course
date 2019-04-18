@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import { compose } from 'redux';
 import queryString from 'query-string';
 import { menuOperations, menuSelectors } from '../..';
+import cartActions from '../../../cart/components/Cart/cartActions';
 import PageList from './MenuPageList';
 import ModalMenuPage from '../../../../сomponents/Modal/ModalMenuPage/index';
 import MenuCategorySelector from '../MenuCategorySelector/MenuCategorySelector';
@@ -58,6 +59,7 @@ class PageListContainer extends Component {
       modalStatus,
       categories,
       filteredMenu,
+      addToCart,
     } = this.props;
 
     const currentCategory = getCategoryFromProps(this.props);
@@ -79,12 +81,15 @@ class PageListContainer extends Component {
             onChange={this.handleCategoryChange}
           />
         </div>
-        <PageList
-          filteredMenu={filteredMenu}
-          match={match}
-          handleDeleteCard={handleDeleteCard}
-          handleShowMoreInfo={handleShowMoreInfo}
-        />
+        {filteredMenu && (
+          <PageList
+            filteredMenu={filteredMenu}
+            match={match}
+            handleDeleteCard={handleDeleteCard}
+            handleShowMoreInfo={handleShowMoreInfo}
+            addToCart={addToCart}
+          />
+        )}
         {modalStatus && (
           <ModalMenuPage menuOneItemForModal={menuOneItemForModal} />
         )}
@@ -93,12 +98,14 @@ class PageListContainer extends Component {
   }
 }
 
-const mapStateToProps = state => ({
-  menuOneItemForModal: menuSelectors.getMenuOneItemForModal(state),
-  modalStatus: menuSelectors.modalStatus(state),
-  categories: state.menu.categories,
-  filteredMenu: menuSelectors.getFilteredMenuItems(state),
-});
+const mapStateToProps = state => {
+  return {
+    menuOneItemForModal: menuSelectors.getMenuOneItemForModal(state),
+    modalStatus: menuSelectors.modalStatus(state),
+    categories: menuSelectors.getAllCategories(state),
+    filteredMenu: menuSelectors.getFilteredMenuItems(state),
+  };
+};
 
 const mapDispatchToProps = {
   fetchMenuItems: menuOperations.fetchMenuItems,
@@ -107,6 +114,7 @@ const mapDispatchToProps = {
   handleShowMoreInfo: menuOperations.getMenuOneItemForModal,
   fetchMenuByCategory: menuOperations.fetchMenuByCategory,
   handleFilterChange: menuOperations.handleFilterChange,
+  addToCart: cartActions.addToCart,
 };
 
 export default compose(

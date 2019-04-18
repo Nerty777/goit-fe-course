@@ -1,10 +1,23 @@
 import { createSelector } from 'reselect';
 
-const getMenuItems = state => state.menu.items;
 const getMenuOneItem = state => state.menu.menuOneItem;
-const getAllCategories = state => state.menu.categories;
 const modalStatus = state => state.menu.modalStatus;
 const getFilter = state => state.menu.filter.toLowerCase();
+
+export const getMenuItemsEntities = state => state.menu.entities.menuItems;
+export const getMenuItemsIDs = state => state.menu.menuIDs;
+export const getCategoriesEntities = state => state.menu.entities.categories;
+export const getCategoriesIDs = state => state.menu.categoriesIDs;
+
+export const getMenuItems = createSelector(
+  [getMenuItemsIDs, getMenuItemsEntities],
+  (ids, entities) => ids.map(id => entities[id]),
+);
+
+export const getAllCategories = createSelector(
+  [getCategoriesIDs, getCategoriesEntities],
+  (ids, entities) => ids.map(id => entities[id]),
+);
 
 export const getFilteredMenuItems = createSelector(
   [getMenuItems, getFilter],

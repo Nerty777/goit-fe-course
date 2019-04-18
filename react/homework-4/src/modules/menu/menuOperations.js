@@ -37,7 +37,6 @@ const fetchAddMenuItem = item => async dispatch => {
   dispatch(actions.fetchLoading());
   try {
     const data = await API.addItem(item);
-    console.log('data: ', data);
     if (data) {
       dispatch(actions.addMenuItemSuccess(item));
     } else {

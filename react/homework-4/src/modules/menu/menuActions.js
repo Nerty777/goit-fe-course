@@ -1,3 +1,5 @@
+import { normalize } from 'normalizr';
+import { menuItemsSchema, categoriesSchema } from '../schemas/schemas';
 import types from './menuActionTypes';
 
 const fetchLoading = () => ({
@@ -9,10 +11,16 @@ const fetchError = error => ({
   payload: error.message,
 });
 
-const fetchAllItemsSuccess = menuAllItems => {
+const fetchAllItemsSuccess = denormalizedMenuAllItems => {
+  const normalizedMenu = normalize(denormalizedMenuAllItems, [menuItemsSchema]);
   return {
     type: types.FETCH_SUCCESS_ALL_ITEMS,
-    payload: menuAllItems,
+    payload: {
+      entities: normalizedMenu.entities,
+      IDs: {
+        menuItemsIds: Object.keys(normalizedMenu.entities.menuItems),
+      },
+    },
   };
 };
 
@@ -21,10 +29,22 @@ const fetchMenuOneItemSuccess = id => ({
   payload: id,
 });
 
-const fetchAllCategoriesSuccess = categories => ({
-  type: types.FETCH_SUCCESS_ALL_CATEGORIES,
-  payload: categories,
-});
+const fetchAllCategoriesSuccess = denormalizedCategories => {
+  const normalizedCategories = normalize(denormalizedCategories, [
+    categoriesSchema,
+  ]);
+  return {
+    type: types.FETCH_SUCCESS_ALL_CATEGORIES,
+    payload: {
+      entities: normalizedCategories.entities,
+      IDs: {
+        menuCategoriesIds: Object.keys(
+          normalizedCategories.entities.categories,
+        ),
+      },
+    },
+  };
+};
 
 const changeFilter = filter => ({
   type: types.CHANGE_FILTER,

@@ -1,15 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PageList from '../../modules/menu/components/MenuPageList';
 
-export default class MenuPage extends Component {
-  state = {};
+const MenuPage = () => (
+  <section className="menupage">
+    <PageList />
+  </section>
+);
 
-  render() {
-    const { location, history } = this.props;
-    return (
-      <section className="menupage">
-        <PageList location={location} history={history} />
-      </section>
-    );
-  }
-}
+export default MenuPage;

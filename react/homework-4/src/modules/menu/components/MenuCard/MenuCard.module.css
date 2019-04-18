@@ -11,6 +11,10 @@
   margin: 10px;
 }
 
+.description, .ingredients {
+  text-align: left;
+}
+
 .img {
   display: block;
   margin: 0 auto;

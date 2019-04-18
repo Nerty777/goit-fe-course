@@ -2,13 +2,14 @@ import React from 'react';
 import MenuCard from '../MenuCard/MenuCard';
 import s from './MenuPageList.module.css';
 
-const MenuPageListView = ({
+const MenuPageList = ({
   filteredMenu,
   match,
   handleDeleteCard,
   handleShowMoreInfo,
-}) => (
-  <>
+  addToCart,
+}) =>
+  filteredMenu.length > 0 && (
     <ul className={s.list}>
       {filteredMenu.map(item => {
         const {
@@ -33,12 +34,12 @@ const MenuPageListView = ({
               ingredients={ingredients}
               onShowMoreInfo={() => handleShowMoreInfo(id)}
               onDeleteCard={() => handleDeleteCard(id)}
+              addToCart={() => addToCart(id)}
             />
           </li>
         );
       })}
     </ul>
-  </>
-);
+  );
 
-export default MenuPageListView;
+export default MenuPageList;

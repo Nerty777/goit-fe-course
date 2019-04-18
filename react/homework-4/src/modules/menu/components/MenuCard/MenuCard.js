@@ -14,6 +14,7 @@ const MenuCard = ({
   onDeleteCard,
   match,
   location,
+  addToCart,
 }) => (
   <div className={s.container}>
     <Link
@@ -37,6 +38,9 @@ const MenuCard = ({
       </button>
       <button type="button" onClick={onDeleteCard}>
         Delete
+      </button>
+      <button type="button" onClick={addToCart}>
+        Add to cart
       </button>
     </div>
   </div>
