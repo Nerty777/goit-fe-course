@@ -1,15 +1,15 @@
-import React from "react";
+import React from 'react';
 import { connect } from 'react-redux';
-import Logo from "../Logo/Logo";
-import Nav from "../Nav/Nav";
-import UserMenu from "../../modules/user/UserMenu/UserMenu";
-import CartIcon from "../../modules/cart/components/CartIcon/CartIconContainer";
+import Logo from '../Logo/Logo';
+import Nav from '../Nav/Nav';
+import UserMenu from '../../modules/user/UserMenu/UserMenu';
+import CartIcon from '../../modules/cart/components/CartIcon/CartIconContainer';
 import AuthNav from '../AuthNav/AuthNav';
 import * as selectors from '../../modules/auth/authSelectors';
 import * as operations from '../../modules/auth/authOperations';
-import logoImg from "../Logo/logo.png";
-import appNavItems from "../../configs/main-nav";
-import s from "./AppHeader.module.css";
+import logoImg from '../Logo/logo.png';
+import appNavItems from '../../configs/main-nav';
+import s from './AppHeader.module.css';
 
 const AppHeader = ({ isAuthenticated, user, onSignOut }) => (
   <header className={s.header}>
@@ -20,7 +20,7 @@ const AppHeader = ({ isAuthenticated, user, onSignOut }) => (
     <CartIcon />
     {isAuthenticated ? (
       <div className={s.usermenu}>
-      <UserMenu onSignOut={onSignOut} user={user} />
+        <UserMenu onSignOut={onSignOut} user={user} />
       </div>
     ) : (
       <AuthNav />
@@ -30,15 +30,14 @@ const AppHeader = ({ isAuthenticated, user, onSignOut }) => (
 
 const mapState = state => ({
   isAuthenticated: selectors.isAuthenticated(state),
-  user: selectors.getUser(state)
+  user: selectors.getUser(state),
 });
 
 const mapDispatch = {
-  onSignOut: operations.signOut
+  onSignOut: operations.signOut,
 };
 
 export default connect(
   mapState,
-  mapDispatch
+  mapDispatch,
 )(AppHeader);
-

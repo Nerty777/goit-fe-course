@@ -1,24 +1,24 @@
-import React from "react";
-import { Route, Redirect } from "react-router-dom";
-import { connect } from "react-redux";
-import * as selectors from "../../modules/auth/authSelectors";
+import React from 'react';
+import { Route, Redirect } from 'react-router-dom';
+import { connect } from 'react-redux';
+import * as selectors from '../../modules/auth/authSelectors';
 
 const ProtectedRoute = ({
   component: Component,
-  redirectTo = "/",
+  redirectTo = '/',
   isAuthenticated,
   ...rest
 }) => (
   <Route
     {...rest}
     render={props =>
-    isAuthenticated ? (
+      isAuthenticated ? (
         <Component {...props} />
       ) : (
         <Redirect
           to={{
             pathname: redirectTo,
-            state: { from: props.location }
+            state: { from: props.location },
           }}
         />
       )
@@ -27,7 +27,7 @@ const ProtectedRoute = ({
 );
 
 const mapStateToProps = state => ({
-  isAuthenticated: selectors.isAuthenticated(state)
+  isAuthenticated: selectors.isAuthenticated(state),
 });
 
 export default connect(mapStateToProps)(ProtectedRoute);

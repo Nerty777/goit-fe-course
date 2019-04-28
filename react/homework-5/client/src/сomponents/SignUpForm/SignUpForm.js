@@ -1,7 +1,7 @@
-import React from "react";
-import s from "./SignUpForm.module.css";
+import React from 'react';
+import s from './SignUpForm.module.css';
 
-const SignUpForm = ({item, handleChange, handleSubmit}) => {
+const SignUpForm = ({ item, handleChange, handleSubmit }) => {
   return (
     <form className={s.form} onSubmit={handleSubmit}>
       <label className={s.label} htmlFor="login">
@@ -40,7 +40,9 @@ const SignUpForm = ({item, handleChange, handleSubmit}) => {
           onChange={handleChange}
         />
       </label>
-      <button className={s.button} type="submit">Sign Up</button>
+      <button className={s.button} type="submit">
+        Sign Up
+      </button>
     </form>
   );
 };

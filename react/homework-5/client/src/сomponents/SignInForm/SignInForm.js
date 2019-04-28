@@ -1,6 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import s from "./SignInForm.module.css";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import s from './SignInForm.module.css';
 
 const SignInForm = ({ email, password, handleSubmit, handleChange }) => (
   <form className={s.form} onSubmit={handleSubmit}>
@@ -32,7 +32,7 @@ const SignInForm = ({ email, password, handleSubmit, handleChange }) => (
       Sign in
     </button>
     <span className={s.container}>
-      {"Need an account? "}
+      {'Need an account? '}
       <Link to="/signup" className={s.link}>
         Sign up
       </Link>

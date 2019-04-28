@@ -1,4 +1,4 @@
-import { actionTypes } from './authActionTypes';
+import actionTypes from './authActionTypes';
 
 export const signUpRequest = () => ({
   type: actionTypes.SIGN_UP_REQUEST,
@@ -47,6 +47,6 @@ export const refreshUserStart = () => ({
 export const refreshUserSuccess = user => ({
   type: actionTypes.REFRESH_CURRENT_USER_SUCCESS,
   payload: {
-    user
-  }
+    user,
+  },
 });

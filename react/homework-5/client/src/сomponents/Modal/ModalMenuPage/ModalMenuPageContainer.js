@@ -1,7 +1,7 @@
 import React, { Component, createRef } from 'react';
 import { connect } from 'react-redux';
 import menuOperations from '../../../modules/menu/menuOperations';
-import cartActions from '../../../modules/cart/components/Cart/cartActions';
+import { addToCart } from '../../../modules/cart/components/Cart/cartActions';
 import ModalMenuPage from './ModalMenuPage';
 import s from './ModalMenuPageContainer.module.css';
 
@@ -38,13 +38,13 @@ class ModalMenuPageContainer extends Component {
   };
 
   render() {
-    const { menuOneItemForModal, addToCart } = this.props;
+    const { menuOneItemForModal, addedToCart } = this.props;
     return (
       <div className={s.backdrop} ref={this.backdropRef}>
         <ModalMenuPage
           menuOneItemForModal={menuOneItemForModal}
           onClose={this.onClose}
-          addToCart={addToCart}
+          addToCart={addedToCart}
         />
       </div>
     );
@@ -53,7 +53,7 @@ class ModalMenuPageContainer extends Component {
 
 const mapDispatchToProps = {
   closeModal: menuOperations.closeModal,
-  addToCart: cartActions.addToCart,
+  addedToCart: addToCart,
 };
 
 export default connect(

@@ -4,11 +4,13 @@ import * as selectors from '../../modules/auth/authSelectors';
 
 const withAuth = WrapperComponent => {
   class WithAuth extends Component {
-
     componentDidUpdate() {
-      if (this.props.isAuthenticated) {
-        const { from } = this.props.location.state || { from: { pathname: "/" } };
-        this.props.history.replace(from);
+      const { isAuthenticated, location, history } = this.props;
+      if (isAuthenticated) {
+        const { from } = location.state || {
+          from: { pathname: '/' },
+        };
+        history.replace(from);
       }
     }
 

@@ -18,9 +18,13 @@ const ModalMenuPage = ({ menuOneItemForModal, onClose, addToCart }) => (
       {menuOneItemForModal.ingredients &&
         menuOneItemForModal.ingredients.map(item => `${item}. `)}
     </p>
-    <button className={s.addToCart} type="button" onClick={() => addToCart(menuOneItemForModal.id)}>
-        Add to cart
-      </button>
+    <button
+      className={s.addToCart}
+      type="button"
+      onClick={() => addToCart(menuOneItemForModal.id)}
+    >
+      Add to cart
+    </button>
     <button type="button" onClick={onClose}>
       Close
     </button>

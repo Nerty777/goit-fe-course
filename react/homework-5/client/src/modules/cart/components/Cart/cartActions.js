@@ -1,13 +1,13 @@
 import types from './cartActionTypes';
 
-const addToCart = id => ({
+export const addToCart = id => ({
   type: types.ADD_TO_CART,
   payload: {
     id,
   },
 });
 
-const removeFromCart = id => ({
+export const removeFromCart = id => ({
   type: types.REMOVE_FROM_CART,
   payload: {
     id,

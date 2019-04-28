@@ -1,11 +1,11 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import * as operations from '../../modules/auth/authOperations';
-import SignInForm from "./SignInForm";
+import SignInForm from './SignInForm';
 
 const INITIAL_STATE = {
-  email: "",
-  password: ""
+  email: '',
+  password: '',
 };
 
 class SignInFormContainer extends Component {
@@ -17,8 +17,9 @@ class SignInFormContainer extends Component {
   };
 
   handleSubmit = evt => {
+    const { onSubmit } = this.props;
     evt.preventDefault();
-    this.props.onSubmit({ ...this.state });
+    onSubmit({ ...this.state });
     this.reset();
   };
 
@@ -39,12 +40,11 @@ class SignInFormContainer extends Component {
   }
 }
 
+const mapDispatchToProps = {
+  onSubmit: operations.signIn,
+};
 
-  const mapDispatchToProps = {
-    onSubmit: operations.signIn
-  };
-  
-  export default connect(
-    null,
-    mapDispatchToProps
-  )(SignInFormContainer);
+export default connect(
+  null,
+  mapDispatchToProps,
+)(SignInFormContainer);

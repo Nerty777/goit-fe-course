@@ -1,12 +1,12 @@
-import React, { Component } from "react";
-import { connect } from "react-redux";
-import * as operations from "../../modules/auth/authOperations";
-import SignUpForm from "./SignUpForm";
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import * as operations from '../../modules/auth/authOperations';
+import SignUpForm from './SignUpForm';
 
 const INITIAL_STATE = {
-  name: "",
-  email: "",
-  password: ""
+  name: '',
+  email: '',
+  password: '',
 };
 
 class SignUpFormContainer extends Component {
@@ -14,7 +14,7 @@ class SignUpFormContainer extends Component {
 
   handleChange = ({ target: { name, value } }) => {
     this.setState({
-      [name]: value
+      [name]: value,
     });
   };
 
@@ -37,10 +37,10 @@ class SignUpFormContainer extends Component {
 }
 
 const mapDispatchToProps = {
-  onSubmit: operations.signUp
+  onSubmit: operations.signUp,
 };
 
 export default connect(
   null,
-  mapDispatchToProps
+  mapDispatchToProps,
 )(SignUpFormContainer);

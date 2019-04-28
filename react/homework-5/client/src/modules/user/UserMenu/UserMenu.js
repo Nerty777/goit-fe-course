@@ -65,6 +65,7 @@ export default class UserMenu extends Component {
 
   render() {
     const { isDropDownOpen } = this.state;
+    const { user, onSignOut } = this.props;
     return (
       <div
         className={s.container}
@@ -72,8 +73,8 @@ export default class UserMenu extends Component {
         ref={this.backdropRef}
       >
         <Avatar userAvatar={userAvatar} />
-        <span className={s.name}>{this.props.user.name}</span>
-        {isDropDownOpen && <DropDown onSignOut={this.props.onSignOut} />}
+        <span className={s.name}>{user.name}</span>
+        {isDropDownOpen && <DropDown onSignOut={onSignOut} />}
       </div>
     );
   }

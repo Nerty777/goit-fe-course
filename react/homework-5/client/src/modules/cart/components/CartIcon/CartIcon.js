@@ -6,11 +6,7 @@ import s from './CartIcon.module.css';
 const CartIcon = ({ amount = 7 }) => (
   <div className={s.container}>
     <Link to="/cart">
-      <img
-        src={cartIconSvg}
-        width="65"
-        alt=""
-      />
+      <img src={cartIconSvg} width="65" alt="" />
       <span className={s.amount}>{amount}</span>
     </Link>
   </div>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import SignUpFormContainer from '../SignUpForm/SignUpFormContainer';
 import WithAuth from '../Hoc/withAuth';
 
@@ -9,6 +9,3 @@ const SignUp = () => (
 );
 
 export default WithAuth(SignUp);
-
-
-

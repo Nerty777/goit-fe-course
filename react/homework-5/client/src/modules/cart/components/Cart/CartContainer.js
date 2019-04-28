@@ -1,18 +1,18 @@
 import { connect } from 'react-redux';
-import cartActions from './cartActions';
-import cartSelectors from './cartSelectors';
+import { removeFromCart, increaseAmount, decreaseAmount } from './cartActions';
+import { getCartMenu, totalPrice } from './cartSelectors';
 
 import Cart from './Cart';
 
 const mapStateToProps = state => ({
-  menu: cartSelectors.getCartMenu(state),
-  totalPrice: cartSelectors.totalPrice(state),
+  menu: getCartMenu(state),
+  totalPrice: totalPrice(state),
 });
 
 const mapDispatchToProps = {
-  removeFromCart: cartActions.removeFromCart,
-  onIncrease: cartActions.increaseAmount,
-  onDecrease: cartActions.decreaseAmount,
+  removeFromCart,
+  onIncrease: increaseAmount,
+  onDecrease: decreaseAmount,
 };
 
 export default connect(

@@ -1,5 +1,5 @@
-import { combineReducers } from "redux";
-import { actionTypes } from "./authActionTypes";
+import { combineReducers } from 'redux';
+import actionTypes from './authActionTypes';
 
 const user = (state = null, { type, payload }) => {
   switch (type) {
@@ -46,5 +46,5 @@ const token = (state = null, { type, payload }) => {
 export default combineReducers({
   user,
   isAuthenticated,
-  token
+  token,
 });
