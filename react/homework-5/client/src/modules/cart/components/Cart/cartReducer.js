@@ -21,8 +21,6 @@ function amount(state = {}, { type, payload }) {
         [payload.id]: state[payload.id] ? state[payload.id] + 1 : 1,
       };
     case actionTypes.DECREASE_AMOUNT:
-      console.log('state: ', state[payload.id]);
-      console.log('state: ', state);
       return {
         ...state,
         [payload.id]:
