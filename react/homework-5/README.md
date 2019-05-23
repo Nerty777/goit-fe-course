@@ -1,3 +1,5 @@
 Available Scripts:
-server - npm start;
-client - npm run server and npm start;
+<br>
+server folder - npm start;
+<br>
+client folder - npm run server and npm start;
