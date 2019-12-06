@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JavaScript</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    .articles {
+      margin: 5px 0 0 0;
+      padding: 0;
+    }
+
+    a {
+      display: inline-block;
+      margin-bottom: 7px;
+      color: rgb(32, 31, 31);
+      text-decoration: none;
+    }
+
+    .summary {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 10px;
+      padding: 0;
+    }
+
+    .module {
+      padding: 15px;
+      margin: 10px;
+      background-color: #f7f7f7;
+      width: calc(100%/5 - 50px);
+    }
+
+    @media (max-width: 1440px) {
+      .module {
+        width: calc(100%/4 - 50px);
+      }
+    }
+
+    @media (max-width: 1024px) {
+      .module {
+        width: calc(100%/3 - 50px);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .module {
+        width: calc(100%/2 - 50px);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .module {
+        width: 100%;
+      }
+    }
+
+    .chapter.module>a,
+    p {
+      color: rgb(86, 161, 117);
+    }
+
+    p {
+      padding: 0;
+      margin: 0 0 10px 0;
+    }
+
+    h2 {
+      display: block;
+      text-align: center;
+    }
+
+    .module-one {
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>HTML CSS</h2>
+
+  <ul class="summary">
+    <li class="chapter module">
+      <p>
+        HTML CSS - 1</p>
+      <ul class="module-one">
+        <li><a href="http://fecore.net.ua/theory/module-1.html#entry">Введение</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-1.html#html">HTML</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-1.html#tags">Теги
+            и атрибуты</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-1.html#tag-types">Обзор
+            основных тегов</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-1.html#block-inline">Блочные
+            и строчные
+            элементы</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-1.html#paths">Абсолютные
+            и относительные
+            пути</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-1.html#image-format">Особенности
+            графических
+            форматов</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-1.html#symbuls">Символьные
+            подстановки</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-1.html#rules">Правила
+            оформления
+            кода</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-1.html#touls">Инструменты
+            разработчика</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-1.html#validation">Валидация
+            HTML-документа</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-1.html#resources">Дополнительные
+            материалы</a></li>
+      </ul>
+    </li>
+    </li>
+
+    <li class="chapter module">
+      <p>HTML CSS - 2</p>
+      <ul class="module-one">
+        <li><a href="http://fecore.net.ua/theory/module-2.html#entry">Введение</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-2.html#git-sections">Секции
+            Git проекта</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-2.html#git-state">Состояния
+            Git</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-2.html#git-basics">Основы
+            Git</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-2.html#git-work">Процесс
+            работы с Git-проектом</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-2.html#git-consule">Работа
+            с Git из консоли</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-2.html#gitignore">Файл
+            .gitignore</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-2.html#resources">Дополнительные
+            материалы</a></li>
+      </ul>
+    </li>
+
+    <li class="chapter module">
+      <p>HTML CSS - 3</p>
+      <ul class="module-one">
+        <li><a href="http://fecore.net.ua/theory/module-3.html#intro">Технология
+            CSS</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-3.html#syntax">Синтаксис
+            CSS</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-3.html#adding-css">Виды
+            таблиц стилей</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-3.html#selectors">Виды
+            селекторов</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-3.html#grouping">Группировка
+            селекторов</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-3.html#cascade">Наследование,
+            каскад, специфичность</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-3.html#box-model">Модель
+            визуального
+            форматирования</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-3.html#block-and-inline">Блочные
+            и строчные
+            элементы</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-3.html#margin">Особенности
+            margin</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-3.html#align">Горизонтальное
+            и вертикальное
+            выравнивание</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-3.html#styling-text">Оформление
+            текста</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-3.html#background">Фон</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-3.html#resources">Дополнительные
+            материалы</a></li>
+      </ul>
+    </li>
+
+    <li class="chapter module">
+      <p>HTML CSS - 4</p>
+      <ul class="module-one">
+        <li><a href="http://fecore.net.ua/theory/module-4.html#culor">Работа
+            с цветом</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-4.html#gradient">CSS-градиент</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-4.html#pseudo">Псевдоклассы
+            и псевдоэлементы</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-4.html#float">Float</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-4.html#filters">CSS
+            фильтры</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-4.html#counters">CSS
+            счетчики</a></li>
+      </ul>
+    </li>
+
+    <li class="chapter module">
+      <p>HTML CSS - 5</p>
+      <ul class="module-one">
+        <li><a href="http://fecore.net.ua/theory/module-5.html#position">Позиционирование
+            элементов</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-5.html#z-idx">Свойство
+            z-index</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-5.html#drop">Верстка
+            выпадающего
+            меню</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-5.html#html5">Стандарт
+            HTML5</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-5.html#html5-media">HTML5
+            media</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-5.html#css_variable">Переменные
+            CSS</a></li>
+      </ul>
+    </li>
+
+    <li class="chapter module">
+      <p>HTML CSS - 6</p>
+      <ul class="module-one">
+        <li><a href="http://fecore.net.ua/theory/module-6.html#flex">Технология
+            Flexbox</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-6.html#shadows">CSS-тени</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-6.html#transform">CSS-трансформации</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-6.html#transition">CSS-переходы</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-6.html#animation">CSS-анимация</a></li>
+      </ul>
+    </li>
+
+    <li class="chapter module">
+      <p>HTML CSS - 7</p>
+      <ul class="module-one">
+        <li><a href="http://fecore.net.ua/theory/module-7.html#font">Работа
+            со шрифтами</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-7.html#rem">Абсолютные
+            и относительные
+            единицы CSS</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-7.html#table">Таблицы</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-7.html#form">Формы</a></li>
+      </ul>
+    </li>
+
+    <li class="chapter module">
+      <p>HTML CSS - 8</p>
+      <ul class="module-one">
+        <li><a href="http://fecore.net.ua/theory/module-8.html#entry">Введение
+            в Responsive веб дизайн</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-8.html#new-ways">Новые
+            подходы к верстке</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-8.html#meta-tag">Responsive
+            meta tag</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-8.html#devtouls">Chrome
+            DevTouls</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-8.html#philosophy">Философия
+            Responsive веб дизайна</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-8.html#rules">Правила
+            responsive верстки</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-8.html#mf-df">Mobile-first
+            vs Desktop-first</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-8.html#queries">Медиазапросы</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-8.html#images">Отзывчивые
+            изображения</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-8.html#mobile-css">Mobile-first
+            css</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-8.html#resources">Дополнительные
+            материалы</a></li>
+      </ul>
+    </li>
+
+    <li class="chapter module">
+      <p>HTML CSS - 9</p>
+      <ul class="module-one">
+        <li><a href="http://fecore.net.ua/theory/module-9.html#entry">Понятие
+            HTML CSS -ной сетки</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-9.html#using-grid">Работа
+            с сеткой при
+            верстке</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-9.html#custom-grid">Пишем
+            сетку с нуля</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-9.html#frameworks">CSS
+            Фреймворки</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-9.html#bootstrap">Twitter
+            Bootstrap 4</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-9.html#css-grid">CSS
+            grid</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-9.html#pixel-perfect">Pixel
+            perfect верстка</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-9.html#resources">Дополнительные
+            материалы</a></li>
+      </ul>
+    </li>
+
+    <li class="chapter module">
+      <p>HTML CSS - 10</p>
+      <ul class="module-one">
+        <li><a href="http://fecore.net.ua/theory/module-10.html#cross">Кроссбраузерность</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-10.html#gd-pe">Graceful
+            Degradation и Progressive Enhancement</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-10.html#retina">Экраны
+            высокой пиксельной
+            плотности</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-10.html#retina-res">Подготовка
+            ресурсов для
+            Retina</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-10.html#svg">Основы
+            работы с SVG</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-10.html#bem">Методология
+            BEM</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-10.html#resources">Дополнительные
+            материалы</a></li>
+      </ul>
+    </li>
+
+    <li class="chapter module">
+      <p>HTML CSS - 11</p>
+      <ul class="module-one">
+        <li><a href="http://fecore.net.ua/theory/module-11.html#scss">CSS
+            препроцессоры:
+            SASS</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-11.html#automation">Введение
+            в атоматизацию</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-11.html#a11y-html">Пишем
+            HTML, не забывая
+            о доступности</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-11.html#a11y-css">Пишем
+            CSS, не забывая
+            о доступности</a></li>
+        <li><a href="http://fecore.net.ua/theory/module-11.html#microdata">Microdata</a></li>
+      </ul>
+    </li>
+  </ul>
+
+
+
+  <h2>JavaScript</h2>
+  <ul class="summary">
+    <li class="chapter module" data-level="1.2"
+      data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-01/"> <a
+        href="http://fecore.net.ua/books/m5ph3r-javascript/module-01/">JS - 1</a>
+      <ul class="articles">
+        <li class="chapter" data-level="1.2.1"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-01/intro.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-01/intro.html"> Что такое
+            JavaScript?</a> </li>
+        <li class="chapter" data-level="1.2.2"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-01/adding-script.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-01/adding-script.html">
+            Подключение скрипта</a> </li>
+        <li class="chapter" data-level="1.2.3"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-01/devtools.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-01/devtools.html"> Вкладка
+            Console в Chrome DevTools</a> </li>
+        <li class="chapter" data-level="1.2.4"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-01/syntax.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-01/syntax.html"> Синтаксис
+            языка</a> </li>
+        <li class="chapter" data-level="1.2.5"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-01/vars-and-types.html">
+          <a href="http://fecore.net.ua/books/m5ph3r-javascript/module-01/vars-and-types.html">
+            Переменные и типы данных</a> </li>
+        <li class="chapter" data-level="1.2.6"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-01/input-output.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-01/input-output.html">
+            Взаимодействие с пользователем</a> </li>
+        <li class="chapter" data-level="1.2.7"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-01/operators.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-01/operators.html"> Основные
+            операторы</a> </li>
+        <li class="chapter" data-level="1.2.8"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-01/numbers.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-01/numbers.html"> Числа</a>
+        </li>
+        <li class="chapter" data-level="1.2.9"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-01/strings.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-01/strings.html"> Строки</a>
+        </li>
+        <li class="chapter" data-level="1.2.10"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-01/logic-gates.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-01/logic-gates.html">
+            Логические операторы</a> </li>
+        <li class="chapter" data-level="1.2.11"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-01/branching.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-01/branching.html"> Ветвления
+          </a> </li>
+        <li class="chapter" data-level="1.2.12"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-01/variable-scope.html">
+          <a href="http://fecore.net.ua/books/m5ph3r-javascript/module-01/variable-scope.html">
+            Область видимости</a> </li>
+        <li class="chapter" data-level="1.2.13"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-01/loops.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-01/loops.html"> Циклы</a>
+        </li>
+      </ul>
+    </li>
+    <li class="chapter module" data-level="1.3"
+      data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-02/"> <a
+        href="http://fecore.net.ua/books/m5ph3r-javascript/module-02/">JS - 2</a>
+      <ul class="articles">
+        <li class="chapter" data-level="1.3.1"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-02/arrays.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-02/arrays.html"> Массивы</a>
+        </li>
+        <li class="chapter" data-level="1.3.2"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-02/val-and-ref.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-02/val-and-ref.html">
+            Присвоение по ссылке и по значению</a> </li>
+        <li class="chapter" data-level="1.3.3"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-02/array-methods.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-02/array-methods.html">
+            Методы массива</a> </li>
+        <li class="chapter" data-level="1.3.4"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-02/functions.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-02/functions.html"> Функции
+          </a> </li>
+        <li class="chapter" data-level="1.3.5"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-02/scope.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-02/scope.html"> Область
+            видимости</a> </li>
+        <li class="chapter" data-level="1.3.6"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-02/arrow-fns.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-02/arrow-fns.html">
+            Стрелочные функции</a> </li>
+      </ul>
+    </li>
+    <li class="chapter module" data-level="1.4"
+      data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-03/"> <a
+        href="http://fecore.net.ua/books/m5ph3r-javascript/module-03/">JS - 3</a>
+      <ul class="articles">
+        <li class="chapter" data-level="1.4.1"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-03/objects.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-03/objects.html"> Объекты
+          </a> </li>
+        <li class="chapter" data-level="1.4.2"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-03/object-iteration.html">
+          <a href="http://fecore.net.ua/books/m5ph3r-javascript/module-03/object-iteration.html">
+            Перебор объекта</a> </li>
+        <li class="chapter" data-level="1.4.3"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-03/spread-rest.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-03/spread-rest.html">
+            Операции spread и rest</a> </li>
+        <li class="chapter" data-level="1.4.4"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-03/destructuring.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-03/destructuring.html">
+            Деструктуризация</a> </li>
+      </ul>
+    </li>
+    <li class="chapter module" data-level="1.5"
+      data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-04/"> <a
+        href="http://fecore.net.ua/books/m5ph3r-javascript/module-04/">JS - 4</a>
+      <ul class="articles">
+        <li class="chapter" data-level="1.5.1"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-04/callbacks.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-04/callbacks.html"> Функции
+            обратного вызова</a> </li>
+        <li class="chapter" data-level="1.5.2"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-04/js-internals.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-04/js-internals.html"> Стек
+            вызовов и лексическое окружение</a> </li>
+        <li class="chapter" data-level="1.5.3"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-04/closures.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-04/closures.html"> Замыкания
+          </a> </li>
+        <li class="chapter" data-level="1.5.4"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-04/context.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-04/context.html"> Ключевое
+            слово this</a> </li>
+      </ul>
+    </li>
+    <li class="chapter module" data-level="1.6"
+      data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-05/"> <a
+        href="http://fecore.net.ua/books/m5ph3r-javascript/module-05/">JS - 5</a>
+      <ul class="articles">
+        <li class="chapter" data-level="1.6.1"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-05/oop.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-05/oop.html"> ООП</a> </li>
+        <li class="chapter" data-level="1.6.2"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-05/constructors.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-05/constructors.html">
+            Конструкторы</a> </li>
+        <li class="chapter" data-level="1.6.3"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-05/prototypes.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-05/prototypes.html">
+            Прототипы</a> </li>
+        <li class="chapter" data-level="1.6.4"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-05/classes.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-05/classes.html"> ES6 классы
+          </a> </li>
+      </ul>
+    </li>
+    <li class="chapter module" data-level="1.7"
+      data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-06/"> <a
+        href="http://fecore.net.ua/books/m5ph3r-javascript/module-06/">JS - 6</a>
+      <ul class="articles">
+        <li class="chapter" data-level="1.7.1"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-06/imperative-vs-declarative.html">
+          <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-06/imperative-vs-declarative.html">
+            Императивный и декларативный код</a> </li>
+        <li class="chapter" data-level="1.7.2"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-06/pure-functions.html">
+          <a href="http://fecore.net.ua/books/m5ph3r-javascript/module-06/pure-functions.html">
+            Чистые функции</a> </li>
+        <li class="chapter" data-level="1.7.3"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-06/array-methods.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-06/array-methods.html">
+            Перебирающие методы массива</a> </li>
+      </ul>
+    </li>
+    <li class="chapter module" data-level="1.8" data-path="./"> <a href="./">JS - 7</a><i
+        class="fa fa-eye expand fa-eye-slash" aria-hidden="true" style=""></i>
+      <ul class="articles" style="">
+        <li class="chapteractive" data-level="1.8.1" data-path="dom-basics.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript//module-07/dom-basics.html">
+            Объектная модель документа</a> </li>
+        <li class="chapter" data-level="1.8.2" data-path="dom-traversal.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript//module-07/dom-traversal.html">
+            Навигация по DOM</a> </li>
+        <li class="chapter" data-level="1.8.3" data-path="props-attrs.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript//module-07/props-attrs.html">
+            DOM-свойства и атрибуты</a> </li>
+        <li class="chapter" data-level="1.8.4" data-path="dom-manipulation.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript//module-07/dom-manipulation.html">
+            Создание и удаление узлов</a> </li>
+        <li class="chapter" data-level="1.8.5" data-path="events.html"> <a href="events.html">
+            События</a> </li>
+        <li class="chapter" data-level="1.8.6" data-path="dom-construction.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript//module-07/dom-construction.html">
+            Процесс построения веб-страницы</a> </li>
+      </ul>
+    </li>
+    <li class="chapter module" data-level="1.9"
+      data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-08/"> <a
+        href="http://fecore.net.ua/books/m5ph3r-javascript/module-08/">JS - 8</a>
+      <ul class="articles">
+        <li class="chapter" data-level="1.9.1"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-08/events.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-08/events.html">
+            Распространение. Всплытие. Делегирование</a> </li>
+        <li class="chapter" data-level="1.9.2"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-08/chatty-events.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-08/chatty-events.html">
+            Throttle и Debounce</a> </li>
+        <li class="chapter" data-level="1.9.3"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-08/intersection-observer.html">
+          <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-08/intersection-observer.html">
+            IntersectionObserver API</a> </li>
+      </ul>
+    </li>
+    <li class="chapter module" data-level="1.10"
+      data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-09/"> <a
+        href="http://fecore.net.ua/books/m5ph3r-javascript/module-09/">JS - 9</a>
+      <ul class="articles">
+        <li class="chapter" data-level="1.10.1"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-09/node.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-09/node.html"> Node.js</a>
+        </li>
+        <li class="chapter" data-level="1.10.2"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-09/npm.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-09/npm.html"> NPM</a> </li>
+        <li class="chapter" data-level="1.10.3"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-09/modules.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-09/modules.html"> Модульность
+            кода</a> </li>
+        <li class="chapter" data-level="1.10.4"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-09/webpack.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-09/webpack.html"> Webpack
+          </a> </li>
+      </ul>
+    </li>
+    <li class="chapter module" data-level="1.11"
+      data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-10/"> <a
+        href="http://fecore.net.ua/books/m5ph3r-javascript/module-10/">JS - 10</a>
+      <ul class="articles">
+        <li class="chapter" data-level="1.11.1"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-10/libs.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-10/libs.html"> Плагины и
+            библиотеки</a> </li>
+        <li class="chapter" data-level="1.11.2"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-10/templating.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-10/templating.html">
+            Шаблонизация</a> </li>
+        <li class="chapter" data-level="1.11.3"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-10/json.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-10/json.html"> JSON</a>
+        </li>
+        <li class="chapter" data-level="1.11.4"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-10/clientside-storage.html">
+          <a href="http://fecore.net.ua/books/m5ph3r-javascript/module-10/clientside-storage.html">
+            Хранение информации на клиенте</a> </li>
+      </ul>
+    </li>
+    <li class="chapter module" data-level="1.12"
+      data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-11/"> <a
+        href="http://fecore.net.ua/books/m5ph3r-javascript/module-11/">JS - 11</a>
+      <ul class="articles">
+        <li class="chapter" data-level="1.12.1"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-11/async-code.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-11/async-code.html">
+            Асинхронный JavaScript</a> </li>
+        <li class="chapter" data-level="1.12.2"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-11/date.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-11/date.html"> Класс Date
+          </a> </li>
+        <li class="chapter" data-level="1.12.3"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-11/promise-api.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-11/promise-api.html"> Promise
+            API</a> </li>
+        <li class="chapter" data-level="1.12.4"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-11/event-loop.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-11/event-loop.html"> Цикл
+            событий</a> </li>
+      </ul>
+    </li>
+    <li class="chapter module" data-level="1.13"
+      data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-12/"> <a
+        href="http://fecore.net.ua/books/m5ph3r-javascript/module-12/">JS - 12</a>
+      <ul class="articles">
+        <li class="chapter" data-level="1.13.1"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-12/protocols.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-12/protocols.html"> Протоколы
+            передачи данных</a> </li>
+        <li class="chapter" data-level="1.13.2"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-12/rest-api.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-12/rest-api.html"> RESTful
+            API</a> </li>
+        <li class="chapter" data-level="1.13.3"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-12/fetch.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-12/fetch.html"> AJAX и Fetch
+            API</a> </li>
+        <li class="chapter" data-level="1.13.4"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-12/cors.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-12/cors.html"> Кроссдоменные
+            запросы</a> </li>
+        <li class="chapter" data-level="1.13.5"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-12/crud.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-12/crud.html"> CRUD</a>
+        </li>
+      </ul>
+    </li>
+    <li class="chapter module" data-level="1.14"
+      data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-13/"> <a
+        href="http://fecore.net.ua/books/m5ph3r-javascript/module-13/">JS - 13</a>
+      <ul class="articles">
+        <li class="chapter" data-level="1.14.1"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-13/generators.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-13/generators.html">
+            Итераторы и генераторы</a> </li>
+        <li class="chapter" data-level="1.14.2"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-13/async-funtions.html">
+          <a href="http://fecore.net.ua/books/m5ph3r-javascript/module-13/async-funtions.html">
+            Асинхронные функции</a> </li>
+      </ul>
+    </li>
+    <li class="chapter module" data-level="1.15"
+      data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-14/"> <a
+        href="http://fecore.net.ua/books/m5ph3r-javascript/module-14/">JS - 14</a>
+      <ul class="articles">
+        <li class="chapter" data-level="1.15.1"
+          data-path="http://fecore.net.ua/books/m5ph3r-javascript/module-14/event-emitter.html"> <a
+            href="http://fecore.net.ua/books/m5ph3r-javascript/module-14/event-emitter.html"> Event
+            Emitter</a> </li>
+      </ul>
+    </li>
+  </ul>
+</body>
+
+</html>
