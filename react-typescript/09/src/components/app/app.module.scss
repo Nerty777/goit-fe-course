@@ -1,0 +1,17 @@
+.error,
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.error {
+  background-color: #ee0f0f;
+}
+
+.loading {
+  background-color: #1c9c3c;
+}

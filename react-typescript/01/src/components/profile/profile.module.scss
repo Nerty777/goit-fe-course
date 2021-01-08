@@ -1,0 +1,36 @@
+.profile {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid grey;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.item {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid grey;
+  padding: 10px;
+  border-top: none;
+
+  &:not(:last-child) {
+    border-right: none;
+  }
+}

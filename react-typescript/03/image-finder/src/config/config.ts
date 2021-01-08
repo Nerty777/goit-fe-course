@@ -1,0 +1,1 @@
+export const imagesPerPage = 12

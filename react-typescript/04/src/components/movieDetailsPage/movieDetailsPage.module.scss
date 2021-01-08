@@ -1,0 +1,45 @@
+.container {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  align-items: flex-start;
+}
+
+.description {
+  margin-left: 30px;
+}
+
+.overview {
+  max-width: 400px;
+}
+
+.img {
+  object-fit: contain;
+  width: 250px;
+}
+
+.button {
+  padding: 5px 30px;
+  margin-bottom: 10px;
+  background-color: rgb(98, 137, 182);
+  border: none;
+  color: #ffffff;
+}
+
+.link,
+.link:visited {
+  color: blue;
+}
+
+.activeLink,
+.activeLink:visited {
+  color: rgb(30, 124, 38);
+}

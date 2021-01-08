@@ -1,0 +1,72 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+ul,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  position: relative;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item,
+.item-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.item-country {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.countries {
+  margin-top: 20px;
+  list-style: none;
+}
+
+.img {
+  margin-left: 10px;
+}
+
+[data-input='countries'] {
+  width: 500px;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.capital,
+.population,
+.languages {
+  padding: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+input {
+  padding: 7px;
+}

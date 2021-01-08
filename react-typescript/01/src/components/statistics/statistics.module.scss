@@ -1,0 +1,28 @@
+.statistics {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.title {
+  text-align: center;
+}
+
+.statList {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.percentage {
+  display: block;
+}
+
+.item {
+  border: 2px solid grey;
+  padding: 10px;
+  flex-grow: 1;
+  &:not(:last-child) {
+    border-right: none;
+  }
+}
